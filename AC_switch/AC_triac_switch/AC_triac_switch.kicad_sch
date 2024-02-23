@@ -1,0 +1,122 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid ddb0e52c-b99d-45b7-ae86-92b2e9148829)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "BT137:BT137" (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "Q" (at 5.08 1.905 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "BT137" (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "Package_TO_SOT_SMD:TO-252-2" (at 5.08 -1.905 0)
+        (effects (font (size 1.27 1.27) italic) (justify left) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "ki_keywords" "Triac" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "4A RMS, 500V Off-State Voltage, Triac, TO-220" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "TO?220*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "BT137_0_1"
+        (polyline
+          (pts
+            (xy -2.54 -1.27)
+            (xy 2.54 -1.27)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 1.27)
+            (xy 2.54 1.27)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 -2.54)
+            (xy -0.635 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 1.27)
+            (xy -1.27 -1.27)
+            (xy 0 1.27)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy 1.27 1.27)
+            (xy 2.54 -1.27)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "BT137_1_1"
+        (pin passive line (at 0 -3.81 90) (length 2.54)
+          (name "A1" (effects (font (size 0.635 0.635))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 3.81 270) (length 2.54)
+          (name "A2" (effects (font (size 0.635 0.635))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -3.81 -2.54 0) (length 2.54)
+          (name "G" (effects (font (size 0.635 0.635))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "BT137:BT137") (at 138.43 110.49 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e5e8ed73-0b6d-4513-aef3-ca991ea50b8c)
+    (property "Reference" "Q1" (at 142.24 109.8042 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "BT137" (at 142.24 112.3442 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:TO-252-2" (at 143.51 112.395 0)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+    (property "Datasheet" "" (at 138.43 110.49 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "3" (uuid e3647e34-4246-4ded-a5fe-d788ab0bfad7))
+    (pin "2" (uuid 5df2cdf5-f05b-4d47-ad66-00591be91c8a))
+    (pin "1" (uuid d9e2b96d-a082-4a8d-826d-f2bad6c84c64))
+    (instances
+      (project "AC_triac_switch"
+        (path "/ddb0e52c-b99d-45b7-ae86-92b2e9148829"
+          (reference "Q1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
