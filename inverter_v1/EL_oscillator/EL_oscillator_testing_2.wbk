@@ -1,0 +1,23 @@
+version 2
+2
+9
+.tran 10u 2m{return}{return}{return}.kicad adjustpaths{return}.save all{return}.probe alli
+5
+2
+I(Q3:b)
+ 
+2
+I(R2)
+ 
+1
+V(Net-_Q1-B_)
+ 
+1
+V(Net-_Q1-E_)
+ 
+1
+V(Net-_Q3-C_)
+ 
+5
+.op{return}.kicad adjustpaths{return}.save all{return}.probe alli
+0

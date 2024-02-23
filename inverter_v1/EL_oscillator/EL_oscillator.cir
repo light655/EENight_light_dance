@@ -1,0 +1,9 @@
+.title KiCad schematic
+.include "/home/light/Kicad/EL_oscillator/DMHC4035LSDQ.spice.txt"
+.tran 10u 5m
+V2 /IN1 0 SIN(2.5 2.5 2k 0 0)
+V3 /IN2 0 SIN(2.5 -2.5 2k 0 0)
+V1 +5V 0 dc 5
+XU1 /IN2 Net-_U1-1D_ 0 /IN2 /IN1 Net-_U1-2D_ +5V /IN1 DMHC4035_FULL
+R1 Net-_U1-1D_ Net-_U1-2D_ 10
+.end

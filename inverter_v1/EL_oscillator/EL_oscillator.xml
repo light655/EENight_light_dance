@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/light/Kicad/EL_oscillator/EL_oscillator.kicad_sch</source>
+    <date>廿廿四年一月十六日 (週二) 廿三時50分47秒</date>
+    <tool>Eeschema 7.0.10-7.0.10~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>EL_oscillator.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EL_oscillator.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aaa5c5f6-8c6c-45cd-917a-2d83efa3cf38</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C2286</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C2286"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EL_oscillator.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d97cb8de-7c18-470e-bc4c-770dfc9824de</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C2286</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C2286"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EL_oscillator.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68611d91-4464-43d2-ab57-10f7d0cd49ef</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x06_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x06_Pin" description="Generic connector, single row, 01x06, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EL_oscillator.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1c2f903-aec7-4f2e-b6df-eedce39ec91c</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x04</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-4_P5.08mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EL_oscillator.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>661f9b84-1a43-402e-b80a-276465aaa212</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EL_oscillator.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c4cc456-3f3c-45da-8007-10862f9faf35</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EL_oscillator.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>533f7e09-505e-4dea-9931-889af4b7ce8a</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C8545</field>
+        <field name="Sim.Device">NMOS</field>
+        <field name="Sim.Library">2N7002.txt</field>
+        <field name="Sim.Name">2N7002</field>
+        <field name="Sim.Pins">1=G 2=S 3=D</field>
+        <field name="Sim.Type">VDMOS</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sim.Library" value="2N7002.txt"/>
+      <property name="Sim.Name" value="2N7002"/>
+      <property name="Sim.Device" value="NMOS"/>
+      <property name="Sim.Type" value="VDMOS"/>
+      <property name="Sim.Pins" value="1=G 2=S 3=D"/>
+      <property name="LCSC" value="C8545"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EL_oscillator.kicad_sch"/>
+      <property name="ki_description" value="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18f0b5bd-4a13-4b19-a233-c4a2e6e14de1</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C8545</field>
+        <field name="Sim.Device">NMOS</field>
+        <field name="Sim.Library">2N7002.txt</field>
+        <field name="Sim.Name">2N7002</field>
+        <field name="Sim.Pins">1=G 2=S 3=D</field>
+        <field name="Sim.Type">VDMOS</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sim.Library" value="2N7002.txt"/>
+      <property name="Sim.Name" value="2N7002"/>
+      <property name="Sim.Device" value="NMOS"/>
+      <property name="Sim.Type" value="VDMOS"/>
+      <property name="Sim.Pins" value="1=G 2=S 3=D"/>
+      <property name="LCSC" value="C8545"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EL_oscillator.kicad_sch"/>
+      <property name="ki_description" value="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ba68a3c-e942-4b7a-aa59-1a4081827ff0</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EL_oscillator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>520ce612-5482-4b0c-aa6a-b7ff23997bc3</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EL_oscillator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2dcf24f-169e-464e-8fea-25a92fd098e2</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C4184</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C4184"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EL_oscillator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa4a665b-44ed-482f-bfbd-a45313b3d64e</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C4184</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C4184"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EL_oscillator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5ecc535-b896-460b-ae8b-83a059015c6d</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C22975</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C22975"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EL_oscillator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e68ec564-0d78-4691-bb02-75eeab348def</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C22975</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C22975"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EL_oscillator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a16cdff-5cba-4b26-a03b-92ffa732c3cd</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>~</value>
+      <footprint>Package_SO:SO-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C156387</field>
+      </fields>
+      <libsource lib="EL_oscillator" part="DMHC3025" description=""/>
+      <property name="LCSC" value="C156387"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EL_oscillator.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43a768cd-a70b-4090-9991-89c140114dba</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x06_Pin">
+      <description>Generic connector, single row, 01x06, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x04">
+      <description>Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EL_oscillator" part="DMHC3025">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">Package_SO:SO-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="N1G" type="input"/>
+        <pin num="2" name="1D" type="input"/>
+        <pin num="3" name="NS" type="input"/>
+        <pin num="4" name="N2G" type="input"/>
+        <pin num="5" name="P2G" type="input"/>
+        <pin num="6" name="2D" type="input"/>
+        <pin num="7" name="PS" type="input"/>
+        <pin num="8" name="P1G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="2N7002">
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="EL_oscillator">
+      <uri>/home/light/Kicad/EL_oscillator/EL_oscillator.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/IN1">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="N2G" pintype="input"/>
+    </net>
+    <net code="2" name="/IN2">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U1" pin="1" pinfunction="N1G" pintype="input"/>
+    </net>
+    <net code="3" name="/OUT1">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="1D" pintype="input"/>
+    </net>
+    <net code="4" name="/OUT2">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="2D" pintype="input"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="NS" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(JP1-A)">
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(JP1-B)">
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="P1G" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(JP2-A)">
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(JP2-B)">
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="P2G" pintype="input"/>
+    </net>
+    <net code="12" name="Vdrive">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="PS" pintype="input"/>
+    </net>
+  </nets>
+</export>

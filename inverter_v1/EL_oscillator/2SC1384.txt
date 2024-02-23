@@ -1,0 +1,1 @@
+.MODEL 2SC1384 npn(Is=47.89f Xti=3 Eg=1.11 Vaf=100 Bf=272.2 Ise=400.4f Ne=1.43 Ikf=5.497 Nk=1.293 Xtb=1.5 Var=100 Br=9.847 Isc=103.4f Nc=1.747 Ikr=0 Rc=.3055 Cjc=42.92p Mjc=.4011 Vjc=.3905 Fc=.5 Cje=5p Mje=.3333 Vje=.75 Tr=10n Tf=1n Itf=1 Xtf=0 Vtf=10)

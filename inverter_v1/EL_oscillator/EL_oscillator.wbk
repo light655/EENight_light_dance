@@ -1,0 +1,17 @@
+version 2
+1
+9
+.tran 10u 2m{return}{return}{return}{return}.kicad adjustpaths{return}.save all{return}.probe alli
+4
+2
+I(XU1:1D)
+ 
+1
+V(/OUT1)
+ 
+1
+V(/OUT2)
+ 
+1
+V(Net-_Q1-D_)
+ 

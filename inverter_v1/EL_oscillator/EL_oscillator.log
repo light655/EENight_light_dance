@@ -1,0 +1,26 @@
+Circuit: .title KiCad schematic
+
+Instance "m:u1:mp1:1": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:u1:mp2:1": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:u1:mn1:1": Width narrower than recommended for a level 3 MOSFET.
+Instance "m:u1:mn2:1": Width narrower than recommended for a level 3 MOSFET.
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Jan 13 18:23:18 2024
+Total elapsed time: 0.243 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 11615
+traniter = 11606
+tranpoints = 4141
+accept = 3152
+rejected = 989
+matrix size = 48
+fillins = 28
+solver = Normal
+Avg thread counts: 1.5/2.4/2.4/1.5
+Matrix Compiler1:     253 opcodes  2.1/[0.9]/1.0
+Matrix Compiler2: off  [0.6]/0.6/0.6
+

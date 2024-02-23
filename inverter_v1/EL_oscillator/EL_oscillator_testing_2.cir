@@ -1,0 +1,9 @@
+.title KiCad schematic
+.include "/home/light/Kicad/EL_oscillator/2SC1384.txt"
+V1 VCC 0 dc 5
+R2 VCC Net-_Q3-B_ 1k
+Q3 Net-_Q3-E_ VCC Net-_Q3-B_ 2SC1384
+C1 Net-_C1-Pad1_ Net-_Q3-B_ 1u
+R1 Net-_Q3-E_ 0 10
+V2 Net-_C1-Pad1_ 0 sine(1.65 1.65 2k 0 0)
+.end

@@ -1,0 +1,25 @@
+.title KiCad schematic
+.include "/home/light/Kicad/EL_oscillator/DMHC4035LSDQ.spice.txt"
+.include "/home/light/Kicad/EL_oscillator/SS8050.txt"
+.include "/usr/share/kicad/symbols/Simulation_SPICE.sp"
+.tran 100n 2m
+
+Rload1 /OUT1 /OUT2 8.634
+XU1 Net-_U1-N1G_ /OUT1 0 Net-_U1-N2G_ Net-_Q1-C_ /OUT2 VDD Net-_Q2-C_ DMHC4035_FULL
+Cload1 /OUT1 /OUT2 1.22u
+R1 VDD Net-_Q1-C_ 1k
+R2 VDD Net-_Q2-C_ 1k
+Q1 Net-_Q1-C_ Net-_Q1-B_ 0 SS8050
+V3 Net-_U1-N2G_ 0 pulse(5 0 0 0 0 250u 500u)
+V2 Net-_U1-N1G_ 0 pulse(0 5 0 0 0 250u 500u)
+Rmeasure1 0 Net-_MES1-out_ 100k
+V1 VDD 0 dc 12
+XMES1 /OUT1 /OUT2 Net-_MES1-out_ kicad_builtin_vdiff
+R3 Net-_Q1-B_ Net-_R3-Pad2_ 1k
+R4 Net-_Q2-B_ Net-_R4-Pad2_ 1k
+Q2 Net-_Q2-C_ Net-_Q2-B_ 0 SS8050
+R6 0 Net-_Q2-B_ 1k
+V4 Net-_R3-Pad2_ 0 pulse(5 0 0 0 0 250u 500u)
+V5 Net-_R4-Pad2_ 0 pulse(0 5 0 0 0 250u 500u)
+R5 0 Net-_Q1-B_ 1k
+.end

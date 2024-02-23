@@ -1,0 +1,11 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C1,CP_Radial_D5.0mm_P2.00mm,1,100u,
+"D1, D2",0603,2,LED,C2286
+J1,PinHeader_1x06_P2.54mm_Vertical,1,Conn_01x06_Pin,
+J2,TerminalBlock_bornier-4_P5.08mm,1,Screw_Terminal_01x04,
+"JP1, JP2",SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,2,SolderJumper_2_Open,
+"Q1, Q2",SOT-23,2,2N7002,C8545
+"R1, R2",0603,2,10k,C25804
+"R3, R4",0603,2,20k,C4184
+"R5, R6",0603,2,2k,C22975
+U1,SO-8_3.9x4.9mm_P1.27mm,1,~,C156387
