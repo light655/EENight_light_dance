@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "tps25200")(type "KiCad")(uri "/home/lisa/data/nthu/EENight/circuit/KiCADv6/2024-02-20_12-21-14.kicad_sym")(options "")(descr ""))
+)
