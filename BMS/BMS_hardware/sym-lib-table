@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "TPS25200")(type "KiCad")(uri "${KIPRJMOD}/TPS25200/TPS25200.kicad_sym")(options "")(descr ""))
   (lib (name "RT9187")(type "KiCad")(uri "${KIPRJMOD}/TPS25200/RT9187.kicad_sym")(options "")(descr ""))
+  (lib (name "max660")(type "KiCad")(uri "${KIPRJMOD}/TPS25200/max660.kicad_sym")(options "")(descr ""))
 )
