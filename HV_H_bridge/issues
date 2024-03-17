@@ -1,0 +1,13 @@
+I am building a H-bridge to function as a inverter to drive an EL lamp. I'm planning to convert 150V DC into a 150V-amplitude square wave. The Schematic below shows half of the H-bridge. The input signal is simply a 2kHz square wave and it directly drives the low side NMOS. For the high-side NMOS, a bootstrap capacitor circuitry is used. The signal is delivered to the high-side with a 6N137 optocoupler.
+
+I've tested the circuit with VDC=12V, 30V and 150V. Everything worked as expected at 12V; however, when VDC=30V, the voltage across C1 exceeds 5V during the rising edge of VOUT but Q1 is still sufficiently turned on and VOUT swings to 30V. Things got worse when I tested the circuit with 150V. The same issue with C1 also happen, but the capacitor discharged to around 1.5V during the following half cycle and Q1 cannot be fully turned on, resulting in a very weird waveform.
+
+I've considered some possibilities:
+1. Gate charge of Q1. According to the datasheet, IRF730 takes 38nC at VGS=10V. To charge up the gate of Q1, it would reduce the voltage across C1 by less than 38mV(since we are only getting VGS to 4.2V).
+2. The current draw of the optocoupler. According to the datasheet, 6N137 draws 7mA. Since we will only be powering it with C1 during half of the cycle(250us), it will require 1750nC. This introduces a 175mV drop in the voltage across C1.
+
+However, if the issue is caused by either of the two reasons, why would it only show up with higher voltage. Shouldn't it be causing issues when VDC=12V?
+
+I also tried driving the high side with higher voltage, but 6N137 only allowed me to go up to 7V, and it didn't make any difference.
+
+I can't really find any other paths for current to drain from the capacitor. Any help would be appreciated!

@@ -1,0 +1,6 @@
+* A dual opamp LMV358 spice model
+.subckt LMV358 1out 1in- 1in+ V- 2in+ 2in- 2out V+
+.include "LMV358_single.txt"
+XU1A 1in+ 1in- V+ V- 1out lmv358_ns
+XU1B 2in+ 2in- V+ V- 2out lmv358_ns
+.ends

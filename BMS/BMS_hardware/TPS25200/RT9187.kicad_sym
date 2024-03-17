@@ -3,7 +3,7 @@
     (property "Reference" "U" (at 1.27 1.27 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "" (at 0 0 0)
+    (property "Value" "RT9187B" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" (at 0 0 0)

@@ -1,0 +1,6 @@
+* A dual opamp TLV9002 spice model
+.subckt TLV9002d 1out 1in- 1in+ V- 2in+ 2in- 2out V+
+.include "tlv9002.lib"
+XU1A 1in+ 1in- V+ V- 1out TLV9002
+XU1B 2in+ 2in- V+ V- 2out TLV9002
+.ends
