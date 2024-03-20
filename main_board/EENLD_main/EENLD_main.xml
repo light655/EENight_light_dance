@@ -1,0 +1,3532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/light/EENight_light_dance/main_board/EENLD_main/EENLD_main.kicad_sch</source>
+    <date>廿廿四年三月十八日 (週一) 廿三時六分46秒</date>
+    <tool>Eeschema 7.0.10-7.0.10~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>EENLD_main.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Battery &amp; protection/" tstamps="/2383d4b3-5823-4b9a-98e1-9ec5f519f502/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BMS.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/EL driver 0/" tstamps="/2a6954a5-310a-460c-a226-0f24caa3e564/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ELDM.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/EL driver 1/" tstamps="/8242ab67-1c4a-4aed-84ac-69310c363eaa/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ELDM.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/EL driver 2/" tstamps="/4814cdbf-990d-4764-bc12-ce92aa1dfe77/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ELDM.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/EL driver 3/" tstamps="/f0da2f2d-a0df-43cf-b8d6-8276d97f3f11/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ELDM.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ASP.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C101">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EENLD_main.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9039ea05-7733-4450-b8d1-8c4d7f5caec6</tstamps>
+    </comp>
+    <comp ref="C102">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EENLD_main.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30877e42-fa19-4933-a144-30f30e44ae2f</tstamps>
+    </comp>
+    <comp ref="D101">
+      <value>D198K</value>
+      <footprint>Display_7Segment:D1X8K</footprint>
+      <datasheet>https://ia800903.us.archive.org/24/items/CTKD1x8K/Cromatek%20D168K.pdf</datasheet>
+      <libsource lib="Display_Character" part="D198K" description="One digit 7 segment orangish-red LED, low current, common cathode"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EENLD_main.kicad_sch"/>
+      <property name="ki_description" value="One digit 7 segment orangish-red LED, low current, common cathode"/>
+      <property name="ki_keywords" value="display LED 7-segment"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0f15d81-4421-47dd-8307-fa56463c030a</tstamps>
+    </comp>
+    <comp ref="J101">
+      <value>Conn_01x06_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x06_Pin" description="Generic connector, single row, 01x06, script generated"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EENLD_main.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bea43ba6-2b62-4d2e-83af-629bd19e7fa7</tstamps>
+    </comp>
+    <comp ref="J102">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EENLD_main.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae8b86e6-4cd7-40c7-b79e-2085cf86f428</tstamps>
+    </comp>
+    <comp ref="R101">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C23138</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C23138"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EENLD_main.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b88bad9-be78-416c-a322-d87ade96101b</tstamps>
+    </comp>
+    <comp ref="R102">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C23138</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C23138"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EENLD_main.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41ee4a62-d9a8-4dae-a88b-b680579f1543</tstamps>
+    </comp>
+    <comp ref="R103">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C23138</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C23138"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EENLD_main.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a80ff90d-9fbb-4606-859b-3e8f52ef2de5</tstamps>
+    </comp>
+    <comp ref="R104">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C23138</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C23138"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EENLD_main.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57b1f0a7-f39f-4c40-97de-fbf849f1fb72</tstamps>
+    </comp>
+    <comp ref="R105">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C23138</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C23138"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EENLD_main.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a1ef686-eaab-4f52-b317-8cd31ccf96ce</tstamps>
+    </comp>
+    <comp ref="R106">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C23138</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C23138"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EENLD_main.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a2ff4b6-bd66-4cfc-af62-34672b80e25f</tstamps>
+    </comp>
+    <comp ref="R107">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C23138</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C23138"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EENLD_main.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16069d5d-2032-49a1-8074-941d4947d458</tstamps>
+    </comp>
+    <comp ref="R108">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C23138</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C23138"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EENLD_main.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51ee90b9-35ff-48d5-b901-7d8075e331db</tstamps>
+    </comp>
+    <comp ref="SW101">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EENLD_main.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52a2cab7-5ee0-46fe-b808-571a8380a69f</tstamps>
+    </comp>
+    <comp ref="SW102">
+      <value>SW_SPDT</value>
+      <footprint>Button_Switch_THT:SW_CK_JS202011CQN_DPDT_Straight</footprint>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EENLD_main.kicad_sch"/>
+      <property name="ki_description" value="Switch, single pole double throw"/>
+      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74885cae-a6c3-477e-864d-abe577001e74</tstamps>
+    </comp>
+    <comp ref="SW103">
+      <value>SW_SPDT</value>
+      <footprint>Button_Switch_THT:SW_CK_JS202011CQN_DPDT_Straight</footprint>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EENLD_main.kicad_sch"/>
+      <property name="ki_description" value="Switch, single pole double throw"/>
+      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc54dea1-10d1-4c25-8818-47668dff74ef</tstamps>
+    </comp>
+    <comp ref="U101">
+      <value>Pico</value>
+      <footprint>RPi_Pico:RPi_Pico_SMD_TH</footprint>
+      <libsource lib="Pi Pico" part="Pico" description=""/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EENLD_main.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee1a65ff-2eb1-42a8-a840-a2deca7cedcb</tstamps>
+    </comp>
+    <comp ref="U102">
+      <value>74HC595</value>
+      <footprint>Package_SO:SO-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C5947</field>
+      </fields>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C5947"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EENLD_main.kicad_sch"/>
+      <property name="ki_description" value="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <property name="ki_keywords" value="HCMOS SR 3State"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ca93e33-34ef-4090-ab2e-6ffecaf80e85</tstamps>
+    </comp>
+    <comp ref="BZ201">
+      <value>Buzzer</value>
+      <footprint>Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm</footprint>
+      <libsource lib="Device" part="Buzzer" description="Buzzer, polarized"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="Battery &amp; protection"/>
+      <property name="Sheetfile" value="BMS.kicad_sch"/>
+      <property name="ki_description" value="Buzzer, polarized"/>
+      <property name="ki_keywords" value="quartz resonator ceramic"/>
+      <sheetpath names="/Battery &amp; protection/" tstamps="/2383d4b3-5823-4b9a-98e1-9ec5f519f502/"/>
+      <tstamps>10ae4d06-00de-418d-951d-6a50cc79831a</tstamps>
+    </comp>
+    <comp ref="C201">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="Battery &amp; protection"/>
+      <property name="Sheetfile" value="BMS.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Battery &amp; protection/" tstamps="/2383d4b3-5823-4b9a-98e1-9ec5f519f502/"/>
+      <tstamps>f26341aa-18d7-4b0a-a43c-342841cb96a5</tstamps>
+    </comp>
+    <comp ref="C202">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value="Battery &amp; protection"/>
+      <property name="Sheetfile" value="BMS.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Battery &amp; protection/" tstamps="/2383d4b3-5823-4b9a-98e1-9ec5f519f502/"/>
+      <tstamps>517d93c6-4c89-42ee-be10-b9bbcb4e7cc5</tstamps>
+    </comp>
+    <comp ref="C203">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="Battery &amp; protection"/>
+      <property name="Sheetfile" value="BMS.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Battery &amp; protection/" tstamps="/2383d4b3-5823-4b9a-98e1-9ec5f519f502/"/>
+      <tstamps>bc42abca-63d0-4ecc-a066-b9c3b69c96d4</tstamps>
+    </comp>
+    <comp ref="D201">
+      <value>Yellow</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C2296</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C2296"/>
+      <property name="Sheetname" value="Battery &amp; protection"/>
+      <property name="Sheetfile" value="BMS.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Battery &amp; protection/" tstamps="/2383d4b3-5823-4b9a-98e1-9ec5f519f502/"/>
+      <tstamps>1facc8c7-c217-4991-85f3-2eaae5da2d2b</tstamps>
+    </comp>
+    <comp ref="J201">
+      <value>Conn_01x02_Socket</value>
+      <footprint>Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="Battery &amp; protection"/>
+      <property name="Sheetfile" value="BMS.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Battery &amp; protection/" tstamps="/2383d4b3-5823-4b9a-98e1-9ec5f519f502/"/>
+      <tstamps>2258897f-6c42-4b73-b301-51ada94ee626</tstamps>
+    </comp>
+    <comp ref="JP201">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="Battery &amp; protection"/>
+      <property name="Sheetfile" value="BMS.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/Battery &amp; protection/" tstamps="/2383d4b3-5823-4b9a-98e1-9ec5f519f502/"/>
+      <tstamps>c680ba02-88f4-4f01-bae8-fcb22c0a5ab4</tstamps>
+    </comp>
+    <comp ref="Q201">
+      <value>AO3401A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C15127</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C15127"/>
+      <property name="Sheetname" value="Battery &amp; protection"/>
+      <property name="Sheetfile" value="BMS.kicad_sch"/>
+      <property name="ki_description" value="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <sheetpath names="/Battery &amp; protection/" tstamps="/2383d4b3-5823-4b9a-98e1-9ec5f519f502/"/>
+      <tstamps>ffaaf414-9db1-48c6-8856-264181a3eb10</tstamps>
+    </comp>
+    <comp ref="R201">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25792</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25792"/>
+      <property name="Sheetname" value="Battery &amp; protection"/>
+      <property name="Sheetfile" value="BMS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Battery &amp; protection/" tstamps="/2383d4b3-5823-4b9a-98e1-9ec5f519f502/"/>
+      <tstamps>a3b9a5f3-d219-4843-8729-12257a86fb6f</tstamps>
+    </comp>
+    <comp ref="R202">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25792</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25792"/>
+      <property name="Sheetname" value="Battery &amp; protection"/>
+      <property name="Sheetfile" value="BMS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Battery &amp; protection/" tstamps="/2383d4b3-5823-4b9a-98e1-9ec5f519f502/"/>
+      <tstamps>c5d9ff71-3229-48aa-a308-3cb66f7b7915</tstamps>
+    </comp>
+    <comp ref="R203">
+      <value>300k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C23024</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C23024"/>
+      <property name="Sheetname" value="Battery &amp; protection"/>
+      <property name="Sheetfile" value="BMS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Battery &amp; protection/" tstamps="/2383d4b3-5823-4b9a-98e1-9ec5f519f502/"/>
+      <tstamps>c830dd8d-7cc6-46e4-a119-18cb11e957a2</tstamps>
+    </comp>
+    <comp ref="R204">
+      <value>300k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C23024</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C23024"/>
+      <property name="Sheetname" value="Battery &amp; protection"/>
+      <property name="Sheetfile" value="BMS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Battery &amp; protection/" tstamps="/2383d4b3-5823-4b9a-98e1-9ec5f519f502/"/>
+      <tstamps>58d5f662-2be0-4666-9c80-fc5e29f92082</tstamps>
+    </comp>
+    <comp ref="R205">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25792</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25792"/>
+      <property name="Sheetname" value="Battery &amp; protection"/>
+      <property name="Sheetfile" value="BMS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Battery &amp; protection/" tstamps="/2383d4b3-5823-4b9a-98e1-9ec5f519f502/"/>
+      <tstamps>67a97a8d-cf7e-4959-91b4-e03d583eb564</tstamps>
+    </comp>
+    <comp ref="R207">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Sheetname" value="Battery &amp; protection"/>
+      <property name="Sheetfile" value="BMS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Battery &amp; protection/" tstamps="/2383d4b3-5823-4b9a-98e1-9ec5f519f502/"/>
+      <tstamps>bb6e1df9-cecd-4374-97f4-fc87a2f0abb8</tstamps>
+    </comp>
+    <comp ref="R208">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C21190</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C21190"/>
+      <property name="Sheetname" value="Battery &amp; protection"/>
+      <property name="Sheetfile" value="BMS.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Battery &amp; protection/" tstamps="/2383d4b3-5823-4b9a-98e1-9ec5f519f502/"/>
+      <tstamps>ffb7e586-20bf-4adb-8490-2843db43657c</tstamps>
+    </comp>
+    <comp ref="SW201">
+      <value>SW_SPDT</value>
+      <footprint>Button_Switch_THT:SW_Lever_1P2T_NKK_GW12LxH</footprint>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="Battery &amp; protection"/>
+      <property name="Sheetfile" value="BMS.kicad_sch"/>
+      <property name="ki_description" value="Switch, single pole double throw"/>
+      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
+      <sheetpath names="/Battery &amp; protection/" tstamps="/2383d4b3-5823-4b9a-98e1-9ec5f519f502/"/>
+      <tstamps>f9b4d53e-dcda-4bf5-90c0-e7157f3e7e65</tstamps>
+    </comp>
+    <comp ref="TP201">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="Battery &amp; protection"/>
+      <property name="Sheetfile" value="BMS.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Battery &amp; protection/" tstamps="/2383d4b3-5823-4b9a-98e1-9ec5f519f502/"/>
+      <tstamps>bc9c9205-c099-4c68-8b5f-7c6116b7353e</tstamps>
+    </comp>
+    <comp ref="TP202">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="Battery &amp; protection"/>
+      <property name="Sheetfile" value="BMS.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Battery &amp; protection/" tstamps="/2383d4b3-5823-4b9a-98e1-9ec5f519f502/"/>
+      <tstamps>f6137f1e-857c-4f5e-b465-7059824ec743</tstamps>
+    </comp>
+    <comp ref="U201">
+      <value>TPS25200DRVR</value>
+      <footprint>Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias</footprint>
+      <datasheet>TPS25200DRVR</datasheet>
+      <fields>
+        <field name="LCSC">C128401</field>
+      </fields>
+      <libsource lib="TPS25200" part="TPS25200DRVR" description=""/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C128401"/>
+      <property name="Sheetname" value="Battery &amp; protection"/>
+      <property name="Sheetfile" value="BMS.kicad_sch"/>
+      <property name="ki_keywords" value="TPS25200DRVR"/>
+      <sheetpath names="/Battery &amp; protection/" tstamps="/2383d4b3-5823-4b9a-98e1-9ec5f519f502/"/>
+      <tstamps>de023163-f98c-412e-8490-8abe742de507</tstamps>
+    </comp>
+    <comp ref="C301">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value="EL driver 0"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/EL driver 0/" tstamps="/2a6954a5-310a-460c-a226-0f24caa3e564/"/>
+      <tstamps>2aa9de21-e8c8-4b21-821d-d83935954c26</tstamps>
+    </comp>
+    <comp ref="C302">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 0"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/EL driver 0/" tstamps="/2a6954a5-310a-460c-a226-0f24caa3e564/"/>
+      <tstamps>95a47e3a-f57e-4464-b731-364669080bb7</tstamps>
+    </comp>
+    <comp ref="C303">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C377773</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C377773"/>
+      <property name="Sheetname" value="EL driver 0"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/EL driver 0/" tstamps="/2a6954a5-310a-460c-a226-0f24caa3e564/"/>
+      <tstamps>8f88a53e-d400-427d-9eb2-5e7ce1153e08</tstamps>
+    </comp>
+    <comp ref="C304">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C377773</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C377773"/>
+      <property name="Sheetname" value="EL driver 0"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/EL driver 0/" tstamps="/2a6954a5-310a-460c-a226-0f24caa3e564/"/>
+      <tstamps>18c75ce5-e161-4311-977a-06e78c67dadc</tstamps>
+    </comp>
+    <comp ref="J301">
+      <value>Conn_01x02_Socket</value>
+      <footprint>Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 0"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/EL driver 0/" tstamps="/2a6954a5-310a-460c-a226-0f24caa3e564/"/>
+      <tstamps>369c12a7-53c8-4106-bc61-bbbf7c609898</tstamps>
+    </comp>
+    <comp ref="JP301">
+      <value>Rectangle Jumper Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 0"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/EL driver 0/" tstamps="/2a6954a5-310a-460c-a226-0f24caa3e564/"/>
+      <tstamps>3d8fc739-3916-4007-b83e-c6a837d54661</tstamps>
+    </comp>
+    <comp ref="JP302">
+      <value>Round Jumper Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 0"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/EL driver 0/" tstamps="/2a6954a5-310a-460c-a226-0f24caa3e564/"/>
+      <tstamps>96de88c3-b6fe-4ee2-a6a2-19c8f67cc72c</tstamps>
+    </comp>
+    <comp ref="JP303">
+      <value>Round Jumper Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 0"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/EL driver 0/" tstamps="/2a6954a5-310a-460c-a226-0f24caa3e564/"/>
+      <tstamps>f4ec7f72-f0d2-4862-8add-43c0bbee0c15</tstamps>
+    </comp>
+    <comp ref="JP304">
+      <value>Rectangle Jumper Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 0"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/EL driver 0/" tstamps="/2a6954a5-310a-460c-a226-0f24caa3e564/"/>
+      <tstamps>e4fe249e-83a9-422d-953c-bbfae58cafa5</tstamps>
+    </comp>
+    <comp ref="JP305">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 0"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/EL driver 0/" tstamps="/2a6954a5-310a-460c-a226-0f24caa3e564/"/>
+      <tstamps>6c43d4f4-cc54-4f57-ba23-131a6e295300</tstamps>
+    </comp>
+    <comp ref="JP306">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 0"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/EL driver 0/" tstamps="/2a6954a5-310a-460c-a226-0f24caa3e564/"/>
+      <tstamps>bcbf49f5-1dcd-4a47-84ba-71f61c091ebe</tstamps>
+    </comp>
+    <comp ref="Q301">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C20917</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C20917"/>
+      <property name="Sheetname" value="EL driver 0"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/EL driver 0/" tstamps="/2a6954a5-310a-460c-a226-0f24caa3e564/"/>
+      <tstamps>7bed2ecd-3247-4f01-952e-b99d87a1b850</tstamps>
+    </comp>
+    <comp ref="R301">
+      <value>12k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25752</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25752"/>
+      <property name="Sheetname" value="EL driver 0"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/EL driver 0/" tstamps="/2a6954a5-310a-460c-a226-0f24caa3e564/"/>
+      <tstamps>be141ebe-713b-43d8-b7e7-301a988770f0</tstamps>
+    </comp>
+    <comp ref="R302">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Sheetname" value="EL driver 0"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/EL driver 0/" tstamps="/2a6954a5-310a-460c-a226-0f24caa3e564/"/>
+      <tstamps>7a2c7597-061c-4525-be17-c47989b0b000</tstamps>
+    </comp>
+    <comp ref="R303">
+      <value>200m</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C309648</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C309648"/>
+      <property name="Sheetname" value="EL driver 0"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/EL driver 0/" tstamps="/2a6954a5-310a-460c-a226-0f24caa3e564/"/>
+      <tstamps>84b5a527-b22e-4a31-b0fa-2a21a6fde515</tstamps>
+    </comp>
+    <comp ref="R304">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Sheetname" value="EL driver 0"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/EL driver 0/" tstamps="/2a6954a5-310a-460c-a226-0f24caa3e564/"/>
+      <tstamps>57a2390e-4263-45ba-b60a-93381a4b7f5a</tstamps>
+    </comp>
+    <comp ref="TP301">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 0"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/EL driver 0/" tstamps="/2a6954a5-310a-460c-a226-0f24caa3e564/"/>
+      <tstamps>c6b59d13-861c-43a1-bc17-4169bd041693</tstamps>
+    </comp>
+    <comp ref="TP302">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 0"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/EL driver 0/" tstamps="/2a6954a5-310a-460c-a226-0f24caa3e564/"/>
+      <tstamps>8397eef7-b4de-417a-bb71-0a8a9837adf3</tstamps>
+    </comp>
+    <comp ref="TP303">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 0"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/EL driver 0/" tstamps="/2a6954a5-310a-460c-a226-0f24caa3e564/"/>
+      <tstamps>5e90b791-f2c5-4b97-aa37-a9d183267ce3</tstamps>
+    </comp>
+    <comp ref="TP304">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 0"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/EL driver 0/" tstamps="/2a6954a5-310a-460c-a226-0f24caa3e564/"/>
+      <tstamps>a7826af2-7629-43b6-8bc6-f6cdfe346e91</tstamps>
+    </comp>
+    <comp ref="U301">
+      <value>AD5160BRJZ5</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-8_Handsoldering</footprint>
+      <fields>
+        <field name="LCSC">C578142</field>
+      </fields>
+      <libsource lib="AD5160" part="AD5160BRJZ5" description=""/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C578142"/>
+      <property name="Sheetname" value="EL driver 0"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <sheetpath names="/EL driver 0/" tstamps="/2a6954a5-310a-460c-a226-0f24caa3e564/"/>
+      <tstamps>2cfc80d3-eaca-4336-b7a4-fef9b2ff7f19</tstamps>
+    </comp>
+    <comp ref="U302">
+      <value>RT9187QV</value>
+      <footprint>Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_1811150411_Richtek-Tech-RT9187GQV_C147970.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C147970</field>
+      </fields>
+      <libsource lib="RT9178" part="RT9178QV" description=""/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C147970"/>
+      <property name="Sheetname" value="EL driver 0"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <sheetpath names="/EL driver 0/" tstamps="/2a6954a5-310a-460c-a226-0f24caa3e564/"/>
+      <tstamps>d3d40171-87c7-4ba5-89a1-585d5ea39840</tstamps>
+    </comp>
+    <comp ref="C401">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value="EL driver 1"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/EL driver 1/" tstamps="/8242ab67-1c4a-4aed-84ac-69310c363eaa/"/>
+      <tstamps>2aa9de21-e8c8-4b21-821d-d83935954c26</tstamps>
+    </comp>
+    <comp ref="C402">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 1"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/EL driver 1/" tstamps="/8242ab67-1c4a-4aed-84ac-69310c363eaa/"/>
+      <tstamps>95a47e3a-f57e-4464-b731-364669080bb7</tstamps>
+    </comp>
+    <comp ref="C403">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C377773</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C377773"/>
+      <property name="Sheetname" value="EL driver 1"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/EL driver 1/" tstamps="/8242ab67-1c4a-4aed-84ac-69310c363eaa/"/>
+      <tstamps>8f88a53e-d400-427d-9eb2-5e7ce1153e08</tstamps>
+    </comp>
+    <comp ref="C404">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C377773</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C377773"/>
+      <property name="Sheetname" value="EL driver 1"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/EL driver 1/" tstamps="/8242ab67-1c4a-4aed-84ac-69310c363eaa/"/>
+      <tstamps>18c75ce5-e161-4311-977a-06e78c67dadc</tstamps>
+    </comp>
+    <comp ref="J401">
+      <value>Conn_01x02_Socket</value>
+      <footprint>Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 1"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/EL driver 1/" tstamps="/8242ab67-1c4a-4aed-84ac-69310c363eaa/"/>
+      <tstamps>369c12a7-53c8-4106-bc61-bbbf7c609898</tstamps>
+    </comp>
+    <comp ref="JP401">
+      <value>Rectangle Jumper Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 1"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/EL driver 1/" tstamps="/8242ab67-1c4a-4aed-84ac-69310c363eaa/"/>
+      <tstamps>3d8fc739-3916-4007-b83e-c6a837d54661</tstamps>
+    </comp>
+    <comp ref="JP402">
+      <value>Round Jumper Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 1"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/EL driver 1/" tstamps="/8242ab67-1c4a-4aed-84ac-69310c363eaa/"/>
+      <tstamps>96de88c3-b6fe-4ee2-a6a2-19c8f67cc72c</tstamps>
+    </comp>
+    <comp ref="JP403">
+      <value>Round Jumper Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 1"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/EL driver 1/" tstamps="/8242ab67-1c4a-4aed-84ac-69310c363eaa/"/>
+      <tstamps>f4ec7f72-f0d2-4862-8add-43c0bbee0c15</tstamps>
+    </comp>
+    <comp ref="JP404">
+      <value>Rectangle Jumper Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 1"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/EL driver 1/" tstamps="/8242ab67-1c4a-4aed-84ac-69310c363eaa/"/>
+      <tstamps>e4fe249e-83a9-422d-953c-bbfae58cafa5</tstamps>
+    </comp>
+    <comp ref="JP405">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 1"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/EL driver 1/" tstamps="/8242ab67-1c4a-4aed-84ac-69310c363eaa/"/>
+      <tstamps>6c43d4f4-cc54-4f57-ba23-131a6e295300</tstamps>
+    </comp>
+    <comp ref="JP406">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 1"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/EL driver 1/" tstamps="/8242ab67-1c4a-4aed-84ac-69310c363eaa/"/>
+      <tstamps>bcbf49f5-1dcd-4a47-84ba-71f61c091ebe</tstamps>
+    </comp>
+    <comp ref="Q401">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C20917</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C20917"/>
+      <property name="Sheetname" value="EL driver 1"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/EL driver 1/" tstamps="/8242ab67-1c4a-4aed-84ac-69310c363eaa/"/>
+      <tstamps>7bed2ecd-3247-4f01-952e-b99d87a1b850</tstamps>
+    </comp>
+    <comp ref="R401">
+      <value>12k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25752</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25752"/>
+      <property name="Sheetname" value="EL driver 1"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/EL driver 1/" tstamps="/8242ab67-1c4a-4aed-84ac-69310c363eaa/"/>
+      <tstamps>be141ebe-713b-43d8-b7e7-301a988770f0</tstamps>
+    </comp>
+    <comp ref="R402">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Sheetname" value="EL driver 1"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/EL driver 1/" tstamps="/8242ab67-1c4a-4aed-84ac-69310c363eaa/"/>
+      <tstamps>7a2c7597-061c-4525-be17-c47989b0b000</tstamps>
+    </comp>
+    <comp ref="R403">
+      <value>200m</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C309648</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C309648"/>
+      <property name="Sheetname" value="EL driver 1"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/EL driver 1/" tstamps="/8242ab67-1c4a-4aed-84ac-69310c363eaa/"/>
+      <tstamps>84b5a527-b22e-4a31-b0fa-2a21a6fde515</tstamps>
+    </comp>
+    <comp ref="R404">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Sheetname" value="EL driver 1"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/EL driver 1/" tstamps="/8242ab67-1c4a-4aed-84ac-69310c363eaa/"/>
+      <tstamps>57a2390e-4263-45ba-b60a-93381a4b7f5a</tstamps>
+    </comp>
+    <comp ref="TP401">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 1"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/EL driver 1/" tstamps="/8242ab67-1c4a-4aed-84ac-69310c363eaa/"/>
+      <tstamps>c6b59d13-861c-43a1-bc17-4169bd041693</tstamps>
+    </comp>
+    <comp ref="TP402">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 1"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/EL driver 1/" tstamps="/8242ab67-1c4a-4aed-84ac-69310c363eaa/"/>
+      <tstamps>8397eef7-b4de-417a-bb71-0a8a9837adf3</tstamps>
+    </comp>
+    <comp ref="TP403">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 1"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/EL driver 1/" tstamps="/8242ab67-1c4a-4aed-84ac-69310c363eaa/"/>
+      <tstamps>5e90b791-f2c5-4b97-aa37-a9d183267ce3</tstamps>
+    </comp>
+    <comp ref="TP404">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 1"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/EL driver 1/" tstamps="/8242ab67-1c4a-4aed-84ac-69310c363eaa/"/>
+      <tstamps>a7826af2-7629-43b6-8bc6-f6cdfe346e91</tstamps>
+    </comp>
+    <comp ref="U401">
+      <value>AD5160BRJZ5</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-8_Handsoldering</footprint>
+      <fields>
+        <field name="LCSC">C578142</field>
+      </fields>
+      <libsource lib="AD5160" part="AD5160BRJZ5" description=""/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C578142"/>
+      <property name="Sheetname" value="EL driver 1"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <sheetpath names="/EL driver 1/" tstamps="/8242ab67-1c4a-4aed-84ac-69310c363eaa/"/>
+      <tstamps>2cfc80d3-eaca-4336-b7a4-fef9b2ff7f19</tstamps>
+    </comp>
+    <comp ref="U402">
+      <value>RT9187QV</value>
+      <footprint>Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_1811150411_Richtek-Tech-RT9187GQV_C147970.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C147970</field>
+      </fields>
+      <libsource lib="RT9178" part="RT9178QV" description=""/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C147970"/>
+      <property name="Sheetname" value="EL driver 1"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <sheetpath names="/EL driver 1/" tstamps="/8242ab67-1c4a-4aed-84ac-69310c363eaa/"/>
+      <tstamps>d3d40171-87c7-4ba5-89a1-585d5ea39840</tstamps>
+    </comp>
+    <comp ref="C501">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value="EL driver 2"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/EL driver 2/" tstamps="/4814cdbf-990d-4764-bc12-ce92aa1dfe77/"/>
+      <tstamps>2aa9de21-e8c8-4b21-821d-d83935954c26</tstamps>
+    </comp>
+    <comp ref="C502">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 2"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/EL driver 2/" tstamps="/4814cdbf-990d-4764-bc12-ce92aa1dfe77/"/>
+      <tstamps>95a47e3a-f57e-4464-b731-364669080bb7</tstamps>
+    </comp>
+    <comp ref="C503">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C377773</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C377773"/>
+      <property name="Sheetname" value="EL driver 2"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/EL driver 2/" tstamps="/4814cdbf-990d-4764-bc12-ce92aa1dfe77/"/>
+      <tstamps>8f88a53e-d400-427d-9eb2-5e7ce1153e08</tstamps>
+    </comp>
+    <comp ref="C504">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C377773</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C377773"/>
+      <property name="Sheetname" value="EL driver 2"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/EL driver 2/" tstamps="/4814cdbf-990d-4764-bc12-ce92aa1dfe77/"/>
+      <tstamps>18c75ce5-e161-4311-977a-06e78c67dadc</tstamps>
+    </comp>
+    <comp ref="J501">
+      <value>Conn_01x02_Socket</value>
+      <footprint>Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 2"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/EL driver 2/" tstamps="/4814cdbf-990d-4764-bc12-ce92aa1dfe77/"/>
+      <tstamps>369c12a7-53c8-4106-bc61-bbbf7c609898</tstamps>
+    </comp>
+    <comp ref="JP501">
+      <value>Rectangle Jumper Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 2"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/EL driver 2/" tstamps="/4814cdbf-990d-4764-bc12-ce92aa1dfe77/"/>
+      <tstamps>3d8fc739-3916-4007-b83e-c6a837d54661</tstamps>
+    </comp>
+    <comp ref="JP502">
+      <value>Round Jumper Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 2"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/EL driver 2/" tstamps="/4814cdbf-990d-4764-bc12-ce92aa1dfe77/"/>
+      <tstamps>96de88c3-b6fe-4ee2-a6a2-19c8f67cc72c</tstamps>
+    </comp>
+    <comp ref="JP503">
+      <value>Round Jumper Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 2"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/EL driver 2/" tstamps="/4814cdbf-990d-4764-bc12-ce92aa1dfe77/"/>
+      <tstamps>f4ec7f72-f0d2-4862-8add-43c0bbee0c15</tstamps>
+    </comp>
+    <comp ref="JP504">
+      <value>Rectangle Jumper Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 2"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/EL driver 2/" tstamps="/4814cdbf-990d-4764-bc12-ce92aa1dfe77/"/>
+      <tstamps>e4fe249e-83a9-422d-953c-bbfae58cafa5</tstamps>
+    </comp>
+    <comp ref="JP505">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 2"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/EL driver 2/" tstamps="/4814cdbf-990d-4764-bc12-ce92aa1dfe77/"/>
+      <tstamps>6c43d4f4-cc54-4f57-ba23-131a6e295300</tstamps>
+    </comp>
+    <comp ref="JP506">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 2"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/EL driver 2/" tstamps="/4814cdbf-990d-4764-bc12-ce92aa1dfe77/"/>
+      <tstamps>bcbf49f5-1dcd-4a47-84ba-71f61c091ebe</tstamps>
+    </comp>
+    <comp ref="Q501">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C20917</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C20917"/>
+      <property name="Sheetname" value="EL driver 2"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/EL driver 2/" tstamps="/4814cdbf-990d-4764-bc12-ce92aa1dfe77/"/>
+      <tstamps>7bed2ecd-3247-4f01-952e-b99d87a1b850</tstamps>
+    </comp>
+    <comp ref="R501">
+      <value>12k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25752</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25752"/>
+      <property name="Sheetname" value="EL driver 2"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/EL driver 2/" tstamps="/4814cdbf-990d-4764-bc12-ce92aa1dfe77/"/>
+      <tstamps>be141ebe-713b-43d8-b7e7-301a988770f0</tstamps>
+    </comp>
+    <comp ref="R502">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Sheetname" value="EL driver 2"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/EL driver 2/" tstamps="/4814cdbf-990d-4764-bc12-ce92aa1dfe77/"/>
+      <tstamps>7a2c7597-061c-4525-be17-c47989b0b000</tstamps>
+    </comp>
+    <comp ref="R503">
+      <value>200m</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C309648</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C309648"/>
+      <property name="Sheetname" value="EL driver 2"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/EL driver 2/" tstamps="/4814cdbf-990d-4764-bc12-ce92aa1dfe77/"/>
+      <tstamps>84b5a527-b22e-4a31-b0fa-2a21a6fde515</tstamps>
+    </comp>
+    <comp ref="R504">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Sheetname" value="EL driver 2"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/EL driver 2/" tstamps="/4814cdbf-990d-4764-bc12-ce92aa1dfe77/"/>
+      <tstamps>57a2390e-4263-45ba-b60a-93381a4b7f5a</tstamps>
+    </comp>
+    <comp ref="TP501">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 2"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/EL driver 2/" tstamps="/4814cdbf-990d-4764-bc12-ce92aa1dfe77/"/>
+      <tstamps>c6b59d13-861c-43a1-bc17-4169bd041693</tstamps>
+    </comp>
+    <comp ref="TP502">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 2"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/EL driver 2/" tstamps="/4814cdbf-990d-4764-bc12-ce92aa1dfe77/"/>
+      <tstamps>8397eef7-b4de-417a-bb71-0a8a9837adf3</tstamps>
+    </comp>
+    <comp ref="TP503">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 2"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/EL driver 2/" tstamps="/4814cdbf-990d-4764-bc12-ce92aa1dfe77/"/>
+      <tstamps>5e90b791-f2c5-4b97-aa37-a9d183267ce3</tstamps>
+    </comp>
+    <comp ref="TP504">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 2"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/EL driver 2/" tstamps="/4814cdbf-990d-4764-bc12-ce92aa1dfe77/"/>
+      <tstamps>a7826af2-7629-43b6-8bc6-f6cdfe346e91</tstamps>
+    </comp>
+    <comp ref="U501">
+      <value>AD5160BRJZ5</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-8_Handsoldering</footprint>
+      <fields>
+        <field name="LCSC">C578142</field>
+      </fields>
+      <libsource lib="AD5160" part="AD5160BRJZ5" description=""/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C578142"/>
+      <property name="Sheetname" value="EL driver 2"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <sheetpath names="/EL driver 2/" tstamps="/4814cdbf-990d-4764-bc12-ce92aa1dfe77/"/>
+      <tstamps>2cfc80d3-eaca-4336-b7a4-fef9b2ff7f19</tstamps>
+    </comp>
+    <comp ref="U502">
+      <value>RT9187QV</value>
+      <footprint>Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_1811150411_Richtek-Tech-RT9187GQV_C147970.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C147970</field>
+      </fields>
+      <libsource lib="RT9178" part="RT9178QV" description=""/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C147970"/>
+      <property name="Sheetname" value="EL driver 2"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <sheetpath names="/EL driver 2/" tstamps="/4814cdbf-990d-4764-bc12-ce92aa1dfe77/"/>
+      <tstamps>d3d40171-87c7-4ba5-89a1-585d5ea39840</tstamps>
+    </comp>
+    <comp ref="C601">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value="EL driver 3"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/EL driver 3/" tstamps="/f0da2f2d-a0df-43cf-b8d6-8276d97f3f11/"/>
+      <tstamps>2aa9de21-e8c8-4b21-821d-d83935954c26</tstamps>
+    </comp>
+    <comp ref="C602">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 3"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/EL driver 3/" tstamps="/f0da2f2d-a0df-43cf-b8d6-8276d97f3f11/"/>
+      <tstamps>95a47e3a-f57e-4464-b731-364669080bb7</tstamps>
+    </comp>
+    <comp ref="C603">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C377773</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C377773"/>
+      <property name="Sheetname" value="EL driver 3"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/EL driver 3/" tstamps="/f0da2f2d-a0df-43cf-b8d6-8276d97f3f11/"/>
+      <tstamps>8f88a53e-d400-427d-9eb2-5e7ce1153e08</tstamps>
+    </comp>
+    <comp ref="C604">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C377773</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C377773"/>
+      <property name="Sheetname" value="EL driver 3"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/EL driver 3/" tstamps="/f0da2f2d-a0df-43cf-b8d6-8276d97f3f11/"/>
+      <tstamps>18c75ce5-e161-4311-977a-06e78c67dadc</tstamps>
+    </comp>
+    <comp ref="J601">
+      <value>Conn_01x02_Socket</value>
+      <footprint>Connector_Wire:SolderWire-1.5sqmm_1x02_P7.8mm_D1.7mm_OD3.9mm</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 3"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/EL driver 3/" tstamps="/f0da2f2d-a0df-43cf-b8d6-8276d97f3f11/"/>
+      <tstamps>369c12a7-53c8-4106-bc61-bbbf7c609898</tstamps>
+    </comp>
+    <comp ref="JP601">
+      <value>Rectangle Jumper Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 3"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/EL driver 3/" tstamps="/f0da2f2d-a0df-43cf-b8d6-8276d97f3f11/"/>
+      <tstamps>3d8fc739-3916-4007-b83e-c6a837d54661</tstamps>
+    </comp>
+    <comp ref="JP602">
+      <value>Round Jumper Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 3"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/EL driver 3/" tstamps="/f0da2f2d-a0df-43cf-b8d6-8276d97f3f11/"/>
+      <tstamps>96de88c3-b6fe-4ee2-a6a2-19c8f67cc72c</tstamps>
+    </comp>
+    <comp ref="JP603">
+      <value>Round Jumper Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 3"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/EL driver 3/" tstamps="/f0da2f2d-a0df-43cf-b8d6-8276d97f3f11/"/>
+      <tstamps>f4ec7f72-f0d2-4862-8add-43c0bbee0c15</tstamps>
+    </comp>
+    <comp ref="JP604">
+      <value>Rectangle Jumper Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 3"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/EL driver 3/" tstamps="/f0da2f2d-a0df-43cf-b8d6-8276d97f3f11/"/>
+      <tstamps>e4fe249e-83a9-422d-953c-bbfae58cafa5</tstamps>
+    </comp>
+    <comp ref="JP605">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 3"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/EL driver 3/" tstamps="/f0da2f2d-a0df-43cf-b8d6-8276d97f3f11/"/>
+      <tstamps>6c43d4f4-cc54-4f57-ba23-131a6e295300</tstamps>
+    </comp>
+    <comp ref="JP606">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 3"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/EL driver 3/" tstamps="/f0da2f2d-a0df-43cf-b8d6-8276d97f3f11/"/>
+      <tstamps>bcbf49f5-1dcd-4a47-84ba-71f61c091ebe</tstamps>
+    </comp>
+    <comp ref="Q601">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C20917</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C20917"/>
+      <property name="Sheetname" value="EL driver 3"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/EL driver 3/" tstamps="/f0da2f2d-a0df-43cf-b8d6-8276d97f3f11/"/>
+      <tstamps>7bed2ecd-3247-4f01-952e-b99d87a1b850</tstamps>
+    </comp>
+    <comp ref="R601">
+      <value>12k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25752</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25752"/>
+      <property name="Sheetname" value="EL driver 3"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/EL driver 3/" tstamps="/f0da2f2d-a0df-43cf-b8d6-8276d97f3f11/"/>
+      <tstamps>be141ebe-713b-43d8-b7e7-301a988770f0</tstamps>
+    </comp>
+    <comp ref="R602">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Sheetname" value="EL driver 3"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/EL driver 3/" tstamps="/f0da2f2d-a0df-43cf-b8d6-8276d97f3f11/"/>
+      <tstamps>7a2c7597-061c-4525-be17-c47989b0b000</tstamps>
+    </comp>
+    <comp ref="R603">
+      <value>200m</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C309648</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C309648"/>
+      <property name="Sheetname" value="EL driver 3"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/EL driver 3/" tstamps="/f0da2f2d-a0df-43cf-b8d6-8276d97f3f11/"/>
+      <tstamps>84b5a527-b22e-4a31-b0fa-2a21a6fde515</tstamps>
+    </comp>
+    <comp ref="R604">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Sheetname" value="EL driver 3"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/EL driver 3/" tstamps="/f0da2f2d-a0df-43cf-b8d6-8276d97f3f11/"/>
+      <tstamps>57a2390e-4263-45ba-b60a-93381a4b7f5a</tstamps>
+    </comp>
+    <comp ref="TP601">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 3"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/EL driver 3/" tstamps="/f0da2f2d-a0df-43cf-b8d6-8276d97f3f11/"/>
+      <tstamps>c6b59d13-861c-43a1-bc17-4169bd041693</tstamps>
+    </comp>
+    <comp ref="TP602">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 3"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/EL driver 3/" tstamps="/f0da2f2d-a0df-43cf-b8d6-8276d97f3f11/"/>
+      <tstamps>8397eef7-b4de-417a-bb71-0a8a9837adf3</tstamps>
+    </comp>
+    <comp ref="TP603">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 3"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/EL driver 3/" tstamps="/f0da2f2d-a0df-43cf-b8d6-8276d97f3f11/"/>
+      <tstamps>5e90b791-f2c5-4b97-aa37-a9d183267ce3</tstamps>
+    </comp>
+    <comp ref="TP604">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="EL driver 3"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/EL driver 3/" tstamps="/f0da2f2d-a0df-43cf-b8d6-8276d97f3f11/"/>
+      <tstamps>a7826af2-7629-43b6-8bc6-f6cdfe346e91</tstamps>
+    </comp>
+    <comp ref="U601">
+      <value>AD5160BRJZ5</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-8_Handsoldering</footprint>
+      <fields>
+        <field name="LCSC">C578142</field>
+      </fields>
+      <libsource lib="AD5160" part="AD5160BRJZ5" description=""/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C578142"/>
+      <property name="Sheetname" value="EL driver 3"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <sheetpath names="/EL driver 3/" tstamps="/f0da2f2d-a0df-43cf-b8d6-8276d97f3f11/"/>
+      <tstamps>2cfc80d3-eaca-4336-b7a4-fef9b2ff7f19</tstamps>
+    </comp>
+    <comp ref="U602">
+      <value>RT9187QV</value>
+      <footprint>Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_1811150411_Richtek-Tech-RT9187GQV_C147970.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C147970</field>
+      </fields>
+      <libsource lib="RT9178" part="RT9178QV" description=""/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C147970"/>
+      <property name="Sheetname" value="EL driver 3"/>
+      <property name="Sheetfile" value="ELDM.kicad_sch"/>
+      <sheetpath names="/EL driver 3/" tstamps="/f0da2f2d-a0df-43cf-b8d6-8276d97f3f11/"/>
+      <tstamps>d3d40171-87c7-4ba5-89a1-585d5ea39840</tstamps>
+    </comp>
+    <comp ref="C701">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>8d37bc6c-9131-4cd1-b83c-3f5b92417b27</tstamps>
+    </comp>
+    <comp ref="C702">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>a59919e1-44c5-4a94-987c-a142264abfe5</tstamps>
+    </comp>
+    <comp ref="C703">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>79460f6d-3a7d-4111-a30d-8bbe9187cf68</tstamps>
+    </comp>
+    <comp ref="R701">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>7ce9a13e-505f-42be-b3c8-11a70157a1c5</tstamps>
+    </comp>
+    <comp ref="R702">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>f775fd39-8dab-4f1f-9118-fdd55f65ab2c</tstamps>
+    </comp>
+    <comp ref="R703">
+      <value>200k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25764</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25764"/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>b6f221af-d51e-4861-b47d-8605f0da45a1</tstamps>
+    </comp>
+    <comp ref="R704">
+      <value>200k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25764</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25764"/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>17c49101-e28c-48d6-b576-4c2ff448812e</tstamps>
+    </comp>
+    <comp ref="R705">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>09d4c33e-053c-45eb-8902-0c98f1ab1248</tstamps>
+    </comp>
+    <comp ref="R706">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>60a54c02-666a-4821-aeb8-4a49a06b8903</tstamps>
+    </comp>
+    <comp ref="R707">
+      <value>200k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25764</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25764"/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>e43856de-9719-4df6-8ecf-017e261d7a78</tstamps>
+    </comp>
+    <comp ref="R708">
+      <value>200k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25764</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25764"/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>9c326ff6-5854-4eb8-b5a3-19a8cc263468</tstamps>
+    </comp>
+    <comp ref="R709">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>26c82ee6-b3ba-48ca-9aea-af6cb9fd20a2</tstamps>
+    </comp>
+    <comp ref="R710">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>6d9a87b3-97da-4179-a853-7baa1aef00f3</tstamps>
+    </comp>
+    <comp ref="R711">
+      <value>200k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25764</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25764"/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>29b476ea-457d-433e-861b-9d6e228a4eed</tstamps>
+    </comp>
+    <comp ref="R712">
+      <value>200k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25764</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25764"/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>f54c210e-4550-47f7-abc6-6afd9352756d</tstamps>
+    </comp>
+    <comp ref="R713">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>354b3a77-6b16-4cd3-8d41-b6728b5bcb52</tstamps>
+    </comp>
+    <comp ref="R714">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25744"/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>4af14c3d-ddd0-498b-b8c0-7d07c4b05646</tstamps>
+    </comp>
+    <comp ref="R715">
+      <value>200k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25764</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25764"/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>538b0896-df62-43c9-a6ad-4233c34f7951</tstamps>
+    </comp>
+    <comp ref="R716">
+      <value>200k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C25764</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C25764"/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>2fb65e44-72af-4b18-b812-024a89cd0901</tstamps>
+    </comp>
+    <comp ref="TP701">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>f39f139e-f5d8-48cc-b2a8-aec36cd9c982</tstamps>
+    </comp>
+    <comp ref="TP702">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>95e2ea01-7a64-4c94-ac94-67eb356927f0</tstamps>
+    </comp>
+    <comp ref="TP703">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>85d95f57-3ce4-403a-acd1-1166fe8e571a</tstamps>
+    </comp>
+    <comp ref="TP704">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>1fbc2d35-f9fd-4e4c-b174-aaf113d59706</tstamps>
+    </comp>
+    <comp ref="U701">
+      <value>74HC4052</value>
+      <footprint>Package_SO:SO-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd4052b.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C11350</field>
+      </fields>
+      <libsource lib="Analog_Switch" part="CD4052B" description="CMOS double 4-channel analog multiplexer/demultiplexer, TSSOP-16/DIP-16/SOIC-16"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C11350"/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="CMOS double 4-channel analog multiplexer/demultiplexer, TSSOP-16/DIP-16/SOIC-16"/>
+      <property name="ki_keywords" value="analog switch selector multiplexer"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>41b4037d-7268-40d2-8343-bbdbb0d62a7d</tstamps>
+    </comp>
+    <comp ref="U702">
+      <value>TLV9002</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lmv324.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C398360</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="LMV358" description="Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C398360"/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"/>
+      <property name="ki_keywords" value="single opamp"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>f1e2eaeb-41d8-47cd-957c-ca20c070b1a8 e56dff76-cfeb-4fb8-baf2-bba832166cb8 9dbddef5-6aa7-4ebf-a70e-e61efdfbe7df</tstamps>
+    </comp>
+    <comp ref="U703">
+      <value>TLV9002</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lmv324.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C398360</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="LMV358" description="Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"/>
+      <property name="JLCPCB Rotation Offset" value=""/>
+      <property name="LCSC" value="C398360"/>
+      <property name="Sheetname" value="Analogue signal processing"/>
+      <property name="Sheetfile" value="ASP.kicad_sch"/>
+      <property name="ki_description" value="Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"/>
+      <property name="ki_keywords" value="single opamp"/>
+      <sheetpath names="/Analogue signal processing/" tstamps="/be2bc51b-ea39-48d2-ae3e-295e83f81b4a/"/>
+      <tstamps>7c6d5bb8-4261-4116-bee2-56c3c3502248 6a1fa6a9-2d61-4e8b-8cff-fce903f3b5d4 51987c9a-c76e-43db-b057-6e6e4f95b02d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74HC595">
+      <description>8-bit serial in/out Shift Register 3-State Outputs</description>
+      <docs>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SOIC*5.3x10.2mm*P1.27mm*</fp>
+        <fp>SOIC*7.5x10.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC595</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="QB" type="tri_state"/>
+        <pin num="2" name="QC" type="tri_state"/>
+        <pin num="3" name="QD" type="tri_state"/>
+        <pin num="4" name="QE" type="tri_state"/>
+        <pin num="5" name="QF" type="tri_state"/>
+        <pin num="6" name="QG" type="tri_state"/>
+        <pin num="7" name="QH" type="tri_state"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="QH'" type="output"/>
+        <pin num="10" name="~{SRCLR}" type="input"/>
+        <pin num="11" name="SRCLK" type="input"/>
+        <pin num="12" name="RCLK" type="input"/>
+        <pin num="13" name="~{OE}" type="input"/>
+        <pin num="14" name="SER" type="input"/>
+        <pin num="15" name="QA" type="tri_state"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AD5160" part="AD5160BRJZ5">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD5160BRJZ5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-8_Handsoldering</field>
+      </fields>
+      <pins>
+        <pin num="1" name="W" type="bidirectional"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="CLK" type="input"/>
+        <pin num="5" name="SDI" type="input"/>
+        <pin num="6" name="~{CS}" type="input"/>
+        <pin num="7" name="B" type="bidirectional"/>
+        <pin num="8" name="A" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Operational" part="LMV358">
+      <description>Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lmv324.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMV358</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lmv324.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Analog_Switch" part="CD4052B">
+      <description>CMOS double 4-channel analog multiplexer/demultiplexer, TSSOP-16/DIP-16/SOIC-16</description>
+      <docs>http://www.ti.com/lit/ds/symlink/cd4052b.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>DIP*W7.62*</fp>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>SO*5.3x10.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">74HC4052</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/cd4052b.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B0" type="bidirectional"/>
+        <pin num="2" name="B2" type="bidirectional"/>
+        <pin num="3" name="BN" type="bidirectional"/>
+        <pin num="4" name="B3" type="bidirectional"/>
+        <pin num="5" name="B1" type="bidirectional"/>
+        <pin num="6" name="~{E}" type="input"/>
+        <pin num="7" name="VEE" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="S1" type="input"/>
+        <pin num="10" name="S0" type="input"/>
+        <pin num="11" name="A3" type="bidirectional"/>
+        <pin num="12" name="A0" type="bidirectional"/>
+        <pin num="13" name="AN" type="bidirectional"/>
+        <pin num="14" name="A1" type="bidirectional"/>
+        <pin num="15" name="A2" type="bidirectional"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Socket">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Pin">
+      <description>Generic connector, single row, 01x06, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Buzzer">
+      <description>Buzzer, polarized</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Buzzer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">BZ</field>
+        <field name="Value">Buzzer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small_US">
+      <description>Polarized capacitor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_US">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Display_Character" part="D198K">
+      <description>One digit 7 segment orangish-red LED, low current, common cathode</description>
+      <docs>https://ia800903.us.archive.org/24/items/CTKD1x8K/Cromatek%20D168K.pdf</docs>
+      <footprints>
+        <fp>D1X8K*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">D198K</field>
+        <field name="Footprint">Display_7Segment:D1X8K</field>
+        <field name="Datasheet">https://ia800903.us.archive.org/24/items/CTKD1x8K/Cromatek%20D168K.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="input"/>
+        <pin num="2" name="D" type="input"/>
+        <pin num="3" name="CC" type="input"/>
+        <pin num="4" name="C" type="input"/>
+        <pin num="5" name="DP" type="input"/>
+        <pin num="6" name="B" type="input"/>
+        <pin num="7" name="A" type="input"/>
+        <pin num="8" name="CC" type="input"/>
+        <pin num="9" name="F" type="input"/>
+        <pin num="10" name="G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pi Pico" part="Pico">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Pico</field>
+        <field name="Footprint">RPi_Pico:RPi_Pico_SMD_TH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPIO0" type="bidirectional"/>
+        <pin num="2" name="GPIO1" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GPIO2" type="bidirectional"/>
+        <pin num="5" name="GPIO3" type="bidirectional"/>
+        <pin num="6" name="GPIO4" type="bidirectional"/>
+        <pin num="7" name="GPIO5" type="bidirectional"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GPIO6" type="bidirectional"/>
+        <pin num="10" name="GPIO7" type="bidirectional"/>
+        <pin num="11" name="GPIO8" type="bidirectional"/>
+        <pin num="12" name="GPIO9" type="bidirectional"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="GPIO10" type="bidirectional"/>
+        <pin num="15" name="GPIO11" type="bidirectional"/>
+        <pin num="16" name="GPIO12" type="bidirectional"/>
+        <pin num="17" name="GPIO13" type="bidirectional"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="GPIO14" type="bidirectional"/>
+        <pin num="20" name="GPIO15" type="bidirectional"/>
+        <pin num="21" name="GPIO16" type="bidirectional"/>
+        <pin num="22" name="GPIO17" type="bidirectional"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="GPIO18" type="bidirectional"/>
+        <pin num="25" name="GPIO19" type="bidirectional"/>
+        <pin num="26" name="GPIO20" type="bidirectional"/>
+        <pin num="27" name="GPIO21" type="bidirectional"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="GPIO22" type="bidirectional"/>
+        <pin num="30" name="RUN" type="input"/>
+        <pin num="31" name="GPIO26_ADC0" type="bidirectional"/>
+        <pin num="32" name="GPIO27_ADC1" type="bidirectional"/>
+        <pin num="33" name="AGND" type="power_in"/>
+        <pin num="34" name="GPIO28_ADC2" type="bidirectional"/>
+        <pin num="35" name="ADC_VREF" type="power_in"/>
+        <pin num="36" name="3V3" type="power_in"/>
+        <pin num="37" name="3V3_EN" type="input"/>
+        <pin num="38" name="GND" type="bidirectional"/>
+        <pin num="39" name="VSYS" type="power_in"/>
+        <pin num="40" name="VBUS" type="power_in"/>
+        <pin num="41" name="SWCLK" type="input"/>
+        <pin num="42" name="GND" type="power_in"/>
+        <pin num="43" name="SWDIO" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="RT9178" part="RT9178QV">
+      <docs>https://www.lcsc.com/datasheet/lcsc_datasheet_1811150411_Richtek-Tech-RT9187GQV_C147970.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RT9178QV</field>
+        <field name="Footprint">Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_1811150411_Richtek-Tech-RT9187GQV_C147970.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="VOUT" type="power_out"/>
+        <pin num="4" name="VOUT" type="power_out"/>
+        <pin num="5" name="ADJ" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="EN" type="input"/>
+        <pin num="9" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TPS25200" part="TPS25200DRVR">
+      <docs>TPS25200DRVR</docs>
+      <footprints>
+        <fp>DRV6_1X1P6_TEX</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS25200DRVR</field>
+        <field name="Footprint">DRV6_1X1P6_TEX</field>
+        <field name="Datasheet">TPS25200DRVR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="ILIM" type="output"/>
+        <pin num="3" name="*FAULT" type="output"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="IN" type="input"/>
+        <pin num="7" name="EPAD" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="AO3400A">
+      <description>30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3400A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="AO3401A">
+      <description>-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <docs>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3401A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>/usr/share/kicad/symbols//74xx.kicad_sym</uri>
+    </library>
+    <library logical="AD5160">
+      <uri>/home/light/EENight_light_dance/main_board/EENLD_main/extra_symbols/AD5160.kicad_sym</uri>
+    </library>
+    <library logical="Amplifier_Operational">
+      <uri>/usr/share/kicad/symbols//Amplifier_Operational.kicad_sym</uri>
+    </library>
+    <library logical="Analog_Switch">
+      <uri>/usr/share/kicad/symbols//Analog_Switch.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Display_Character">
+      <uri>/usr/share/kicad/symbols//Display_Character.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Pi Pico">
+      <uri>/home/light/EENight_light_dance/main_board/KiCad-RP-Pico/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="TPS25200">
+      <uri>/home/light/EENight_light_dance/main_board/EENLD_main/extra_symbols/TPS25200.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="J101" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q201" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R204" pin="1" pintype="passive"/>
+      <node ref="SW102" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U101" pin="36" pinfunction="3V3" pintype="power_in"/>
+    </net>
+    <net code="2" name="+BATT">
+      <node ref="C201" pin="1" pintype="passive"/>
+      <node ref="C202" pin="1" pintype="passive"/>
+      <node ref="R201" pin="1" pintype="passive"/>
+      <node ref="R203" pin="1" pintype="passive"/>
+      <node ref="SW201" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U201" pin="6" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="3" name="/ANALOG_A">
+      <node ref="U101" pin="31" pinfunction="GPIO26_ADC0" pintype="bidirectional"/>
+      <node ref="U701" pin="13" pinfunction="AN" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/ANALOG_B">
+      <node ref="U101" pin="32" pinfunction="GPIO27_ADC1" pintype="bidirectional"/>
+      <node ref="U701" pin="3" pinfunction="BN" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/Analogue signal processing/VC0">
+      <node ref="R703" pin="1" pintype="passive"/>
+      <node ref="TP701" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U701" pin="12" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="U702" pin="1" pintype="output"/>
+    </net>
+    <net code="6" name="/Analogue signal processing/VC1">
+      <node ref="R707" pin="1" pintype="passive"/>
+      <node ref="TP702" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U701" pin="14" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="U702" pin="7" pintype="output"/>
+    </net>
+    <net code="7" name="/Analogue signal processing/VC2">
+      <node ref="R711" pin="1" pintype="passive"/>
+      <node ref="TP703" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U701" pin="15" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="U703" pin="1" pintype="output"/>
+    </net>
+    <net code="8" name="/Analogue signal processing/VC3">
+      <node ref="R715" pin="1" pintype="passive"/>
+      <node ref="TP704" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U701" pin="11" pinfunction="A3" pintype="bidirectional"/>
+      <node ref="U703" pin="7" pintype="output"/>
+    </net>
+    <net code="9" name="/Battery &amp; protection/eFUSE_EN">
+      <node ref="JP201" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R203" pin="2" pintype="passive"/>
+      <node ref="U201" pin="4" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="10" name="/EL driver 0/LDO_feedback">
+      <node ref="JP306" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U302" pin="5" pinfunction="ADJ" pintype="input"/>
+    </net>
+    <net code="11" name="/EL driver 0/RDAC_feedback">
+      <node ref="JP302" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP304" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP306" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="TP303" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="12" name="/EL driver 1/LDO_feedback">
+      <node ref="JP406" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U402" pin="5" pinfunction="ADJ" pintype="input"/>
+    </net>
+    <net code="13" name="/EL driver 1/RDAC_feedback">
+      <node ref="JP402" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP404" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP406" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="TP403" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="14" name="/EL driver 2/LDO_feedback">
+      <node ref="JP506" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U502" pin="5" pinfunction="ADJ" pintype="input"/>
+    </net>
+    <net code="15" name="/EL driver 2/RDAC_feedback">
+      <node ref="JP502" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP504" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP506" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="TP503" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="16" name="/EL driver 3/LDO_feedback">
+      <node ref="JP606" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U602" pin="5" pinfunction="ADJ" pintype="input"/>
+    </net>
+    <net code="17" name="/EL driver 3/RDAC_feedback">
+      <node ref="JP602" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP604" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP606" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="TP603" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="18" name="/LDO_EN0">
+      <node ref="JP305" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R304" pin="1" pintype="passive"/>
+      <node ref="U101" pin="2" pinfunction="GPIO1" pintype="bidirectional"/>
+      <node ref="U302" pin="8" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="19" name="/LDO_EN1">
+      <node ref="JP405" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R404" pin="1" pintype="passive"/>
+      <node ref="U101" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
+      <node ref="U402" pin="8" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="20" name="/LDO_EN2">
+      <node ref="JP505" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R504" pin="1" pintype="passive"/>
+      <node ref="U101" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
+      <node ref="U502" pin="8" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="21" name="/LDO_EN3">
+      <node ref="JP605" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R604" pin="1" pintype="passive"/>
+      <node ref="U101" pin="10" pinfunction="GPIO7" pintype="bidirectional"/>
+      <node ref="U602" pin="8" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="22" name="/MUX_S0">
+      <node ref="U101" pin="26" pinfunction="GPIO20" pintype="bidirectional"/>
+      <node ref="U701" pin="10" pinfunction="S0" pintype="input"/>
+    </net>
+    <net code="23" name="/MUX_S1">
+      <node ref="U101" pin="27" pinfunction="GPIO21" pintype="bidirectional"/>
+      <node ref="U701" pin="9" pinfunction="S1" pintype="input"/>
+    </net>
+    <net code="24" name="/PWM0">
+      <node ref="Q301" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R302" pin="1" pintype="passive"/>
+      <node ref="U101" pin="1" pinfunction="GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/PWM1">
+      <node ref="Q401" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R402" pin="1" pintype="passive"/>
+      <node ref="U101" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/PWM2">
+      <node ref="Q501" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R502" pin="1" pintype="passive"/>
+      <node ref="U101" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/PWM3">
+      <node ref="Q601" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R602" pin="1" pintype="passive"/>
+      <node ref="U101" pin="9" pinfunction="GPIO6" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/SPI_CLK">
+      <node ref="U101" pin="24" pinfunction="GPIO18" pintype="bidirectional"/>
+      <node ref="U301" pin="4" pinfunction="CLK" pintype="input"/>
+      <node ref="U401" pin="4" pinfunction="CLK" pintype="input"/>
+      <node ref="U501" pin="4" pinfunction="CLK" pintype="input"/>
+      <node ref="U601" pin="4" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="29" name="/SPI_TX">
+      <node ref="U101" pin="25" pinfunction="GPIO19" pintype="bidirectional"/>
+      <node ref="U301" pin="5" pinfunction="SDI" pintype="input"/>
+      <node ref="U401" pin="5" pinfunction="SDI" pintype="input"/>
+      <node ref="U501" pin="5" pinfunction="SDI" pintype="input"/>
+      <node ref="U601" pin="5" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="30" name="/SPI_~{CS0}">
+      <node ref="U101" pin="14" pinfunction="GPIO10" pintype="bidirectional"/>
+      <node ref="U301" pin="6" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="31" name="/SPI_~{CS1}">
+      <node ref="U101" pin="15" pinfunction="GPIO11" pintype="bidirectional"/>
+      <node ref="U401" pin="6" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="32" name="/SPI_~{CS2}">
+      <node ref="U101" pin="16" pinfunction="GPIO12" pintype="bidirectional"/>
+      <node ref="U501" pin="6" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="33" name="/SPI_~{CS3}">
+      <node ref="U101" pin="17" pinfunction="GPIO13" pintype="bidirectional"/>
+      <node ref="U601" pin="6" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="34" name="/SSD_CLK">
+      <node ref="U101" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
+      <node ref="U102" pin="11" pinfunction="SRCLK" pintype="input"/>
+      <node ref="U102" pin="12" pinfunction="RCLK" pintype="input"/>
+    </net>
+    <net code="35" name="/SSD_DATA">
+      <node ref="U101" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
+      <node ref="U102" pin="14" pinfunction="SER" pintype="input"/>
+    </net>
+    <net code="36" name="/SWCLK">
+      <node ref="J101" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U101" pin="41" pinfunction="SWCLK" pintype="input"/>
+    </net>
+    <net code="37" name="/SWDIO">
+      <node ref="J101" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U101" pin="43" pinfunction="SWDIO" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/T_SYNC">
+      <node ref="J102" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U101" pin="29" pinfunction="GPIO22" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="/UART0_RX">
+      <node ref="J101" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U101" pin="22" pinfunction="GPIO17" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="/UART0_TX">
+      <node ref="J101" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U101" pin="21" pinfunction="GPIO16" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="/VBAT_sense">
+      <node ref="R201" pin="2" pintype="passive"/>
+      <node ref="R202" pin="1" pintype="passive"/>
+      <node ref="U101" pin="34" pinfunction="GPIO28_ADC2" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="/VL0">
+      <node ref="J301" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R303" pin="2" pintype="passive"/>
+      <node ref="R702" pin="1" pintype="passive"/>
+      <node ref="TP302" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U701" pin="1" pinfunction="B0" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="/VL1">
+      <node ref="J401" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R403" pin="2" pintype="passive"/>
+      <node ref="R706" pin="1" pintype="passive"/>
+      <node ref="TP402" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U701" pin="5" pinfunction="B1" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="/VL2">
+      <node ref="J501" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R503" pin="2" pintype="passive"/>
+      <node ref="R710" pin="1" pintype="passive"/>
+      <node ref="TP502" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U701" pin="2" pinfunction="B2" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="/VL3">
+      <node ref="J601" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R603" pin="2" pintype="passive"/>
+      <node ref="R714" pin="1" pintype="passive"/>
+      <node ref="TP602" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U701" pin="4" pinfunction="B3" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="/VO0">
+      <node ref="C302" pin="1" pintype="passive"/>
+      <node ref="C304" pin="1" pintype="passive"/>
+      <node ref="JP301" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP303" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R303" pin="1" pintype="passive"/>
+      <node ref="R701" pin="1" pintype="passive"/>
+      <node ref="TP301" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U302" pin="3" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U302" pin="4" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="47" name="/VO1">
+      <node ref="C402" pin="1" pintype="passive"/>
+      <node ref="C404" pin="1" pintype="passive"/>
+      <node ref="JP401" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP403" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R403" pin="1" pintype="passive"/>
+      <node ref="R705" pin="1" pintype="passive"/>
+      <node ref="TP401" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U402" pin="3" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U402" pin="4" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="48" name="/VO2">
+      <node ref="C502" pin="1" pintype="passive"/>
+      <node ref="C504" pin="1" pintype="passive"/>
+      <node ref="JP501" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP503" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R503" pin="1" pintype="passive"/>
+      <node ref="R709" pin="1" pintype="passive"/>
+      <node ref="TP501" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U502" pin="3" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U502" pin="4" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="49" name="/VO3">
+      <node ref="C602" pin="1" pintype="passive"/>
+      <node ref="C604" pin="1" pintype="passive"/>
+      <node ref="JP601" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP603" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R603" pin="1" pintype="passive"/>
+      <node ref="R713" pin="1" pintype="passive"/>
+      <node ref="TP601" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U602" pin="3" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U602" pin="4" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="50" name="/eFUSE_~{FAULT}">
+      <node ref="BZ201" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="JP201" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="Q201" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q201" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R204" pin="2" pintype="passive"/>
+      <node ref="R207" pin="1" pintype="passive"/>
+      <node ref="U101" pin="19" pinfunction="GPIO14" pintype="bidirectional"/>
+      <node ref="U201" pin="3" pinfunction="*FAULT" pintype="output"/>
+    </net>
+    <net code="51" name="GND">
+      <node ref="BZ201" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C101" pin="2" pintype="passive"/>
+      <node ref="C102" pin="2" pintype="passive"/>
+      <node ref="C201" pin="2" pintype="passive"/>
+      <node ref="C202" pin="2" pintype="passive"/>
+      <node ref="C203" pin="2" pintype="passive"/>
+      <node ref="C301" pin="2" pintype="passive"/>
+      <node ref="C302" pin="2" pintype="passive"/>
+      <node ref="C303" pin="2" pintype="passive"/>
+      <node ref="C304" pin="2" pintype="passive"/>
+      <node ref="C401" pin="2" pintype="passive"/>
+      <node ref="C402" pin="2" pintype="passive"/>
+      <node ref="C403" pin="2" pintype="passive"/>
+      <node ref="C404" pin="2" pintype="passive"/>
+      <node ref="C501" pin="2" pintype="passive"/>
+      <node ref="C502" pin="2" pintype="passive"/>
+      <node ref="C503" pin="2" pintype="passive"/>
+      <node ref="C504" pin="2" pintype="passive"/>
+      <node ref="C601" pin="2" pintype="passive"/>
+      <node ref="C602" pin="2" pintype="passive"/>
+      <node ref="C603" pin="2" pintype="passive"/>
+      <node ref="C604" pin="2" pintype="passive"/>
+      <node ref="C701" pin="2" pintype="passive"/>
+      <node ref="D101" pin="3" pinfunction="CC" pintype="input"/>
+      <node ref="D101" pin="8" pinfunction="CC" pintype="input"/>
+      <node ref="D201" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J101" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J102" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J201" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q301" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q401" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q501" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q601" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R202" pin="2" pintype="passive"/>
+      <node ref="R205" pin="2" pintype="passive"/>
+      <node ref="R207" pin="2" pintype="passive"/>
+      <node ref="R301" pin="2" pintype="passive"/>
+      <node ref="R302" pin="2" pintype="passive"/>
+      <node ref="R304" pin="2" pintype="passive"/>
+      <node ref="R401" pin="2" pintype="passive"/>
+      <node ref="R402" pin="2" pintype="passive"/>
+      <node ref="R404" pin="2" pintype="passive"/>
+      <node ref="R501" pin="2" pintype="passive"/>
+      <node ref="R502" pin="2" pintype="passive"/>
+      <node ref="R504" pin="2" pintype="passive"/>
+      <node ref="R601" pin="2" pintype="passive"/>
+      <node ref="R602" pin="2" pintype="passive"/>
+      <node ref="R604" pin="2" pintype="passive"/>
+      <node ref="SW101" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW102" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW103" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="TP202" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP304" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP404" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP504" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP604" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="23" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="28" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="38" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U101" pin="42" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U102" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U201" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U201" pin="7" pinfunction="EPAD" pintype="unspecified"/>
+      <node ref="U301" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U302" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U302" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U401" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U402" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U402" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U501" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U502" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U502" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U601" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U602" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U602" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U701" pin="6" pinfunction="~{E}" pintype="input"/>
+      <node ref="U701" pin="8" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="52" name="GNDA">
+      <node ref="C702" pin="2" pintype="passive"/>
+      <node ref="C703" pin="2" pintype="passive"/>
+      <node ref="R704" pin="2" pintype="passive"/>
+      <node ref="R708" pin="2" pintype="passive"/>
+      <node ref="R712" pin="2" pintype="passive"/>
+      <node ref="R716" pin="2" pintype="passive"/>
+      <node ref="U101" pin="33" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U701" pin="7" pinfunction="VEE" pintype="power_in"/>
+      <node ref="U702" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U703" pin="4" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="53" name="Net-(D101-A)">
+      <node ref="D101" pin="7" pinfunction="A" pintype="input"/>
+      <node ref="R101" pin="2" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(D101-B)">
+      <node ref="D101" pin="6" pinfunction="B" pintype="input"/>
+      <node ref="R102" pin="2" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(D101-C)">
+      <node ref="D101" pin="4" pinfunction="C" pintype="input"/>
+      <node ref="R103" pin="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(D101-D)">
+      <node ref="D101" pin="2" pinfunction="D" pintype="input"/>
+      <node ref="R104" pin="2" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(D101-DP)">
+      <node ref="D101" pin="5" pinfunction="DP" pintype="input"/>
+      <node ref="R108" pin="2" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(D101-E)">
+      <node ref="D101" pin="1" pinfunction="E" pintype="input"/>
+      <node ref="R105" pin="2" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(D101-F)">
+      <node ref="D101" pin="9" pinfunction="F" pintype="input"/>
+      <node ref="R106" pin="2" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(D101-G)">
+      <node ref="D101" pin="10" pinfunction="G" pintype="input"/>
+      <node ref="R107" pin="2" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(D201-A)">
+      <node ref="D201" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R208" pin="2" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(J201-Pin_2)">
+      <node ref="J201" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="SW201" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(J301-Pin_1)">
+      <node ref="J301" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q301" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(J401-Pin_1)">
+      <node ref="J401" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q401" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(J501-Pin_1)">
+      <node ref="J501" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q501" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(J601-Pin_1)">
+      <node ref="J601" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q601" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(JP301-B)">
+      <node ref="JP301" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP302" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U301" pin="1" pinfunction="W" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="Net-(JP303-A)">
+      <node ref="JP303" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U301" pin="8" pinfunction="A" pintype="bidirectional"/>
+    </net>
+    <net code="69" name="Net-(JP304-A)">
+      <node ref="JP304" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R301" pin="1" pintype="passive"/>
+      <node ref="U301" pin="7" pinfunction="B" pintype="bidirectional"/>
+    </net>
+    <net code="70" name="Net-(JP401-B)">
+      <node ref="JP401" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP402" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U401" pin="1" pinfunction="W" pintype="bidirectional"/>
+    </net>
+    <net code="71" name="Net-(JP403-A)">
+      <node ref="JP403" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U401" pin="8" pinfunction="A" pintype="bidirectional"/>
+    </net>
+    <net code="72" name="Net-(JP404-A)">
+      <node ref="JP404" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R401" pin="1" pintype="passive"/>
+      <node ref="U401" pin="7" pinfunction="B" pintype="bidirectional"/>
+    </net>
+    <net code="73" name="Net-(JP501-B)">
+      <node ref="JP501" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP502" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U501" pin="1" pinfunction="W" pintype="bidirectional"/>
+    </net>
+    <net code="74" name="Net-(JP503-A)">
+      <node ref="JP503" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U501" pin="8" pinfunction="A" pintype="bidirectional"/>
+    </net>
+    <net code="75" name="Net-(JP504-A)">
+      <node ref="JP504" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R501" pin="1" pintype="passive"/>
+      <node ref="U501" pin="7" pinfunction="B" pintype="bidirectional"/>
+    </net>
+    <net code="76" name="Net-(JP601-B)">
+      <node ref="JP601" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP602" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U601" pin="1" pinfunction="W" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="Net-(JP603-A)">
+      <node ref="JP603" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U601" pin="8" pinfunction="A" pintype="bidirectional"/>
+    </net>
+    <net code="78" name="Net-(JP604-A)">
+      <node ref="JP604" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R601" pin="1" pintype="passive"/>
+      <node ref="U601" pin="7" pinfunction="B" pintype="bidirectional"/>
+    </net>
+    <net code="79" name="Net-(SW102-B)">
+      <node ref="SW102" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U101" pin="20" pinfunction="GPIO15" pintype="bidirectional"/>
+    </net>
+    <net code="80" name="Net-(SW103-B)">
+      <node ref="SW103" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U102" pin="13" pinfunction="~{OE}" pintype="input"/>
+    </net>
+    <net code="81" name="Net-(U101-RUN)">
+      <node ref="SW101" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="30" pinfunction="RUN" pintype="input"/>
+    </net>
+    <net code="82" name="Net-(U102-QA)">
+      <node ref="R101" pin="1" pintype="passive"/>
+      <node ref="U102" pin="15" pinfunction="QA" pintype="tri_state"/>
+    </net>
+    <net code="83" name="Net-(U102-QB)">
+      <node ref="R102" pin="1" pintype="passive"/>
+      <node ref="U102" pin="1" pinfunction="QB" pintype="tri_state"/>
+    </net>
+    <net code="84" name="Net-(U102-QC)">
+      <node ref="R103" pin="1" pintype="passive"/>
+      <node ref="U102" pin="2" pinfunction="QC" pintype="tri_state"/>
+    </net>
+    <net code="85" name="Net-(U102-QD)">
+      <node ref="R104" pin="1" pintype="passive"/>
+      <node ref="U102" pin="3" pinfunction="QD" pintype="tri_state"/>
+    </net>
+    <net code="86" name="Net-(U102-QE)">
+      <node ref="R105" pin="1" pintype="passive"/>
+      <node ref="U102" pin="4" pinfunction="QE" pintype="tri_state"/>
+    </net>
+    <net code="87" name="Net-(U102-QF)">
+      <node ref="R106" pin="1" pintype="passive"/>
+      <node ref="U102" pin="5" pinfunction="QF" pintype="tri_state"/>
+    </net>
+    <net code="88" name="Net-(U102-QG)">
+      <node ref="R107" pin="1" pintype="passive"/>
+      <node ref="U102" pin="6" pinfunction="QG" pintype="tri_state"/>
+    </net>
+    <net code="89" name="Net-(U102-QH)">
+      <node ref="R108" pin="1" pintype="passive"/>
+      <node ref="U102" pin="7" pinfunction="QH" pintype="tri_state"/>
+    </net>
+    <net code="90" name="Net-(U201-ILIM)">
+      <node ref="R205" pin="1" pintype="passive"/>
+      <node ref="U201" pin="2" pinfunction="ILIM" pintype="output"/>
+    </net>
+    <net code="91" name="Net-(U702A-+)">
+      <node ref="R701" pin="2" pintype="passive"/>
+      <node ref="R704" pin="1" pintype="passive"/>
+      <node ref="U702" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="92" name="Net-(U702A--)">
+      <node ref="R702" pin="2" pintype="passive"/>
+      <node ref="R703" pin="2" pintype="passive"/>
+      <node ref="U702" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="93" name="Net-(U702B-+)">
+      <node ref="R705" pin="2" pintype="passive"/>
+      <node ref="R708" pin="1" pintype="passive"/>
+      <node ref="U702" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="94" name="Net-(U702B--)">
+      <node ref="R706" pin="2" pintype="passive"/>
+      <node ref="R707" pin="2" pintype="passive"/>
+      <node ref="U702" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="95" name="Net-(U703A-+)">
+      <node ref="R709" pin="2" pintype="passive"/>
+      <node ref="R712" pin="1" pintype="passive"/>
+      <node ref="U703" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="96" name="Net-(U703A--)">
+      <node ref="R710" pin="2" pintype="passive"/>
+      <node ref="R711" pin="2" pintype="passive"/>
+      <node ref="U703" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="97" name="Net-(U703B-+)">
+      <node ref="R713" pin="2" pintype="passive"/>
+      <node ref="R716" pin="1" pintype="passive"/>
+      <node ref="U703" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="98" name="Net-(U703B--)">
+      <node ref="R714" pin="2" pintype="passive"/>
+      <node ref="R715" pin="2" pintype="passive"/>
+      <node ref="U703" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="99" name="VDC">
+      <node ref="C101" pin="1" pintype="passive"/>
+      <node ref="C102" pin="1" pintype="passive"/>
+      <node ref="C203" pin="1" pintype="passive"/>
+      <node ref="C301" pin="1" pintype="passive"/>
+      <node ref="C303" pin="1" pintype="passive"/>
+      <node ref="C401" pin="1" pintype="passive"/>
+      <node ref="C403" pin="1" pintype="passive"/>
+      <node ref="C501" pin="1" pintype="passive"/>
+      <node ref="C503" pin="1" pintype="passive"/>
+      <node ref="C601" pin="1" pintype="passive"/>
+      <node ref="C603" pin="1" pintype="passive"/>
+      <node ref="C701" pin="1" pintype="passive"/>
+      <node ref="C702" pin="1" pintype="passive"/>
+      <node ref="C703" pin="1" pintype="passive"/>
+      <node ref="JP305" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP405" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP505" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP605" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R208" pin="1" pintype="passive"/>
+      <node ref="SW103" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="TP201" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="39" pinfunction="VSYS" pintype="power_in"/>
+      <node ref="U102" pin="10" pinfunction="~{SRCLR}" pintype="input"/>
+      <node ref="U102" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U201" pin="1" pinfunction="OUT" pintype="output"/>
+      <node ref="U301" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U302" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U302" pin="2" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U401" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U402" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U402" pin="2" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U501" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U502" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U502" pin="2" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U601" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U602" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U602" pin="2" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U701" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U702" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U703" pin="8" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="100" name="unconnected-(SW201-C-Pad3)">
+      <node ref="SW201" pin="3" pinfunction="C" pintype="passive+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U101-3V3_EN-Pad37)">
+      <node ref="U101" pin="37" pinfunction="3V3_EN" pintype="input+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U101-ADC_VREF-Pad35)">
+      <node ref="U101" pin="35" pinfunction="ADC_VREF" pintype="power_in+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U101-VBUS-Pad40)">
+      <node ref="U101" pin="40" pinfunction="VBUS" pintype="power_in+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U102-QH'-Pad9)">
+      <node ref="U102" pin="9" pinfunction="QH'" pintype="output+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(U302-NC-Pad7)">
+      <node ref="U302" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(U402-NC-Pad7)">
+      <node ref="U402" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(U502-NC-Pad7)">
+      <node ref="U502" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(U602-NC-Pad7)">
+      <node ref="U602" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
