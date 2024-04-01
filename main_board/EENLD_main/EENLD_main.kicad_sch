@@ -2885,7 +2885,7 @@
   )
 
   (symbol (lib_id "Switch:SW_Push") (at 107.95 135.89 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52a2cab7-5ee0-46fe-b808-571a8380a69f)
     (property "Reference" "SW101" (at 111.76 134.62 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3152,7 +3152,7 @@
   )
 
   (symbol (lib_id "Switch:SW_SPDT") (at 39.37 147.32 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 74885cae-a6c3-477e-864d-abe577001e74)
     (property "Reference" "SW102" (at 39.37 156.21 0)
       (effects (font (size 1.27 1.27)))
@@ -3513,7 +3513,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 140.97 139.7 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae8b86e6-4cd7-40c7-b79e-2085cf86f428)
     (property "Reference" "J102" (at 141.605 134.62 0)
       (effects (font (size 1.27 1.27)))
@@ -3603,7 +3603,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x06_Pin") (at 140.97 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bea43ba6-2b62-4d2e-83af-629bd19e7fa7)
     (property "Reference" "J101" (at 141.605 91.44 0)
       (effects (font (size 1.27 1.27)))
@@ -3879,7 +3879,7 @@
   )
 
   (symbol (lib_id "Pi Pico:Pico") (at 72.39 119.38 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ee1a65ff-2eb1-42a8-a840-a2deca7cedcb)
     (property "Reference" "U101" (at 72.39 87.63 0)
       (effects (font (size 1.27 1.27)))

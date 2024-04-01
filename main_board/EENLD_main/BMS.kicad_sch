@@ -1566,9 +1566,6 @@
     (property "Datasheet" "~" (at 123.19 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Enable" "0" (at 123.19 111.76 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
     (property "JLCPCB Rotation Offset" "" (at 123.19 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1612,7 +1609,7 @@
   )
 
   (symbol (lib_id "Device:Buzzer") (at 55.88 168.91 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10ae4d06-00de-418d-951d-6a50cc79831a)
     (property "Reference" "BZ201" (at 59.69 167.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1676,7 +1673,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 33.02 43.18 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 2258897f-6c42-4b73-b301-51ada94ee626)
     (property "Reference" "J201" (at 33.655 48.26 0)
       (effects (font (size 1.27 1.27)))
@@ -2168,7 +2165,7 @@
   )
 
   (symbol (lib_id "Device:C_Polarized_Small_US") (at 105.41 114.3 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bc42abca-63d0-4ecc-a066-b9c3b69c96d4)
     (property "Reference" "C203" (at 107.95 112.5982 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2200,7 +2197,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 125.73 171.45 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bc9c9205-c099-4c68-8b5f-7c6116b7353e)
     (property "Reference" "TP201" (at 130.81 170.18 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2263,7 +2260,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 76.2 119.38 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid c680ba02-88f4-4f01-bae8-fcb22c0a5ab4)
     (property "Reference" "JP201" (at 76.2 125.73 0)
       (effects (font (size 1.27 1.27)))
@@ -2471,7 +2468,7 @@
   )
 
   (symbol (lib_id "Device:C_Polarized_Small_US") (at 69.85 43.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f26341aa-18d7-4b0a-a43c-342841cb96a5)
     (property "Reference" "C201" (at 72.39 41.4782 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2559,7 +2556,7 @@
   )
 
   (symbol (lib_id "Switch:SW_SPDT") (at 58.42 36.83 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid f9b4d53e-dcda-4bf5-90c0-e7157f3e7e65)
     (property "Reference" "SW201" (at 58.42 27.94 0)
       (effects (font (size 1.27 1.27)))
@@ -2606,7 +2603,7 @@
     (property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" (at 53.34 154.94 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "JLCPCB Rotation Offset" "" (at 48.26 158.75 0)
+    (property "JLCPCB Rotation Offset" "180" (at 48.26 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C15127" (at 48.26 158.75 0)
