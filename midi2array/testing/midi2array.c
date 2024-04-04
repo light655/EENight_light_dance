@@ -102,7 +102,8 @@ int main(int argc, char** argv)
         fc++;
 
         delta_tick = 0;
-        // the byte is a part of delta time and is not the last byte
+        // the byte is a part of delta time and is not the last byte of delta time
+        // delta time bytes have a 1 at the most significant bit except for the last byte
         while (buffer[BUFFER_SIZE - 1] & 0x80)
         {                                                  // the most significant bit is 1
             delta_tick += buffer[BUFFER_SIZE - 1] & ~0x80; // clear first bit, store into delta_tick
@@ -110,9 +111,11 @@ int main(int argc, char** argv)
             readNext(buffer, input);                       // read next byte
             fc++;
         }
-        delta_tick += buffer[BUFFER_SIZE - 1];
+        delta_tick += buffer[BUFFER_SIZE - 1];      // last byte of delta tick
         printf("Delta tick: %d\n", delta_tick);
         t += delta_tick * us_per_tick;
+        // the block above deals with delta time
+        // and should leave with no delta time bytes ahead
 
         if (change_tempo)
         { // read extra 0x90
