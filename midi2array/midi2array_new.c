@@ -104,6 +104,7 @@ int main(int argc, char **argv) {
     printf("Every beat is %d microseconds.\n", us_per_beat);
 
     us_per_tick = (float)us_per_beat / (float)tick_per_beat;
+    printf("Every tick is %g microseconds.\n", us_per_tick);
 
     // find end of first note (A4 for 4 beats) to skip bytes I cannot decode -----------------------
     char *tmp = malloc(sizeof(char) * 3);

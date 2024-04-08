@@ -49,4 +49,8 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.
  /home/light/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
  /home/light/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
  /home/light/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
- /home/light/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
+ /home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+ /home/light/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+ /home/light/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+ /home/light/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+ /home/light/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
