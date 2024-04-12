@@ -17,7 +17,6 @@
 			"find_package",
 			"pico_add_uf2_output",
 			"pico_add_extra_outputs",
-			"add_compile_definitions",
 			"target_compile_definitions"
 		],
 		"files" : 
@@ -96,12 +95,6 @@
 			},
 			{
 				"command" : 7,
-				"file" : 0,
-				"line" : 25,
-				"parent" : 0
-			},
-			{
-				"command" : 8,
 				"file" : 4,
 				"line" : 30,
 				"parent" : 6
@@ -259,14 +252,6 @@
 					"define" : "PICO_CXX_ENABLE_EXCEPTIONS=0"
 				},
 				{
-					"backtrace" : 12,
-					"define" : "PICO_DEFAULT_UART_TX_PIN=16"
-				},
-				{
-					"backtrace" : 12,
-					"define" : "PICO_DEFAULT_UART_TX_PIN=17"
-				},
-				{
 					"backtrace" : 2,
 					"define" : "PICO_NO_FLASH=0"
 				},
@@ -279,7 +264,7 @@
 					"define" : "PICO_ON_DEVICE=1"
 				},
 				{
-					"backtrace" : 13,
+					"backtrace" : 12,
 					"define" : "PICO_TARGET_NAME=\"EENLD\""
 				},
 				{
@@ -649,14 +634,6 @@
 					"define" : "PICO_CXX_ENABLE_EXCEPTIONS=0"
 				},
 				{
-					"backtrace" : 12,
-					"define" : "PICO_DEFAULT_UART_TX_PIN=16"
-				},
-				{
-					"backtrace" : 12,
-					"define" : "PICO_DEFAULT_UART_TX_PIN=17"
-				},
-				{
 					"backtrace" : 2,
 					"define" : "PICO_NO_FLASH=0"
 				},
@@ -669,7 +646,7 @@
 					"define" : "PICO_ON_DEVICE=1"
 				},
 				{
-					"backtrace" : 13,
+					"backtrace" : 12,
 					"define" : "PICO_TARGET_NAME=\"EENLD\""
 				},
 				{
@@ -1025,14 +1002,6 @@
 					"define" : "PICO_CXX_ENABLE_EXCEPTIONS=0"
 				},
 				{
-					"backtrace" : 12,
-					"define" : "PICO_DEFAULT_UART_TX_PIN=16"
-				},
-				{
-					"backtrace" : 12,
-					"define" : "PICO_DEFAULT_UART_TX_PIN=17"
-				},
-				{
 					"backtrace" : 2,
 					"define" : "PICO_NO_FLASH=0"
 				},
@@ -1045,7 +1014,7 @@
 					"define" : "PICO_ON_DEVICE=1"
 				},
 				{
-					"backtrace" : 13,
+					"backtrace" : 12,
 					"define" : "PICO_TARGET_NAME=\"EENLD\""
 				},
 				{

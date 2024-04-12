@@ -55,6 +55,9 @@ CMakeFiles/EENLD.dir/main.c.obj: \
  /home/light/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
  /home/light/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
  /home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+ /home/light/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
+ /home/light/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
+ /home/light/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h \
  /home/light/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
  /home/light/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
  /home/light/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h

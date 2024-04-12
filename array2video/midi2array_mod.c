@@ -24,7 +24,7 @@ void outputF(int *arrayta, char *arraysa , int *arraytb , char *arraysb ,
 //      int track number
 int main(int argc, char **argv) {
     FILE *input, *out_h, *out_py;			   // pointer to files
-    char filename[STRING_SIZE] = "EENLD_X.mid"; // input filename
+    char filename[STRING_SIZE] = "../midi_file/main-Alto_Recorder_1.mid"; // input filename
     unsigned char buffer[BUFFER_SIZE] = {0};    // buffer for input data
     int fc = 0, i;                              // file byte counter, looping index
     int t = 0;                                  // absolute time in millisecond
@@ -51,14 +51,15 @@ int main(int argc, char **argv) {
         track_no = 0;                       // default track number is 0
     } else {
         char input_filename[20];
-        strncpy(input_filename, argv[1], STRING_SIZE - 1);
+        strcpy(input_filename, argv[1]);
         
         if(strlen(input_filename) == 1) {   // set track number if command line argument is 1 character long
-            filename[6] = argv[1][0];
-            track_no = argv[1][0] - '0';
+            // filename[33] = argv[1][0];
+            track_no = argv[1][0] - '1';
             printf("Track No.%d\n", track_no);
         } else {                            // use the filename in the command line argument if it is longer than 1 character
-            strncpy(filename, input_filename, STRING_SIZE - 1); 
+            strcpy(filename, input_filename); 
+            printf("Resetting filename\n");
         }
     }
     printf("Using input file: %s\n", filename);
