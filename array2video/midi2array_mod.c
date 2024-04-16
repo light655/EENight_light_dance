@@ -14,8 +14,6 @@
 int litncmp(unsigned char *array, char *lit, size_t n);
 // compare char array with string literal (excluding termination null character)
 int readNext(unsigned char *buffer, FILE *input);           // read next byte
-void outputT(int *array, char *name, FILE *out_h, FILE *out_py);			// output the t array to .h file
-void outputStrength(char *array, char *name, FILE *out_h, FILE *out_py);	// output the s array to .h file
 
 void outputF(int *arrayta, char *arraysa , int *arraytb , char *arraysb ,
 	  		int *arraytc , char *arraysc , int *arraytd , char *arraysd , FILE *out_py);
@@ -23,8 +21,8 @@ void outputF(int *arrayta, char *arraysa , int *arraytb , char *arraysb ,
 // command line argument:
 //      int track number
 int main(int argc, char **argv) {
-    FILE *input, *out_h, *out_py;			   // pointer to files
-    char filename[STRING_SIZE] = "../midi_file/main-Alto_Recorder_1.mid"; // input filename
+    FILE *input, *out_arr;			   // pointer to files
+    char filename[STRING_SIZE] = "EENLD_X.mid"; // input filename
     unsigned char buffer[BUFFER_SIZE] = {0};    // buffer for input data
     int fc = 0, i;                              // file byte counter, looping index
     int t = 0;                                  // absolute time in millisecond
@@ -51,15 +49,14 @@ int main(int argc, char **argv) {
         track_no = 0;                       // default track number is 0
     } else {
         char input_filename[20];
-        strcpy(input_filename, argv[1]);
+        strncpy(input_filename, argv[1], STRING_SIZE - 1);
         
         if(strlen(input_filename) == 1) {   // set track number if command line argument is 1 character long
-            // filename[33] = argv[1][0];
-            track_no = argv[1][0] - '1';
+            filename[6] = argv[1][0];
+            track_no = argv[1][0] - '0';
             printf("Track No.%d\n", track_no);
         } else {                            // use the filename in the command line argument if it is longer than 1 character
-            strcpy(filename, input_filename); 
-            printf("Resetting filename\n");
+            strncpy(filename, input_filename, STRING_SIZE - 1); 
         }
     }
     printf("Using input file: %s\n", filename);
@@ -222,21 +219,11 @@ int main(int argc, char **argv) {
     printf("Complete reading MIDI file.\n");
     fclose(input); // close midi file
 
-    out_h = fopen("midi_array.h", "w"); // open output .h file
-    out_py = fopen("midi_array.txt", "w"); // open output .py file
+    out_arr = fopen("midi_array.txt", "w"); // open output .arr file
 
-    //outputT(A_t, "A_t", out_h, out_py); // output the arrays
-    //outputStrength(A_s, "A_s", out_h, out_py);
-    //outputT(B_t, "B_t", out_h, out_py);
-    //outputStrength(B_s, "B_s", out_h, out_py);
-    //outputT(C_t, "C_t", out_h, out_py);
-    //outputStrength(C_s, "C_s", out_h, out_py);
-    //outputT(D_t, "D_t", out_h, out_py);
-    //outputStrength(D_s, "D_s", out_h, out_py);
-	outputF(A_t, A_s , B_t , B_s , C_t , C_s , D_t , D_s , out_py); 
+	outputF(A_t, A_s , B_t , B_s , C_t , C_s , D_t , D_s , out_arr); 
 
-    fclose(out_h); // close output .h file
-    fclose(out_py); // close output .py file
+    fclose(out_arr); // close output .py file
 
     return 0;
 }
@@ -287,79 +274,6 @@ int readNext(unsigned char *buffer, FILE *input)
         return 0;
 }
 
-// function to output the dt array to .h file
-// parameters:
-//      int *array: array of absolute time, -1 terminated
-//      char *name: name of the array in the output .h file
-//      FILE *out_h: pointer to output .h file
-//      FILE *out_py: pointer to output .py file
-void outputT(int *array, char *name, FILE *out_h, FILE *out_py)
-{
-    int i; // looping index
-
-    fprintf(out_h, "const int32_t %s[%d] = {", name, ARRAY_SIZE);
-    fprintf(out_py, "%s = [", name);
-    for (i = 0; array[i] != -1; i++)
-    {
-        if (i % LINE_SIZE == 0)
-        {
-            fprintf(out_h, "\n\t");
-            fprintf(out_py, "\n\t");
-        }
-
-        if (i == 0)
-        {
-            fprintf(out_h, "%d, ", array[0]);
-            fprintf(out_py, "%d, ", array[0]);
-        }
-        else
-        {
-            // fprintf(out_h, "%d, ", array[i] - array[i - 1]);
-            fprintf(out_h, "%d, ", array[i]);
-            fprintf(out_py, "%d, ", array[i]);
-        }
-    }
-    fprintf(out_h, "-1\n"
-                    "};\n"
-                    "\n");
-    fprintf(out_py, "-1\n"
-                    "]\n"
-                    "\n");
-    return;
-}
-
-// function to output the s array to .h file
-// parameters:
-//      int *array: array of note strength time, -1 terminated
-//      char *name: name of the array in the output .h file
-//      FILE *out_h: pointer to output .h file
-//      FILE *out_py: pointer to output .py file
-void outputStrength(char *array, char *name, FILE *out_h, FILE *out_py)
-{
-    int i; // looping index
-
-    fprintf(out_h, "const int32_t %s[%d] = {", name, ARRAY_SIZE);
-    fprintf(out_py, "%s = [", name);
-    for (i = 0; array[i] != -1; i++)
-    {
-        if (i % LINE_SIZE == 0)
-        {
-            fprintf(out_h, "\n\t");
-            fprintf(out_py, "\n\t");
-        }
-
-        fprintf(out_h, "%d, ", array[i]);
-        fprintf(out_py, "%d, ", array[i]);
-    }
-    fprintf(out_h, "-1\n"
-                    "};\n"
-                    "\n");
-    fprintf(out_py, "-1\n"
-                    "]\n"
-                    "\n");
-
-    return;
-}
 int max (int A , int B , int C , int D)
 {
 	int Ca;
@@ -376,11 +290,12 @@ int max (int A , int B , int C , int D)
 	
 
 void outputF(int *arrayta, char *arraysa , int *arraytb , char *arraysb ,
-	  		int *arraytc , char *arraysc , int *arraytd , char *arraysd , FILE *out_py)
+	  		int *arraytc , char *arraysc , int *arraytd , char *arraysd , FILE *out_arr)
 {
     int i , ia , ib , ic , id; // looping index
 	int maxA , maxB , maxC , maxD , MAX , MAXt;
 	char nowA , nowB , nowC , nowD ;
+	char LA , LB , LC , LD ;
 	maxA = 0;
 	maxB = 0;
 	maxC = 0;
@@ -393,6 +308,10 @@ void outputF(int *arrayta, char *arraysa , int *arraytb , char *arraysb ,
 	nowB = 0;
 	nowC = 0;
 	nowD = 0;
+	LA = 0;
+	LB = 0;
+	LC = 0;
+	LD = 0;
 	
 	for (i = 0; arrayta[i] != -1; i++)
 		maxA ++;
@@ -404,54 +323,36 @@ void outputF(int *arrayta, char *arraysa , int *arraytb , char *arraysb ,
 		maxD ++;
 	MAXt = max (arrayta[maxA-1] , arraytb[maxB-1] , arraytc[maxC-1] , arraytd[maxD-1]);
 	MAX = max (maxA , maxB , maxC , maxD);
-	for ( i = 0 ; (i*41667) < MAXt ; i++ )
+	for ( i = 0 ; (i*16667) < MAXt ; i++ )
 	{
-		while ( (i * 41667) > arrayta[ia] && (ia < maxA) ){
+		while ( (i * 16667) > arrayta[ia] && (ia < maxA) ){
 		   nowA = arraysa[ia];	
 		   ia ++;
 		}
-		while ( (i * 41667) > arraytb[ib] && (ib < maxB) ) {
+		while ( (i * 16667) > arraytb[ib] && (ib < maxB) ) {
 		   nowB = arraysb[ib];	
 		   ib ++;
 		}
-		while ( (i * 41667) > arraytc[ic] && (ic < maxC) ) {
+		while ( (i * 16667) > arraytc[ic] && (ic < maxC) ) {
 		   nowC = arraysc[ic];	
 		   ic ++;
 		}
-		while ( (i * 41667) > arraytd[id] && (id < maxD) ) {
+		while ( (i * 16667) > arraytd[id] && (id < maxD) ) {
 		   nowD = arraysd[id];	
 		   id ++;
 		}
-		fprintf(out_py, "%d_%d_%d_%d\n" , nowA , nowB , nowC , nowD );
+		if ( 
+				( (nowA == 0) && (nowB == 0) && (nowC == 0) && (nowD == 0) ) && 
+				( ( LA != 0 ) || ( LB != 0)  || (LC != 0) ||( LD != 0 ) ) 
+		   ) 
+					fprintf(out_arr, "%d_%d_%d_%d\n" , LA , LB , LC , LD );
+		else 
+			fprintf(out_arr, "%d_%d_%d_%d\n" , nowA , nowB , nowC , nowD );
+		LA = nowA;
+		LB = nowB;
+		LC = nowC;
+		LD = nowD;
 	}
-	/*
-    for (i = 0; array[i] != -1; i++)
-    {
-        if (i % LINE_SIZE == 0)
-        {
-            fprintf(out_h, "\n\t");
-            fprintf(out_py, "\n\t");
-        }
-
-        if (i == 0)
-        {
-            fprintf(out_h, "%d, ", array[0]);
-            fprintf(out_py, "%d, ", array[0]);
-        }
-        else
-        {
-            // fprintf(out_h, "%d, ", array[i] - array[i - 1]);
-            fprintf(out_h, "%d, ", array[i]);
-            fprintf(out_py, "%d, ", array[i]);
-        }
-    }
-    fprintf(out_h, "-1\n"
-                    "};\n"
-                    "\n");
-    fprintf(out_py, "-1\n"
-                    "]\n"
-                    "\n");
-					*/
     return;
 }
 

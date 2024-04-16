@@ -1,0 +1,11 @@
+Dependencies : sed , ffmpeg .
+
+run "arr2mp4.sh" in this folder
+specify the midi file to convert with one argument
+
+example:
+	./arr2mp4.sh ./song_1.mid
+	will generate out.mp4 based on song_1.mid
+
+if there is no argument , test1.mid will be used 
+
