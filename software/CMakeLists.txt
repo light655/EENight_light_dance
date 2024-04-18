@@ -15,11 +15,11 @@ target_link_libraries(EENLD
     hardware_gpio
     hardware_pwm
     hardware_spi
+    pico_multicore
     pico_stdlib
+    pico_sync
 )
 
 pico_add_extra_outputs(EENLD)
 pico_enable_stdio_usb(EENLD 0)
 pico_enable_stdio_uart(EENLD 1)
-
-# add_compile_definitions(PICO_DEFAULT_UART_TX_PIN=16 PICO_DEFAULT_UART_TX_PIN=17)

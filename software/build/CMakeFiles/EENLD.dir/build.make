@@ -404,10 +404,24 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/light/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
+CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/EENLD.dir/flags.make
+CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: /home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
+CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/EENLD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -MF CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj.d -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -c /home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
+
+CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c > CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+
+CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/EENLD.dir/flags.make
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/EENLD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -421,7 +435,7 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/EENLD.dir/flags.make
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/EENLD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -434,7 +448,7 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/EENLD.dir/flags.make
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/light/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building ASM object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/light/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -448,7 +462,7 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_divider/di
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/EENLD.dir/flags.make
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/EENLD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -462,7 +476,7 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtim
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/EENLD.dir/flags.make
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/EENLD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -475,7 +489,7 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/EENLD.dir/flags.make
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/light/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/light/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -489,7 +503,7 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_op
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/EENLD.dir/flags.make
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/EENLD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -502,7 +516,7 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootro
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/EENLD.dir/flags.make
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /home/light/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/light/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
@@ -515,7 +529,7 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_divider/divide
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/EENLD.dir/flags.make
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
@@ -529,7 +543,7 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/EENLD.dir/flags.make
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/EENLD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
@@ -543,7 +557,7 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/EENLD.dir/flags.make
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/light/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/EENLD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/light/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -556,7 +570,7 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/EENLD.dir/flags.make
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
@@ -569,7 +583,7 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/EENLD.dir/flags.make
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/light/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/light/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -582,7 +596,7 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/EENLD.dir/flags.make
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
@@ -596,7 +610,7 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_ae
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/EENLD.dir/flags.make
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/EENLD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
@@ -610,7 +624,7 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_in
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/EENLD.dir/flags.make
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/light/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/EENLD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/light/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -623,7 +637,7 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_ma
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/EENLD.dir/flags.make
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/light/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/light/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
@@ -637,7 +651,7 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_v1
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/EENLD.dir/flags.make
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/light/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/EENLD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/light/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
@@ -650,7 +664,7 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_malloc/pico_ma
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/EENLD.dir/flags.make
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/light/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/light/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -663,7 +677,7 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_op
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/EENLD.dir/flags.make
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
@@ -677,7 +691,7 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/EENLD.dir/flags.make
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/EENLD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
@@ -691,7 +705,7 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/EENLD.dir/flags.make
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/EENLD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
@@ -705,7 +719,7 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/EENLD.dir/flags.make
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/EENLD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -719,7 +733,7 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/EENLD.dir/flags.make
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/EENLD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
@@ -756,6 +770,7 @@ EENLD_OBJECTS = \
 "CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
 "CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
 "CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" \
+"CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj" \
 "CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
 "CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
@@ -808,6 +823,7 @@ EENLD.elf: CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware
 EENLD.elf: CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 EENLD.elf: CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 EENLD.elf: CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+EENLD.elf: CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
 EENLD.elf: CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 EENLD.elf: CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 EENLD.elf: CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
@@ -835,7 +851,7 @@ EENLD.elf: CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_std
 EENLD.elf: CMakeFiles/EENLD.dir/build.make
 EENLD.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 EENLD.elf: CMakeFiles/EENLD.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Linking CXX executable EENLD.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Linking CXX executable EENLD.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EENLD.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objcopy -Oihex /home/light/EENight_light_dance/software/build/EENLD.elf EENLD.hex
 	/usr/bin/arm-none-eabi-objcopy -Obinary /home/light/EENight_light_dance/software/build/EENLD.elf EENLD.bin

@@ -6,10 +6,18 @@
 #define BUFFER_SIZE 8
 #define ARRAY_SIZE 1000
 #define LINE_SIZE 10
+#define NOTE_AD 57u
 #define NOTE_A 69u
+#define NOTE_AC 81u
+#define NOTE_BD 59u
 #define NOTE_B 71u
+#define NOTE_BC 83u
+#define NOTE_CD 60u
 #define NOTE_C 72u
+#define NOTE_CC 84u
+#define NOTE_DD 62u
 #define NOTE_D 74u
+#define NOTE_DC 86u
 
 int litncmp(unsigned char *array, char *lit, size_t n);
 // compare char array with string literal (excluding termination null character)
@@ -33,18 +41,38 @@ int main(int argc, char **argv) {
     int note_flag = 0;                          // flag to indicate note on/off byte should not be ignored
 
     int a = 0, b = 0, c = 0, d = 0;   // indices for arrays for each light
-    int A_t[ARRAY_SIZE] = {0}; // array of absolute time for each light
-    int B_t[ARRAY_SIZE] = {0};
-    int C_t[ARRAY_SIZE] = {0};
-    int D_t[ARRAY_SIZE] = {0};
-    char A_s[ARRAY_SIZE] = {0}; // array of state of each light
-    char B_s[ARRAY_SIZE] = {0};
-    char C_s[ARRAY_SIZE] = {0};
-    char D_s[ARRAY_SIZE] = {0};
+    int ad = 0, bd = 0, cd = 0, dd = 0;
+    int ac = 0, bc = 0, cc = 0, dc = 0; 
+    // array of absolute time for each light
+    int AD_t[ARRAY_SIZE] = {0};
+    int A_t[ARRAY_SIZE] = {0};     
+    int AC_t[ARRAY_SIZE] = {0};
+    int BD_t[ARRAY_SIZE] = {0};
+    int B_t[ARRAY_SIZE] = {0};     
+    int BC_t[ARRAY_SIZE] = {0};
+    int CD_t[ARRAY_SIZE] = {0};
+    int C_t[ARRAY_SIZE] = {0};     
+    int CC_t[ARRAY_SIZE] = {0};
+    int DD_t[ARRAY_SIZE] = {0};
+    int D_t[ARRAY_SIZE] = {0};     
+    int DC_t[ARRAY_SIZE] = {0};
+    // array of strength of each light
+    char AD_s[ARRAY_SIZE] = {0};
+    char A_s[ARRAY_SIZE] = {0};     
+    char AC_s[ARRAY_SIZE] = {0};
+    char BD_s[ARRAY_SIZE] = {0};
+    char B_s[ARRAY_SIZE] = {0};     
+    char BC_s[ARRAY_SIZE] = {0};
+    char CD_s[ARRAY_SIZE] = {0};
+    char C_s[ARRAY_SIZE] = {0};     
+    char CC_s[ARRAY_SIZE] = {0};
+    char DD_s[ARRAY_SIZE] = {0};
+    char D_s[ARRAY_SIZE] = {0};     
+    char DC_s[ARRAY_SIZE] = {0};
 
     // deal with opening file ----------------------------------------------------------------------
     if(argc == 1) {
-        strncpy(filename, "test1.mid", STRING_SIZE - 1);  // use test input file if no command line argument provided
+        strncpy(filename, "test-Treble_Recorder.mid", STRING_SIZE - 1);  // use test input file if no command line argument provided
         track_no = 0;                       // default track number is 0
     } else {
         char input_filename[20];
@@ -184,52 +212,126 @@ int main(int argc, char **argv) {
             readNext(buffer, input);	// discard the unknown byte after 0xb0
             note_flag = 1;              // set flag
             break;
+        case NOTE_AD:
+            AD_t[ad] = t;
+            AD_s[ad] = (char)buffer[BUFFER_SIZE - 1];
+            ad++;
+            break;
         case NOTE_A:
             A_t[a] = t;
             A_s[a] = (char)buffer[BUFFER_SIZE - 1];
             a++;
+            break;
+        case NOTE_AC:
+            AC_t[ac] = t;
+            AC_s[ac] = (char)buffer[BUFFER_SIZE - 1];
+            ac++;
+            break;
+        case NOTE_BD:
+            BD_t[bd] = t;
+            BD_s[bd] = (char)buffer[BUFFER_SIZE - 1];
+            bd++;
             break;
         case NOTE_B:
             B_t[b] = t;
             B_s[b] = (char)buffer[BUFFER_SIZE - 1];
             b++;
             break;
+        case NOTE_BC:
+            BC_t[bc] = t;
+            BC_s[bc] = (char)buffer[BUFFER_SIZE - 1];
+            bc++;
+            break;
+        case NOTE_CD:
+            CD_t[cd] = t;
+            CD_s[cd] = (char)buffer[BUFFER_SIZE - 1];
+            cd++;
+            break;
         case NOTE_C:
             C_t[c] = t;
             C_s[c] = (char)buffer[BUFFER_SIZE - 1];
             c++;
+            break;
+        case NOTE_CC:
+            CC_t[cc] = t;
+            CC_s[cc] = (char)buffer[BUFFER_SIZE - 1];
+            cc++;
+            break;
+        case NOTE_DD:
+            DD_t[dd] = t;
+            DD_s[dd] = (char)buffer[BUFFER_SIZE - 1];
+            dd++;
             break;
         case NOTE_D:
             D_t[d] = t;
             D_s[d] = (char)buffer[BUFFER_SIZE - 1];
             d++;
             break;
+        case NOTE_DC:
+            DC_t[dc] = t;
+            DC_s[dc] = (char)buffer[BUFFER_SIZE - 1];
+            dc++;
+            break;
         default:
             break;
         }
     } while(litncmp(&buffer[BUFFER_SIZE - 2], "\xff\x2f", 2));  // loop if we haven't see the end of track bytes
-    A_t[a] = -1; // set -1 to indicate end
+    // set -1 to indicate end
+    printf("%d\n", AD_s[0]);
+    AD_t[ad] = -1; 
+    AD_s[ad] = -1;
+    A_t[a] = -1; 
     A_s[a] = -1;
-    B_t[b] = -1;
+    AC_t[ac] = -1; 
+    AC_s[ac] = -1;
+    BD_t[bd] = -1; 
+    BD_s[bd] = -1;
+    B_t[b] = -1; 
     B_s[b] = -1;
-    C_t[c] = -1;
+    BC_t[bc] = -1; 
+    BC_s[bc] = -1;
+    CD_t[cd] = -1; 
+    CD_s[cd] = -1;
+    C_t[c] = -1; 
     C_s[c] = -1;
-    D_t[d] = -1;
+    CC_t[cc] = -1; 
+    CC_s[cc] = -1;
+    DD_t[dd] = -1; 
+    DD_s[dd] = -1;
+    D_t[d] = -1; 
     D_s[d] = -1;
+    DC_t[dc] = -1; 
+    DC_s[dc] = -1;
     printf("Complete reading MIDI file.\n");
     fclose(input); // close midi file
 
     out_h = fopen("midi_array.h", "w"); // open output .h file
     out_py = fopen("midi_array.py", "w"); // open output .py file
-
-    outputT(A_t, "A_t", out_h, out_py); // output the arrays
+    // output the arrays
+    outputT(AD_t, "AD_t", out_h, out_py); 
+    outputStrength(AD_s, "AD_s", out_h, out_py);
+    outputT(A_t, "A_t", out_h, out_py); 
     outputStrength(A_s, "A_s", out_h, out_py);
-    outputT(B_t, "B_t", out_h, out_py);
+    outputT(AC_t, "AC_t", out_h, out_py); 
+    outputStrength(AC_s, "AC_s", out_h, out_py);
+    outputT(BD_t, "BD_t", out_h, out_py); 
+    outputStrength(BD_s, "BD_s", out_h, out_py);
+    outputT(B_t, "B_t", out_h, out_py); 
     outputStrength(B_s, "B_s", out_h, out_py);
-    outputT(C_t, "C_t", out_h, out_py);
+    outputT(BC_t, "BC_t", out_h, out_py); 
+    outputStrength(BC_s, "BC_s", out_h, out_py);
+    outputT(CD_t, "CD_t", out_h, out_py); 
+    outputStrength(CD_s, "CD_s", out_h, out_py);
+    outputT(C_t, "C_t", out_h, out_py); 
     outputStrength(C_s, "C_s", out_h, out_py);
-    outputT(D_t, "D_t", out_h, out_py);
+    outputT(CC_t, "CC_t", out_h, out_py); 
+    outputStrength(CC_s, "CC_s", out_h, out_py);
+    outputT(DD_t, "DD_t", out_h, out_py); 
+    outputStrength(DD_s, "DD_s", out_h, out_py);
+    outputT(D_t, "D_t", out_h, out_py); 
     outputStrength(D_s, "D_s", out_h, out_py);
+    outputT(DC_t, "DC_t", out_h, out_py); 
+    outputStrength(DC_s, "DC_s", out_h, out_py);
 
     fclose(out_h); // close output .h file
     fclose(out_py); // close output .py file

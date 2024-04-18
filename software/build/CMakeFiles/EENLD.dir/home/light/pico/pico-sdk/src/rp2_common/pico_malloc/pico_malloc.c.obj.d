@@ -27,4 +27,12 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_malloc/pico_ma
  /home/light/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
  /home/light/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
  /home/light/pico/pico-sdk/src/common/pico_base/include/pico/error.h \
- /home/light/pico/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h
+ /home/light/pico/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h \
+ /home/light/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+ /home/light/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+ /home/light/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+ /home/light/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+ /home/light/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+ /home/light/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+ /home/light/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+ /home/light/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
