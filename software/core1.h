@@ -40,14 +40,17 @@ void core1_entry(void) {
     mutex_init(&intensity_mutex);
 
     // main code --------------------------------------------------------------
-    gpio_put(PWM_PIN1, 1);      // turn on NMOS1 for testing
+    gpio_put(PWM_PIN0, 1);
+    gpio_put(PWM_PIN1, 1);
+    gpio_put(PWM_PIN2, 1);
+    gpio_put(PWM_PIN3, 1);
 
     uint64_t t_abs, t0, t;      // timing variables
     float I_target[4];          // target current for the 4 drivers
     int iAD = 0, iBD = 0, iCD = 0, iDD = 0; // indices for diminuendo
     int iA = 0, iB = 0, iC = 0, iD = 0;     // indices for normal lighting
     int iAC = 0, iBC = 0, iCC = 0, iDC = 0; // indices for crescendo
-
+/*
     while(gpio_get(T_SYNC)) {   // spin around until T_SYNC line is grounded
         tight_loop_contents();
     }
@@ -65,6 +68,43 @@ void core1_entry(void) {
             intensities[2] = I_target[2];
             intensities[3] = I_target[3];
         }
+    }
+*/
+    while(true) {
+        I_target[1] = 0.0f;
+        for(int i = 0; i < 256; i++) {
+            I_target[1] += 0.00125;
+            I_target[0] = I_target[1];
+            I_target[2] = I_target[1];
+            I_target[3] = I_target[1];
+            busy_wait_us(11700);
+            if(mutex_try_enter(&intensity_mutex, NULL)) {
+                // printf("Core 1 entered mutex, sending %fA.\n", I_target[1]);
+                intensities[0] = I_target[0];
+                intensities[1] = I_target[1];
+                intensities[2] = I_target[2];
+                intensities[3] = I_target[3];
+                mutex_exit(&intensity_mutex);
+            }
+        }
+        sleep_ms(3000);
+
+        for(int i = 0; i < 256; i++) {
+            I_target[1] -= 0.00125;
+            I_target[0] = I_target[1];
+            I_target[2] = I_target[1];
+            I_target[3] = I_target[1];
+            busy_wait_us(11500);
+            if(mutex_try_enter(&intensity_mutex, NULL)) {
+                // printf("Core 1 entered mutex, sending %fA.\n", I_target[1]);
+                intensities[0] = I_target[0];
+                intensities[1] = I_target[1];
+                intensities[2] = I_target[2];
+                intensities[3] = I_target[3];
+                mutex_exit(&intensity_mutex);
+            }
+        }
+        sleep_ms(3000);
     }
 
     return;

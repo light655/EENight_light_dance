@@ -10,7 +10,7 @@
 static mutex_t intensity_mutex;
 float intensities[4];           // intensity of the 4 channels in amp
 const float current_low_threshold[4] = {0.03f, 0.02f, 0.03f, 0.03f};
-const float control_gain[4] = {100.0f, 50.0f, 100.0f, 100.0f};
+const float control_gain[4] = {50.0f, 50.0f, 50.0f, 50.0f};
 
 // main function to run on core 1, defined in core1.c
 // core 1 deals with setting the light intensity according the array
@@ -58,13 +58,17 @@ int main(void) {
 
     // main code --------------------------------------------------------------
     uint16_t VC[4], VL[4];      // arrays to store VC and VL of each channel
-    int RDAC_N[4];              // array to store RDAC value of each channel
+    int RDAC_N[4] = {0};              // array to store RDAC value of each channel
     // TODO: there should be default values for the current arrays
-    float I_avg[4];             // array to store average current of each channel
+    float I_avg[4] = {0.25f, 0.25f, 0.25f, 0.25f};             // array to store average current of each channel
     float I_target[4] = {0.0f}; // array to store target current of each channel
     uint16_t vbat_16;
 
     sleep_ms(1000);     // wait for 1 second for the voltages to settle from startup
+
+    float debug_float_array[995];
+    int debug_int_array[995];
+    int debug_i = 0;
 
     while(true) {
         // update target if available 
@@ -92,22 +96,21 @@ int main(void) {
         for(int i = 0; i < 4; i++) {
             // only control when I_target is higher than the low_threshold
             if(I_target[i] > current_low_threshold[i]) {          
-                /*
-                // too much current => decrease N
-                if(I_avg[i] > I_target[i] + CURRENT_MARGIN) {       
-                    if(RDAC_N[i] < 0) RDAC_N[i] = 0;
-                    else RDAC_N[i] = RDAC_N[i] - 1;
-                // too little current => increase N
-                } else if (I_avg[i] < I_target[i] - CURRENT_MARGIN){
-                    if(RDAC_N[i] > 255) RDAC_N[i] = 255;
-                    else RDAC_N[i] = RDAC_N[i] + 1;
-                }
-                */
                 RDAC_N[i] -= (int)((I_avg[i] - I_target[i]) * control_gain[i]);
+                // if(i == 2) printf("%d\n", (int)((I_avg[i] - I_target[i]) * control_gain[i]));
+                if(i == 2) printf("%d\n", RDAC_N[2]);
                 if(RDAC_N[i] > 255) RDAC_N[i] = 255;
                 if(RDAC_N[i] < 0) RDAC_N[i] = 0;
                 gpio_put(LDO_EN0 + 2 * i, 1);       // enable LDO
                 RDAC_set(SPI_CS0 + i, RDAC_N[i]);   // set RDAC register
+
+                // if(i == 2) {
+                //     printf("%d\n", debug_i);
+                //     debug_float_array[debug_i] = I_avg[3];
+                //     debug_int_array[debug_i] = RDAC_N[3];
+                //     if(debug_i == 990) debug_i = 0;
+                //     else debug_i++;
+                // }
             } else {
                 gpio_put(LDO_EN0 + 2 * i, 0);       // disable LDO
             }

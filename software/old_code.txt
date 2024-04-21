@@ -52,3 +52,16 @@
         sleep_ms(1000);
     }
 */
+
+
+                /*
+                // too much current => decrease N
+                if(I_avg[i] > I_target[i] + CURRENT_MARGIN) {       
+                    if(RDAC_N[i] < 0) RDAC_N[i] = 0;
+                    else RDAC_N[i] = RDAC_N[i] - 1;
+                // too little current => increase N
+                } else if (I_avg[i] < I_target[i] - CURRENT_MARGIN){
+                    if(RDAC_N[i] > 255) RDAC_N[i] = 255;
+                    else RDAC_N[i] = RDAC_N[i] + 1;
+                }
+                */
