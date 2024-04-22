@@ -46,7 +46,7 @@ void core1_entry(void) {
     gpio_put(PWM_PIN3, 1);
 
     uint64_t t_abs, t0, t;      // timing variables
-    float I_target[4] = { 0.3f , 0.3f , 0.3f , 0.3f };          // target current for the 4 drivers
+    float I_target[4] = { 0.0f , 0.0f , 0.0f , 0.0f };          // target current for the 4 drivers
     int iAD = 0, iBD = 0, iCD = 0, iDD = 0; // indices for diminuendo
     int iA = 0, iB = 0, iC = 0, iD = 0;     // indices for normal lighting
     int iAC = 0, iBC = 0, iCC = 0, iDC = 0; // indices for crescendo
@@ -65,32 +65,30 @@ void core1_entry(void) {
         t_abs = to_us_since_boot(get_absolute_time());
         t = t_abs - t0;
 		// deal with nomal lighting
-//			I_target[0] = ((A_s[iA]/(float)127.0)*current_max[0]);
-//			I_target[1] = ((B_s[iB]/(float)127.0)*current_max[1]);
-//			I_target[2] = ((C_s[iC]/(float)127.0)*current_max[2]);
-//			I_target[3] = ((D_s[iD]/(float)127.0)*current_max[3]);
-			/*
-		if ( A_t[iA+1] != (-1) ) {
-			if ( t > A_t[iA] )
+		if ( A_t[iA] != (-1) ) {
+			if ( t > A_t[iA] ) {
+				I_target[0] = ((A_s[iA]/(float)127.0)*current_max[0]);
 				iA ++;
-			I_target[0] = ((A_s[iA]/(float)127.0)*current_max[0]);
+			}
 		}
-		if ( B_t[iB+1] != (-1) ) {
-			if ( t > B_t[iB] )
+		if ( B_t[iB] != (-1) ) {
+			if ( t > B_t[iB] ) {
+				I_target[1] = ((B_s[iB]/(float)127.0)*current_max[1]);
 				iB ++;
-			I_target[1] = ((B_s[iB]/(float)127.0)*current_max[1]);
+			}
 		}
-		if ( C_t[iC+1] != (-1) ) {
-			if ( t > C_t[iC] )
+		if ( C_t[iC] != (-1) ) {
+			if ( t > C_t[iC] ) {
+				I_target[2] = ((C_s[iC]/(float)127.0)*current_max[2]);
 				iC ++;
-			I_target[2] = ((C_s[iC]/(float)127.0)*current_max[2]);
+			}
 		}
-		if ( D_t[iD+1] != (-1) ) {
-			if ( t > D_t[iD] )
+		if ( D_t[iD] != (-1) ) {
+			if ( t > D_t[iD] ) {
+				I_target[3] = ((D_s[iD]/(float)127.0)*current_max[3]);
 				iD ++;
-			I_target[3] = ((D_s[iD]/(float)127.0)*current_max[3]);
+			}
 		}
-		*/
 
 		/*
 		// deal with dim
