@@ -64,6 +64,7 @@ void core1_entry(void) {
     while(true) {
         t_abs = to_us_since_boot(get_absolute_time());
         t = t_abs - t0;
+		
 		// deal with nomal lighting
 		if ( A_t[iA] != (-1) ) {
 			if ( t > A_t[iA] ) {
@@ -73,55 +74,54 @@ void core1_entry(void) {
 		}
 		if ( B_t[iB] != (-1) ) {
 			if ( t > B_t[iB] ) {
-				I_target[1] = ((B_s[iB]/(float)127.0)*current_max[1]);
+				I_target[2] = ((B_s[iB]/(float)127.0)*current_max[1]);
 				iB ++;
 			}
 		}
 		if ( C_t[iC] != (-1) ) {
 			if ( t > C_t[iC] ) {
-				I_target[2] = ((C_s[iC]/(float)127.0)*current_max[2]);
+				I_target[3] = ((C_s[iC]/(float)127.0)*current_max[2]);
 				iC ++;
 			}
 		}
 		if ( D_t[iD] != (-1) ) {
 			if ( t > D_t[iD] ) {
-				I_target[3] = ((D_s[iD]/(float)127.0)*current_max[3]);
+				I_target[1] = ((D_s[iD]/(float)127.0)*current_max[3]);
 				iD ++;
 			}
 		}
-
-		/*
+		
 		// deal with dim
 		if ( AD_t[iAD] != (-1) ) {
 			if ( t > AD_t[iAD+1] )
 					iAD += 2;
 			if ( t > AD_t[iAD] ) {
-				I_target[0] = ( ( AD_t[iAD+1] - t )/( AD_t[iAD+1] - AD_t[iAD] )* AD_s[iAD] / 
-								127.0f * current_max[0]  );
+				I_target[0] = ( ( AD_t[iAD+1] - t )/(float)( AD_t[iAD+1] - AD_t[iAD] )* 
+								(AD_s[iAD] / 127.0f) * current_max[0]  );
 				}
 			}
 		if ( BD_t[iBD] != (-1) ) {
 			if ( t > BD_t[iBD+1] )
 					iBD += 2;
 			if ( t > BD_t[iBD] ) {
-				I_target[1] = ( ( BD_t[iBD+1] - t )/( BD_t[iBD+1] - BD_t[iBD] )* BD_s[iBD] / 
-								127.0f * current_max[1]  );
+				I_target[2] = ( ( BD_t[iBD+1] - t )/(float)( BD_t[iBD+1] - BD_t[iBD] )* 
+								(BD_s[iBD] / 127.0f ) * current_max[1]  );
 				}
 			}
 		if ( CD_t[iCD] != (-1) ) {
 			if ( t > CD_t[iCD+1] )
 					iCD += 2;
 			if ( t > CD_t[iCD] ) {
-				I_target[2] = ( ( CD_t[iCD+1] - t )/( CD_t[iCD+1] - CD_t[iCD] )* CD_s[iCD] / 
-								127.0f * current_max[2]  );
+				I_target[3] = ( ( CD_t[iCD+1] - t )/(float)( CD_t[iCD+1] - CD_t[iCD] )*
+					   			( CD_s[iCD] / 127.0f ) * current_max[2]  );
 				}
 			}
 		if ( DD_t[iDD] != (-1) ) {
 			if ( t > DD_t[iDD+1] )
 					iDD += 2;
 			if ( t > DD_t[iDD] ) {
-				I_target[3] = ( ( DD_t[iDD+1] - t )/( DD_t[iDD+1] - DD_t[iDD] )* DD_s[iDD] / 
-								127.0f * current_max[3]  );
+				I_target[1] = ( ( DD_t[iDD+1] - t )/(float)( DD_t[iDD+1] - DD_t[iDD] )*
+					   			(DD_s[iDD] / 127.0f ) * current_max[3]  );
 				}
 			}
 
@@ -130,36 +130,36 @@ void core1_entry(void) {
 			if ( t > AC_t[iAC+1] )
 					iAC += 2;
 			if ( t > AC_t[iAC] ) {
-				I_target[0] = ( ( t - AC_t[iAC] )/( AC_t[iAC+1] - AC_t[iAC] )* AC_s[iAC] / 
-								127.0f * current_max[0]  );
+				I_target[0] = ( ( t - AC_t[iAC] )/(float)( AC_t[iAC+1] - AC_t[iAC] )* 
+								( AC_s[iAC] / 127.0f ) * current_max[0]  );
 				}
 			}
 		if ( BC_t[iBC] != (-1) ) {
 			if ( t > BC_t[iBC+1] )
 					iBC += 2;
 			if ( t > BC_t[iBC] ) {
-				I_target[1] = ( ( t - BC_t[iBC] )/( BC_t[iBC+1] - BC_t[iBC] )* BC_s[iBC] / 
-								127.0f * current_max[1]  );
+				I_target[2] = ( ( t - BC_t[iBC] )/(float)( BC_t[iBC+1] - BC_t[iBC] )* 
+								(BC_s[iBC] / 127.0f ) * current_max[1]  );
 				}
 			}
 		if ( CC_t[iCC] != (-1) ) {
 			if ( t > CC_t[iCC+1] )
 					iCC += 2;
 			if ( t > CC_t[iCC] ) {
-				I_target[2] = ( ( t - CC_t[iCC] )/( CC_t[iCC+1] - CC_t[iCC] )* CC_s[iCC] / 
-								127.0f * current_max[2]  );
+				I_target[3] = ( ( t - CC_t[iCC] )/(float)( CC_t[iCC+1] - CC_t[iCC] )* 
+								( CC_s[iCC] / 127.0f ) * current_max[2]  );
 				}
 			}
 		if ( DC_t[iDC] != (-1) ) {
 			if ( t > DC_t[iDC+1] )
 					iDC += 2;
 			if ( t > DC_t[iDC] ) {
-				I_target[3] = ( ( t - DC_t[iDC] )/( DC_t[iDC+1] - DC_t[iDC] )* DC_s[iDC] / 
-								127.0f * current_max[3]  );
+				I_target[1] = ( ( t - DC_t[iDC] )/(float)( DC_t[iDC+1] - DC_t[iDC] )* 
+								(DC_s[iDC] / 127.0f ) * current_max[3]  );
 				}
 			}
-		*/
-        // only update value if mutex is not taken
+        
+		// only update value if mutex is not taken
         if(mutex_try_enter(&intensity_mutex, NULL)) {
             intensities[0] = I_target[0];
             intensities[1] = I_target[1];
