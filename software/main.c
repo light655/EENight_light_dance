@@ -91,6 +91,7 @@ int main(void) {
         I_avg[1] = I_avg[1] * 0.99 + (float)VC[1] / 4096.0 * 3.3 / 4.0 * 0.01;
         I_avg[2] = I_avg[2] * 0.99 + (float)VC[2] / 4096.0 * 3.3 / 4.0 * 0.01;
         I_avg[3] = I_avg[3] * 0.99 + (float)VC[3] / 4096.0 * 3.3 / 4.0 * 0.01;
+        printf("I_avg: %f, I_tar: %f\n", I_avg[2], I_target[2]);
 
         // feedback control
         for(int i = 0; i < 4; i++) {
@@ -117,9 +118,10 @@ int main(void) {
                 // }
             } else {
                 gpio_put(LDO_EN0 + 2 * i, 0);       // disable LDO
+                RDAC_N[i] = 0;
             }
         }
-
+/*
         // TODO: check battery voltage
         adc_select_input(2);
         vbat_16 = adc_read();
@@ -128,6 +130,7 @@ int main(void) {
             gpio_put(LED_R, 1);
             break;
         }
+        */
     }
 
     return 0;

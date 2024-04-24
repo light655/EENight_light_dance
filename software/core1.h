@@ -60,7 +60,7 @@ void core1_entry(void) {
     }
 	*/
     t0 = to_us_since_boot(get_absolute_time());     // time reference t = 0
-
+/*
     while(true) {
         t_abs = to_us_since_boot(get_absolute_time());
         t = t_abs - t0;
@@ -158,8 +158,13 @@ void core1_entry(void) {
 								(DC_s[iDC] / 127.0f ) * current_max[1]  );
 				}
 			}
+<<<<<<< HEAD
         
 		// only update value if mutex is not taken
+=======
+		
+        // only update value if mutex is not taken
+>>>>>>> b596a3b (Fucked)
         if(mutex_try_enter(&intensity_mutex, NULL)) {
             intensities[0] = I_target[0];
             intensities[1] = I_target[1];
@@ -168,7 +173,7 @@ void core1_entry(void) {
             mutex_exit(&intensity_mutex);
         }
     }
-/*
+*/
     while(true) {
         I_target[1] = 0.0f;
         for(int i = 0; i < 256; i++) {
@@ -205,7 +210,7 @@ void core1_entry(void) {
         }
         sleep_ms(3000);
     }
-	*/
+	
     return;
 }
 
