@@ -98,7 +98,11 @@ int main(void) {
             if(I_target[i] > current_low_threshold[i]) {          
                 RDAC_N[i] -= (int)((I_avg[i] - I_target[i]) * control_gain[i]);
                 // if(i == 2) printf("%d\n", (int)((I_avg[i] - I_target[i]) * control_gain[i]));
-                if(i == 2) printf("%d\n", RDAC_N[2]);
+                // if(i == 2) printf("%d\n", RDAC_N[2]);
+				//if (I_target[i] < 0.05f) {
+				//	if (RDAC_N[i] > 30)
+				//		RDAC_N[i] = 30;
+				//}
                 if(RDAC_N[i] > 255) RDAC_N[i] = 255;
                 if(RDAC_N[i] < 0) RDAC_N[i] = 0;
                 gpio_put(LDO_EN0 + 2 * i, 1);       // enable LDO
