@@ -54,12 +54,13 @@ void core1_entry(void) {
 	// define the max curent for each channel
 	const float	current_max[4] = { 0.35f , 0.35f , 0.35f , 0.35f };
 
+	/*
     while(gpio_get(T_SYNC)) {   // spin around until T_SYNC line is grounded
         tight_loop_contents();
     }
-	
+	*/
     t0 = to_us_since_boot(get_absolute_time());     // time reference t = 0
-
+/*
     while(true) {
         t_abs = to_us_since_boot(get_absolute_time());
         t = t_abs - t0;
@@ -157,8 +158,8 @@ void core1_entry(void) {
 								(DC_s[iDC] / 127.0f ) * current_max[1]  );
 				}
 			}
-        
-		// only update value if mutex is not taken
+		
+        // only update value if mutex is not taken
         if(mutex_try_enter(&intensity_mutex, NULL)) {
             intensities[0] = I_target[0];
             intensities[1] = I_target[1];
@@ -167,6 +168,44 @@ void core1_entry(void) {
             mutex_exit(&intensity_mutex);
         }
     }
+*/
+    while(true) {
+        I_target[1] = 0.0f;
+        for(int i = 0; i < 256; i++) {
+            I_target[1] += 0.00125;
+            I_target[0] = I_target[1];
+            I_target[2] = I_target[1];
+            I_target[3] = I_target[1];
+            busy_wait_us(11700);
+            if(mutex_try_enter(&intensity_mutex, NULL)) {
+                // printf("Core 1 entered mutex, sending %fA.\n", I_target[1]);
+                intensities[0] = I_target[0];
+                intensities[1] = I_target[1];
+                intensities[2] = I_target[2];
+                intensities[3] = I_target[3];
+                mutex_exit(&intensity_mutex);
+            }
+        }
+        sleep_ms(3000);
+
+        for(int i = 0; i < 256; i++) {
+            I_target[1] -= 0.00125;
+            I_target[0] = I_target[1];
+            I_target[2] = I_target[1];
+            I_target[3] = I_target[1];
+            busy_wait_us(11500);
+            if(mutex_try_enter(&intensity_mutex, NULL)) {
+                // printf("Core 1 entered mutex, sending %fA.\n", I_target[1]);
+                intensities[0] = I_target[0];
+                intensities[1] = I_target[1];
+                intensities[2] = I_target[2];
+                intensities[3] = I_target[3];
+                mutex_exit(&intensity_mutex);
+            }
+        }
+        sleep_ms(3000);
+    }
+	
     return;
 }
 

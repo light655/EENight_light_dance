@@ -15,7 +15,7 @@ const float derivative_gain[4] = {1000.0f, 1000.0f, 1000.0f, 1000.0f};
 
 // main function to run on core 1, defined in core1.c
 // core 1 deals with setting the light intensity according the array
-#include "core1.h"
+#include "core1_old.h"
 #include "helper.h"
 #include "pindef.h"
 
@@ -63,6 +63,8 @@ int main(void) {
     int RDAC_N[4] = {0};              // array to store RDAC value of each channel
     // TODO: there should be default values for the current arrays
     float I_avg[4] = {0.25f, 0.25f, 0.25f, 0.25f};             // array to store average current of each channel
+    int   iavg[4] = {0} ;    // index for average
+    float IAV[4][500] = {0.0f};
     float I_avg_prev[4] = {0.25f, 0.25f, 0.25f, 0.25f};         
     float I_target[4] = {0.0f}; // array to store target current of each channel
     float adj;
@@ -111,7 +113,13 @@ int main(void) {
         for(int i = 0; i < 4; i++) {
             // only control when I_target is higher than the low_threshold
             if(I_target[i] > current_low_threshold[i]) {
-                I_avg[i] = I_avg[i] * 0.998 + (float)VC[i] / 4096.0 * 3.3 / 4.0 * 0.002;
+
+                iavg[i] = iavg[i] % 500 ;
+                I_avg[i] -= IAV[i][iavg[i]] ;
+                IAV[i][iavg[i]] = (float)VC[i] / 4096.0 * 3.3 / 4.0 * 0.002;
+                I_avg[i] += IAV[i][iavg[i]];
+
+                // I_avg[i] = I_avg[i] * 0.998 + (float)VC[i] / 4096.0 * 3.3 / 4.0 * 0.002;
                 adj = ((I_avg[i] - I_target[i]) * control_gain[i]) + ((I_avg[i] - I_avg_prev[i]) * derivative_gain[i]);
                 I_avg_prev[i] = I_avg[i];
                 // if(adj > 10.0f) adj = 10.0f;
@@ -128,7 +136,7 @@ int main(void) {
                 if(RDAC_N[i] < 0) RDAC_N[i] = 0;
                 gpio_put(LDO_EN0 + 2 * i, 1);       // enable LDO
                 RDAC_set(SPI_CS0 + i, RDAC_N[i]);   // set RDAC register
-                
+
                 // if(i == 2) {
                 //     printf("%d\n", debug_i);
                 //     debug_float_array[debug_i] = I_avg[3];
@@ -140,6 +148,7 @@ int main(void) {
                 gpio_put(LDO_EN0 + 2 * i, 0);       // disable LDO
                 RDAC_N[i] = 0;
             }
+            iavg[i] ++;
         }
 /*
         // TODO: check battery voltage
