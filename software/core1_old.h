@@ -170,12 +170,13 @@ void core1_entry(void) {
     }
 */
     while(true) {
-        I_target[1] = 0.0f;
-        for(int i = 0; i < 256; i++) {
-            I_target[1] += 0.00125;
-            I_target[0] = I_target[1];
-            I_target[2] = I_target[1];
-            I_target[3] = I_target[1];
+		float ratio = 0.0f;
+        for(int i = 0; i < 250; i++) {
+			ratio += 0.004f;
+            I_target[0] = current_max[0] * ratio;
+            I_target[1] = current_max[1] * ratio;
+            I_target[2] = current_max[2] * ratio;
+            I_target[3] = current_max[3] * ratio;
             busy_wait_us(11700);
             if(mutex_try_enter(&intensity_mutex, NULL)) {
                 // printf("Core 1 entered mutex, sending %fA.\n", I_target[1]);
@@ -188,11 +189,12 @@ void core1_entry(void) {
         }
         sleep_ms(3000);
 
-        for(int i = 0; i < 256; i++) {
-            I_target[1] -= 0.00125;
-            I_target[0] = I_target[1];
-            I_target[2] = I_target[1];
-            I_target[3] = I_target[1];
+        for(int i = 0; i < 250; i++) {
+			ratio -= 0.004f;
+            I_target[0] = current_max[0] * ratio;
+            I_target[1] = current_max[1] * ratio;
+            I_target[2] = current_max[2] * ratio;
+            I_target[3] = current_max[3] * ratio;
             busy_wait_us(11500);
             if(mutex_try_enter(&intensity_mutex, NULL)) {
                 // printf("Core 1 entered mutex, sending %fA.\n", I_target[1]);

@@ -29,7 +29,7 @@ void core1_entry(void) {
     uint LED_mask = (1 << LED_G) | (1 << LED_R) | (1 << LED_PICO);
     gpio_init_mask(LED_mask);
     gpio_set_dir_out_masked(LED_mask);
-    gpio_put(LED_G, 1);
+    gpio_put(LED_PICO, 1);
 
     // time synce pin initialisation ------------------------------------------
     gpio_init(T_SYNC);
@@ -51,14 +51,12 @@ void core1_entry(void) {
     int iA = 0, iB = 0, iC = 0, iD = 0;     // indices for normal lighting
     int iAC = 0, iBC = 0, iCC = 0, iDC = 0; // indices for crescendo
 	
-	// define the max curent for each channel
-	const float	current_max[4] = { 0.35f , 0.35f , 0.35f , 0.35f };
-
     while(gpio_get(T_SYNC)) {   // spin around until T_SYNC line is grounded
         tight_loop_contents();
     }
 	
     t0 = to_us_since_boot(get_absolute_time());     // time reference t = 0
+	gpio_put(LED_PICO, 0);
 
     while(true) {
         t_abs = to_us_since_boot(get_absolute_time());
@@ -73,7 +71,7 @@ void core1_entry(void) {
 		}
 		if ( B_t[iB] != (-1) ) {
 			if ( t > B_t[iB] ) {
-				I_target[2] = ((B_s[iB]/(float)127.0)*current_max[2]);
+				I_target[2] = ((B_s[iB]/(float)127.0)*current_max[1]);
 				iB ++;
 			}
 		}
@@ -85,7 +83,7 @@ void core1_entry(void) {
 		}
 		if ( D_t[iD] != (-1) ) {
 			if ( t > D_t[iD] ) {
-				I_target[1] = ((D_s[iD]/(float)127.0)*current_max[1]);
+				I_target[1] = ((D_s[iD]/(float)127.0)*current_max[2]);
 				iD ++;
 			}
 		}
@@ -104,7 +102,7 @@ void core1_entry(void) {
 					iBD += 2;
 			if ( t > BD_t[iBD] ) {
 				I_target[2] = ( ( BD_t[iBD+1] - t )/(float)( BD_t[iBD+1] - BD_t[iBD] )* 
-								(BD_s[iBD] / 127.0f ) * current_max[2]  );
+								(BD_s[iBD] / 127.0f ) * current_max[1]  );
 				}
 			}
 		if ( CD_t[iCD] != (-1) ) {
@@ -120,7 +118,7 @@ void core1_entry(void) {
 					iDD += 2;
 			if ( t > DD_t[iDD] ) {
 				I_target[1] = ( ( DD_t[iDD+1] - t )/(float)( DD_t[iDD+1] - DD_t[iDD] )*
-					   			(DD_s[iDD] / 127.0f ) * current_max[1]  );
+					   			(DD_s[iDD] / 127.0f ) * current_max[2]  );
 				}
 			}
 
@@ -138,7 +136,7 @@ void core1_entry(void) {
 					iBC += 2;
 			if ( t > BC_t[iBC] ) {
 				I_target[2] = ( ( t - BC_t[iBC] )/(float)( BC_t[iBC+1] - BC_t[iBC] )* 
-								(BC_s[iBC] / 127.0f ) * current_max[2]  );
+								(BC_s[iBC] / 127.0f ) * current_max[1]  );
 				}
 			}
 		if ( CC_t[iCC] != (-1) ) {
@@ -154,7 +152,7 @@ void core1_entry(void) {
 					iDC += 2;
 			if ( t > DC_t[iDC] ) {
 				I_target[1] = ( ( t - DC_t[iDC] )/(float)( DC_t[iDC+1] - DC_t[iDC] )* 
-								(DC_s[iDC] / 127.0f ) * current_max[1]  );
+								(DC_s[iDC] / 127.0f ) * current_max[2]  );
 				}
 			}
         

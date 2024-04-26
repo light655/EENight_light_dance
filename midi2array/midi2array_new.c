@@ -36,7 +36,7 @@ int main(int argc, char **argv) {
     unsigned char track_no;                     // track number
     int tick_per_beat;                          // number of ticks in a beat
     int us_per_beat;                            // microsecond per beat in the midi file
-    int delta_tick;                             // the time difference after the last note event in tick
+    unsigned delta_tick;                             // the time difference after the last note event in tick
     float us_per_tick;                          // number of microsecond in a tick
     int note_flag = 0;                          // flag to indicate note on/off byte should not be ignored
 
@@ -158,13 +158,14 @@ int main(int argc, char **argv) {
         // delta time bytes have a 1 at the most significant bit except for the least significant byte
         while (buffer[BUFFER_SIZE - 1] & 0x80)  // this loop deals with the first few bytes
         {                                       // whose most significant bit is 1
+            printf("higher byte of delta tick, 0x%.2X\n", buffer[BUFFER_SIZE - 1]);
             delta_tick += buffer[BUFFER_SIZE - 1] & ~0x80; // clear first bit, store into delta_tick
             delta_tick <<= 7;                              // shift left by 7 bits
             readNext(buffer, input);                       // read next byte
             fc++;
         }
         delta_tick += buffer[BUFFER_SIZE - 1];      // last byte of delta tick
-        printf("Delta tick: %d\n", delta_tick);
+        printf("Delta tick: %u\n", delta_tick);
         t += delta_tick * us_per_tick;
 
         // deal with the note on/off byte ----------------------------------------------------------
@@ -187,6 +188,7 @@ int main(int argc, char **argv) {
         printf("%d, %d\n", fc, t);
         switch (buffer[BUFFER_SIZE - 2]) {
         case 0xff:      // 0xff, typically is the change tempo command
+            printf("0xFF!\n");
             if (buffer[BUFFER_SIZE - 1] == 0x51)    // check 0x51 to comfirm it is a change tempo command
             {
                 note_flag = 1;              // set flag
@@ -203,9 +205,10 @@ int main(int argc, char **argv) {
                 readNext(buffer, input);
                 us_per_beat += buffer[BUFFER_SIZE - 1];
                 printf("Every beat is %d microseconds.\n", us_per_beat);
+                fc += 4;
 
                 us_per_tick = (float)us_per_beat / (float)tick_per_beat;
-            }
+            } 
             break;
         case 0xb0:      // 0xb0, unknown command
             printf("0xb0\n");
@@ -378,7 +381,7 @@ int readNext(unsigned char *buffer, FILE *input)
         buffer[i] = buffer[i + 1];
     if ((ch = getc(input)) != EOF)
     {
-        buffer[BUFFER_SIZE - 1] = (char)ch; // read next byte from midi file
+        buffer[BUFFER_SIZE - 1] = (unsigned char)ch; // read next byte from midi file
         return 1;
     }
     else

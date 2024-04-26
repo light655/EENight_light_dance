@@ -61,6 +61,24 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/EENLD.dir/main.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/EENLD.dir/main.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/EENLD.dir/main.c.obj
+ .rodata.AC_s   0x0000000000000000      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
+ .rodata.AC_t   0x0000000000000000      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
+ .rodata.AD_s   0x0000000000000000      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
+ .rodata.AD_t   0x0000000000000000      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
+ .rodata.BC_s   0x0000000000000000      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
+ .rodata.BC_t   0x0000000000000000      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
+ .rodata.BD_s   0x0000000000000000      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
+ .rodata.BD_t   0x0000000000000000      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
+ .rodata.CC_s   0x0000000000000000      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
+ .rodata.CC_t   0x0000000000000000      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
+ .rodata.CD_s   0x0000000000000000      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
+ .rodata.CD_t   0x0000000000000000      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
+ .rodata.DC_s   0x0000000000000000      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
+ .rodata.DC_t   0x0000000000000000      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
+ .rodata.DD_s   0x0000000000000000      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
+ .rodata.DD_t   0x0000000000000000      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
+ .rodata.current_max
+                0x0000000000000000       0x10 CMakeFiles/EENLD.dir/main.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
@@ -1160,9 +1178,9 @@ Discarded input sections
                 0x0000000000000000        0x8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_70.1
                 0x0000000000000000        0xc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccyyCJ5o.o
- .data          0x0000000000000000        0x0 /tmp/ccyyCJ5o.o
- .bss           0x0000000000000000        0x0 /tmp/ccyyCJ5o.o
+ .text          0x0000000000000000        0x0 /tmp/ccAnjFmZ.o
+ .data          0x0000000000000000        0x0 /tmp/ccAnjFmZ.o
+ .bss           0x0000000000000000        0x0 /tmp/ccAnjFmZ.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-atexit.o)
@@ -1426,11 +1444,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccyyCJ5o.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccAnjFmZ.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x0000000010000100     0x5768
+.text           0x0000000010000100     0x5270
                 0x0000000010000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x0000000010000100       0xd4 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1497,505 +1515,505 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x0000000010000380       0x1e CMakeFiles/EENLD.dir/main.c.obj
  *fill*         0x000000001000039e        0x2 
  .text.core1_entry
-                0x00000000100003a0      0x714 CMakeFiles/EENLD.dir/main.c.obj
+                0x00000000100003a0      0x254 CMakeFiles/EENLD.dir/main.c.obj
                 0x00000000100003a0                core1_entry
- .text.main     0x0000000010000ab4      0x440 CMakeFiles/EENLD.dir/main.c.obj
-                0x0000000010000ab4                main
+ .text.main     0x00000000100005f4      0x408 CMakeFiles/EENLD.dir/main.c.obj
+                0x00000000100005f4                main
  .text.adc_init
-                0x0000000010000ef4       0x34 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-                0x0000000010000ef4                adc_init
+                0x00000000100009fc       0x34 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+                0x00000000100009fc                adc_init
  .text.running_on_fpga
-                0x0000000010000f28       0x14 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x0000000010000f28                running_on_fpga
+                0x0000000010000a30       0x14 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x0000000010000a30                running_on_fpga
  .text.hw_claim_lock
-                0x0000000010000f3c       0x18 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x0000000010000f3c                hw_claim_lock
+                0x0000000010000a44       0x18 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x0000000010000a44                hw_claim_lock
  .text.hw_claim_unlock
-                0x0000000010000f54       0x14 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x0000000010000f54                hw_claim_unlock
+                0x0000000010000a5c       0x14 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x0000000010000a5c                hw_claim_unlock
  .text.hw_claim_or_assert
-                0x0000000010000f68       0x32 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x0000000010000f68                hw_claim_or_assert
- *fill*         0x0000000010000f9a        0x2 
+                0x0000000010000a70       0x32 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x0000000010000a70                hw_claim_or_assert
+ *fill*         0x0000000010000aa2        0x2 
  .text.spin_locks_reset
-                0x0000000010000f9c       0x20 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x0000000010000f9c                spin_locks_reset
+                0x0000000010000aa4       0x20 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000010000aa4                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x0000000010000fbc       0x1c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x0000000010000fbc                next_striped_spin_lock_num
+                0x0000000010000ac4       0x1c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000010000ac4                next_striped_spin_lock_num
  .text.gpio_set_function
-                0x0000000010000fd8       0x30 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x0000000010000fd8                gpio_set_function
+                0x0000000010000ae0       0x30 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000010000ae0                gpio_set_function
  .text.gpio_set_pulls
-                0x0000000010001008       0x34 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x0000000010001008                gpio_set_pulls
+                0x0000000010000b10       0x34 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000010000b10                gpio_set_pulls
  .text.gpio_set_input_enabled
-                0x000000001000103c       0x30 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x000000001000103c                gpio_set_input_enabled
+                0x0000000010000b44       0x30 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000010000b44                gpio_set_input_enabled
  .text.gpio_init
-                0x000000001000106c       0x16 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x000000001000106c                gpio_init
+                0x0000000010000b74       0x16 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000010000b74                gpio_init
  .text.gpio_init_mask
-                0x0000000010001082       0x1e CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x0000000010001082                gpio_init_mask
+                0x0000000010000b8a       0x1e CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000010000b8a                gpio_init_mask
  .text.set_raw_irq_handler_and_unlock
-                0x00000000100010a0       0x28 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000ba8       0x28 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.make_branch
-                0x00000000100010c8       0x48 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000bd0       0x48 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.insert_branch_and_link
-                0x0000000010001110       0x40 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000c18       0x40 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.irq_is_enabled
-                0x0000000010001150       0x18 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001150                irq_is_enabled
+                0x0000000010000c58       0x18 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000c58                irq_is_enabled
  .text.irq_set_mask_enabled
-                0x0000000010001168       0x20 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001168                irq_set_mask_enabled
+                0x0000000010000c70       0x20 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000c70                irq_set_mask_enabled
  .text.irq_set_enabled
-                0x0000000010001188        0xe CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001188                irq_set_enabled
- *fill*         0x0000000010001196        0x2 
+                0x0000000010000c90        0xe CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000c90                irq_set_enabled
+ *fill*         0x0000000010000c9e        0x2 
  .text.irq_get_vtable_handler
-                0x0000000010001198       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001198                irq_get_vtable_handler
+                0x0000000010000ca0       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000ca0                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x00000000100011a8       0x54 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100011a8                irq_set_exclusive_handler
+                0x0000000010000cb0       0x54 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000cb0                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x00000000100011fc      0x1ac CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100011fc                irq_remove_handler
+                0x0000000010000d04      0x1ac CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000d04                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x00000000100013a8       0xf0 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100013a8                irq_add_tail_to_free_list
+                0x0000000010000eb0       0xf0 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000eb0                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x0000000010001498       0x1c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001498                irq_init_priorities
+                0x0000000010000fa0       0x1c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000fa0                irq_init_priorities
  .text.lock_init
-                0x00000000100014b4       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x00000000100014b4                lock_init
+                0x0000000010000fbc       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x0000000010000fbc                lock_init
  .text.mutex_init
-                0x00000000100014c4       0x1a CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x00000000100014c4                mutex_init
+                0x0000000010000fcc       0x1a CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010000fcc                mutex_init
  .text.recursive_mutex_init
-                0x00000000100014de       0x1e CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x00000000100014de                recursive_mutex_init
+                0x0000000010000fe6       0x1e CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010000fe6                recursive_mutex_init
  .text.alarm_pool_post_alloc_init
-                0x00000000100014fc       0x40 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001004       0x40 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.sleep_until_callback
-                0x000000001000153c       0x30 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001044       0x30 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.timer_pool_entry_comparator
-                0x000000001000156c       0x7c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x000000001000156c                timer_pool_entry_comparator
+                0x0000000010001074       0x7c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001074                timer_pool_entry_comparator
  .text.ph_add_child_node
-                0x00000000100015e8       0xa4 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100010f0       0xa4 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.ph_merge_nodes
-                0x000000001000168c       0x3e CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x00000000100016ca        0x2 
+                0x0000000010001194       0x3e CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x00000000100011d2        0x2 
  .text.add_alarm_under_lock
-                0x00000000100016cc      0x174 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100011d4      0x174 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x0000000010001840      0x33c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001348      0x33c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x0000000010001b7c       0x40 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001b7c                alarm_pool_init_default
+                0x0000000010001684       0x40 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001684                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x0000000010001bbc       0x2c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001bbc                alarm_pool_get_default
+                0x00000000100016c4       0x2c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100016c4                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x0000000010001be8      0x168 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001be8                alarm_pool_add_alarm_at
+                0x00000000100016f0      0x168 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100016f0                alarm_pool_add_alarm_at
  .text.alarm_pool_cancel_alarm
-                0x0000000010001d50       0xf8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001d50                alarm_pool_cancel_alarm
+                0x0000000010001858       0xf8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001858                alarm_pool_cancel_alarm
  .text.sleep_until
-                0x0000000010001e48       0xfc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001e48                sleep_until
+                0x0000000010001950       0xfc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001950                sleep_until
  .text.sleep_us
-                0x0000000010001f44       0x58 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001f44                sleep_us
+                0x0000000010001a4c       0x58 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001a4c                sleep_us
  .text.sleep_ms
-                0x0000000010001f9c       0x14 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001f9c                sleep_ms
+                0x0000000010001aa4       0x14 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001aa4                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x0000000010001fb0       0xac CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001fb0                best_effort_wfe_or_timeout
+                0x0000000010001ab8       0xac CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001ab8                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x000000001000205c       0x90 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001b64       0x90 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x00000000100020ec       0x18 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x00000000100020ec                hardware_alarm_claim
+                0x0000000010001bf4       0x18 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001bf4                hardware_alarm_claim
  .text.time_us_64
-                0x0000000010002104       0x18 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010002104                time_us_64
+                0x0000000010001c0c       0x18 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001c0c                time_us_64
  .text.busy_wait_until
-                0x000000001000211c       0x28 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x000000001000211c                busy_wait_until
+                0x0000000010001c24       0x28 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001c24                busy_wait_until
  .text.busy_wait_us
-                0x0000000010002144       0x48 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010002144                busy_wait_us
+                0x0000000010001c4c       0x48 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001c4c                busy_wait_us
  .text.hardware_alarm_set_callback
-                0x000000001000218c       0x90 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x000000001000218c                hardware_alarm_set_callback
+                0x0000000010001c94       0x90 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001c94                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x000000001000221c       0xe8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x000000001000221c                hardware_alarm_set_target
+                0x0000000010001d24       0xe8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001d24                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x0000000010002304       0x40 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010002304                hardware_alarm_cancel
+                0x0000000010001e0c       0x40 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001e0c                hardware_alarm_cancel
  .text.ph_add_child_node
-                0x0000000010002344       0xa4 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001e4c       0xa4 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_merge_nodes
-                0x00000000100023e8       0x3e CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x0000000010002426        0x2 
+                0x0000000010001ef0       0x3e CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x0000000010001f2e        0x2 
  .text.ph_clear
-                0x0000000010002428       0x70 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010002428                ph_clear
+                0x0000000010001f30       0x70 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001f30                ph_clear
  .text.ph_post_alloc_init
-                0x0000000010002498        0xe CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010002498                ph_post_alloc_init
- *fill*         0x00000000100024a6        0x2 
+                0x0000000010001fa0        0xe CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001fa0                ph_post_alloc_init
+ *fill*         0x0000000010001fae        0x2 
  .text.ph_merge_two_pass
-                0x00000000100024a8       0xa8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x00000000100024a8                ph_merge_two_pass
+                0x0000000010001fb0       0xa8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001fb0                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x0000000010002550      0x128 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010002058      0x128 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x0000000010002678       0x14 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010002678                ph_remove_head
+                0x0000000010002180       0x14 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010002180                ph_remove_head
  .text.ph_remove_and_free_node
-                0x000000001000268c       0xf8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x000000001000268c                ph_remove_and_free_node
+                0x0000000010002194       0xf8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010002194                ph_remove_and_free_node
  .text.spi_set_baudrate
-                0x0000000010002784       0xcc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
-                0x0000000010002784                spi_set_baudrate
+                0x000000001000228c       0xcc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+                0x000000001000228c                spi_set_baudrate
  .text.spi_init
-                0x0000000010002850       0x74 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
-                0x0000000010002850                spi_init
+                0x0000000010002358       0x74 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+                0x0000000010002358                spi_init
  .text.clock_configure
-                0x00000000100028c4      0x108 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x00000000100028c4                clock_configure
+                0x00000000100023cc      0x108 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00000000100023cc                clock_configure
  .text.clocks_init
-                0x00000000100029cc      0x100 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x00000000100029cc                clocks_init
+                0x00000000100024d4      0x100 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00000000100024d4                clocks_init
  .text.clock_get_hz
-                0x0000000010002acc        0xc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x0000000010002acc                clock_get_hz
+                0x00000000100025d4        0xc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00000000100025d4                clock_get_hz
  .text.pll_init
-                0x0000000010002ad8      0x120 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x0000000010002ad8                pll_init
+                0x00000000100025e0      0x120 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x00000000100025e0                pll_init
  .text.watchdog_start_tick
-                0x0000000010002bf8       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x0000000010002bf8                watchdog_start_tick
+                0x0000000010002700       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000010002700                watchdog_start_tick
  .text.xosc_init
-                0x0000000010002c08       0x28 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x0000000010002c08                xosc_init
+                0x0000000010002710       0x28 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x0000000010002710                xosc_init
  .text.core1_trampoline
-                0x0000000010002c30        0x2 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x0000000010002738        0x2 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .text.core1_wrapper
-                0x0000000010002c32        0xc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-                0x0000000010002c32                core1_wrapper
+                0x000000001000273a        0xc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x000000001000273a                core1_wrapper
  .text.multicore_fifo_push_blocking
-                0x0000000010002c3e       0x14 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-                0x0000000010002c3e                multicore_fifo_push_blocking
+                0x0000000010002746       0x14 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x0000000010002746                multicore_fifo_push_blocking
  .text.multicore_fifo_pop_blocking
-                0x0000000010002c52       0x16 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-                0x0000000010002c52                multicore_fifo_pop_blocking
+                0x000000001000275a       0x16 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x000000001000275a                multicore_fifo_pop_blocking
  .text.multicore_launch_core1_raw
-                0x0000000010002c68       0x6e CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-                0x0000000010002c68                multicore_launch_core1_raw
- *fill*         0x0000000010002cd6        0x2 
+                0x0000000010002770       0x6e CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x0000000010002770                multicore_launch_core1_raw
+ *fill*         0x00000000100027de        0x2 
  .text.multicore_launch_core1_with_stack
-                0x0000000010002cd8       0x50 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-                0x0000000010002cd8                multicore_launch_core1_with_stack
+                0x00000000100027e0       0x50 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x00000000100027e0                multicore_launch_core1_with_stack
  .text.multicore_launch_core1
-                0x0000000010002d28       0x24 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-                0x0000000010002d28                multicore_launch_core1
+                0x0000000010002830       0x24 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x0000000010002830                multicore_launch_core1
  .text.uart_disable_before_lcr_write
-                0x0000000010002d4c       0x48 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x0000000010002854       0x48 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .text.uart_write_lcr_bits_masked
-                0x0000000010002d94       0x22 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- *fill*         0x0000000010002db6        0x2 
+                0x000000001000289c       0x22 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ *fill*         0x00000000100028be        0x2 
  .text.uart_set_baudrate
-                0x0000000010002db8       0x5c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x0000000010002db8                uart_set_baudrate
+                0x00000000100028c0       0x5c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x00000000100028c0                uart_set_baudrate
  .text.uart_set_format
-                0x0000000010002e14       0x2c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x0000000010002e14                uart_set_format
+                0x000000001000291c       0x2c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x000000001000291c                uart_set_format
  .text.uart_set_translate_crlf
-                0x0000000010002e40       0x28 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x0000000010002e40                uart_set_translate_crlf
+                0x0000000010002948       0x28 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x0000000010002948                uart_set_translate_crlf
  .text.uart_init
-                0x0000000010002e68       0x80 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x0000000010002e68                uart_init
- .text._exit    0x0000000010002ee8        0x4 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010002ee8                _exit
- .text.exit     0x0000000010002eec        0x6 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010002eec                exit
- *fill*         0x0000000010002ef2        0x2 
+                0x0000000010002970       0x80 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x0000000010002970                uart_init
+ .text._exit    0x00000000100029f0        0x4 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100029f0                _exit
+ .text.exit     0x00000000100029f4        0x6 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100029f4                exit
+ *fill*         0x00000000100029fa        0x2 
  .text.__assert_func
-                0x0000000010002ef4       0x3c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010002ef4                __assert_func
+                0x00000000100029fc       0x3c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100029fc                __assert_func
  .text.runtime_init
-                0x0000000010002f30       0xf8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010002f30                runtime_init
- .text.panic    0x0000000010003028       0x30 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010003028                panic
+                0x0000000010002a38       0xf8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010002a38                runtime_init
+ .text.panic    0x0000000010002b30       0x30 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010002b30                panic
  .text._out_null
-                0x0000000010003058        0x2 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002b60        0x2 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x000000001000305a        0xe CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._atoi    0x0000000010003068       0x24 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002b62        0xe CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._atoi    0x0000000010002b70       0x24 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x000000001000308c       0xae CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002b94       0xae CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x000000001000313a      0x112 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002c42      0x112 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_long
-                0x000000001000324c       0xbc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002d54       0xbc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_long_long
-                0x0000000010003308       0xe2 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x00000000100033ea        0x2 
- .text._etoa    0x00000000100033ec      0x414 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x0000000010003800      0x354 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002e10       0xe2 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x0000000010002ef2        0x2 
+ .text._etoa    0x0000000010002ef4      0x414 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x0000000010003308      0x354 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x0000000010003b54      0x624 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x000000001000365c      0x624 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.vfctprintf
-                0x0000000010004178       0x20 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x0000000010004178                vfctprintf
- .text          0x0000000010004198       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x0000000010003c80       0x20 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010003c80                vfctprintf
+ .text          0x0000000010003ca0       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x00000000100041a8       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x00000000100041a8                rom_func_lookup
+                0x0000000010003cb0       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010003cb0                rom_func_lookup
  .text.rom_data_lookup
-                0x00000000100041b8       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x00000000100041b8                rom_data_lookup
+                0x0000000010003cc0       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010003cc0                rom_data_lookup
  .text.rom_funcs_lookup
-                0x00000000100041c8       0x36 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x00000000100041c8                rom_funcs_lookup
- *fill*         0x00000000100041fe        0x2 
+                0x0000000010003cd0       0x36 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010003cd0                rom_funcs_lookup
+ *fill*         0x0000000010003d06        0x2 
  .text.__wrap___aeabi_idiv
-                0x0000000010004200       0x50 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x0000000010004200                __wrap___aeabi_idivmod
-                0x0000000010004200                divmod_s32s32
-                0x0000000010004200                div_s32s32
-                0x0000000010004200                __wrap___aeabi_idiv
-                0x0000000010004208                divmod_s32s32_unsafe
-                0x0000000010004234                divmod_s32s32_savestate
+                0x0000000010003d08       0x50 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000010003d08                __wrap___aeabi_idivmod
+                0x0000000010003d08                divmod_s32s32
+                0x0000000010003d08                div_s32s32
+                0x0000000010003d08                __wrap___aeabi_idiv
+                0x0000000010003d10                divmod_s32s32_unsafe
+                0x0000000010003d3c                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x0000000010004250       0x4c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x0000000010004250                __wrap___aeabi_uidiv
-                0x0000000010004250                __wrap___aeabi_uidivmod
-                0x0000000010004250                div_u32u32
-                0x0000000010004250                divmod_u32u32
-                0x0000000010004258                divmod_u32u32_unsafe
-                0x0000000010004280                divmod_u32u32_savestate
+                0x0000000010003d58       0x4c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000010003d58                __wrap___aeabi_uidiv
+                0x0000000010003d58                __wrap___aeabi_uidivmod
+                0x0000000010003d58                div_u32u32
+                0x0000000010003d58                divmod_u32u32
+                0x0000000010003d60                divmod_u32u32_unsafe
+                0x0000000010003d88                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x000000001000429c      0x424 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x000000001000429c                div_s64s64
-                0x000000001000429c                divmod_s64s64
-                0x000000001000429c                __wrap___aeabi_ldivmod
-                0x00000000100042cc                div_u64u64
-                0x00000000100042cc                divmod_u64u64
-                0x00000000100042cc                __wrap___aeabi_uldivmod
-                0x00000000100042dc                divmod_u64u64_savestate
-                0x00000000100042fc                divmod_s64s64_unsafe
-                0x0000000010004384                divmod_u64u64_unsafe
+                0x0000000010003da4      0x424 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000010003da4                div_s64s64
+                0x0000000010003da4                divmod_s64s64
+                0x0000000010003da4                __wrap___aeabi_ldivmod
+                0x0000000010003dd4                div_u64u64
+                0x0000000010003dd4                divmod_u64u64
+                0x0000000010003dd4                __wrap___aeabi_uldivmod
+                0x0000000010003de4                divmod_u64u64_savestate
+                0x0000000010003e04                divmod_s64s64_unsafe
+                0x0000000010003e8c                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x00000000100046c0       0x80 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100046c0                __wrap___aeabi_drsub
-                0x00000000100046c6                __wrap___aeabi_dsub
-                0x00000000100046d8                __wrap___aeabi_dadd
-                0x00000000100046ea                __wrap___aeabi_ddiv
-                0x0000000010004726                __wrap___aeabi_dmul
+                0x00000000100041c8       0x80 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100041c8                __wrap___aeabi_drsub
+                0x00000000100041ce                __wrap___aeabi_dsub
+                0x00000000100041e0                __wrap___aeabi_dadd
+                0x00000000100041f2                __wrap___aeabi_ddiv
+                0x000000001000422e                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x0000000010004740       0x6c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010004740                __wrap___aeabi_cdrcmple
-                0x0000000010004750                __wrap___aeabi_cdcmple
-                0x0000000010004750                __wrap___aeabi_cdcmpeq
+                0x0000000010004248       0x6c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010004248                __wrap___aeabi_cdrcmple
+                0x0000000010004258                __wrap___aeabi_cdcmple
+                0x0000000010004258                __wrap___aeabi_cdcmpeq
  .text.__wrap___aeabi_dcmplt
-                0x00000000100047ac        0xc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100047ac                __wrap___aeabi_dcmplt
+                0x00000000100042b4        0xc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100042b4                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmple
-                0x00000000100047b8       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100047b8                __wrap___aeabi_dcmple
+                0x00000000100042c0       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100042c0                __wrap___aeabi_dcmple
  .text.__wrap___aeabi_dcmpge
-                0x00000000100047c8       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100047c8                __wrap___aeabi_dcmpge
+                0x00000000100042d0       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100042d0                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x00000000100047d8        0xa CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100047d8                __wrap___aeabi_dcmpgt
+                0x00000000100042e0        0xa CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100042e0                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x00000000100047e2       0x1c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x00000000100047e2                __wrap___aeabi_dcmpun
- *fill*         0x00000000100047fe        0x2 
+                0x00000000100042ea       0x1c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100042ea                __wrap___aeabi_dcmpun
+ *fill*         0x0000000010004306        0x2 
  .text.__wrap___aeabi_i2d
-                0x0000000010004800       0x38 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010004800                __wrap___aeabi_ui2d
-                0x0000000010004808                __wrap___aeabi_i2d
+                0x0000000010004308       0x38 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010004308                __wrap___aeabi_ui2d
+                0x0000000010004310                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x0000000010004838       0x48 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010004838                __wrap___aeabi_d2iz
-                0x0000000010004838                double2int_z
+                0x0000000010004340       0x48 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010004340                __wrap___aeabi_d2iz
+                0x0000000010004340                double2int_z
  .text.__wrap___aeabi_d2uiz
-                0x0000000010004880       0x18 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010004880                double2uint
-                0x0000000010004880                __wrap___aeabi_d2uiz
+                0x0000000010004388       0x18 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010004388                double2uint
+                0x0000000010004388                __wrap___aeabi_d2uiz
  .text.__wrap___aeabi_d2f
-                0x0000000010004898       0x18 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010004898                __wrap___aeabi_d2f
+                0x00000000100043a0       0x18 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100043a0                __wrap___aeabi_d2f
  .text.__aeabi_double_init
-                0x00000000100048b0       0xc8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x00000000100048b0                __aeabi_double_init
+                0x00000000100043b8       0xc8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x00000000100043b8                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x0000000010004978       0x34 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010004978                double_table_shim_on_use_helper
+                0x0000000010004480       0x34 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010004480                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x00000000100049ac       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x00000000100049ac                drsub_shim
-                0x00000000100049b2                dsub_shim
+                0x00000000100044b4       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x00000000100044b4                drsub_shim
+                0x00000000100044ba                dsub_shim
  .text.dadd_shim
-                0x00000000100049bc      0x15c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x00000000100049bc                dadd_shim
+                0x00000000100044c4      0x15c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x00000000100044c4                dadd_shim
  .text.dmul_shim
-                0x0000000010004b18      0x15c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010004b18                dmul_shim
+                0x0000000010004620      0x15c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010004620                dmul_shim
  .text.ddiv_shim
-                0x0000000010004c74      0x1b0 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010004c74                ddiv_shim
+                0x000000001000477c      0x1b0 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x000000001000477c                ddiv_shim
  .text.double2uint_shim
-                0x0000000010004e24        0xe CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010004e24                double2uint_shim
-                0x0000000010004e26                double2ufix_shim
- *fill*         0x0000000010004e32        0x2 
+                0x000000001000492c        0xe CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x000000001000492c                double2uint_shim
+                0x000000001000492e                double2ufix_shim
+ *fill*         0x000000001000493a        0x2 
  .text.double2uint64_shim
-                0x0000000010004e34       0x70 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010004e34                double2uint64_shim
-                0x0000000010004e36                double2ufix64_shim
-                0x0000000010004e56                d2fix_a
+                0x000000001000493c       0x70 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x000000001000493c                double2uint64_shim
+                0x000000001000493e                double2ufix64_shim
+                0x000000001000495e                d2fix_a
  .text.double2float_shim
-                0x0000000010004ea4       0x5c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010004ea4                double2float_shim
+                0x00000000100049ac       0x5c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x00000000100049ac                double2float_shim
  .text.dunpacks
-                0x0000000010004f00       0x3c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010004f00                dunpacks
+                0x0000000010004a08       0x3c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010004a08                dunpacks
  .text.__aeabi_lmul
-                0x0000000010004f3c       0x32 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x0000000010004f3c                __wrap___aeabi_lmul
- *fill*         0x0000000010004f6e        0x2 
+                0x0000000010004a44       0x32 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x0000000010004a44                __wrap___aeabi_lmul
+ *fill*         0x0000000010004a76        0x2 
  .text.__wrap___aeabi_farithmetic
-                0x0000000010004f70       0x58 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x0000000010004f70                __wrap___aeabi_frsub
-                0x0000000010004f76                __wrap___aeabi_fsub
-                0x0000000010004f80                __wrap___aeabi_fadd
-                0x0000000010004f8a                __wrap___aeabi_fdiv
-                0x0000000010004fb6                __wrap___aeabi_fmul
+                0x0000000010004a78       0x58 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010004a78                __wrap___aeabi_frsub
+                0x0000000010004a7e                __wrap___aeabi_fsub
+                0x0000000010004a88                __wrap___aeabi_fadd
+                0x0000000010004a92                __wrap___aeabi_fdiv
+                0x0000000010004abe                __wrap___aeabi_fmul
  .text.__wrap___aeabi_cfcmple
-                0x0000000010004fc8       0x50 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x0000000010004fc8                __wrap___aeabi_cfrcmple
-                0x0000000010004fd4                __wrap___aeabi_cfcmpeq
-                0x0000000010004fd4                __wrap___aeabi_cfcmple
+                0x0000000010004ad0       0x50 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010004ad0                __wrap___aeabi_cfrcmple
+                0x0000000010004adc                __wrap___aeabi_cfcmpeq
+                0x0000000010004adc                __wrap___aeabi_cfcmple
  .text.__wrap___aeabi_fcmpgt
-                0x0000000010005018        0xa CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x0000000010005018                __wrap___aeabi_fcmpgt
+                0x0000000010004b20        0xa CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010004b20                __wrap___aeabi_fcmpgt
  .text.__wrap___aeabi_ui2f
-                0x0000000010005022        0xa CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x0000000010005022                __wrap___aeabi_ui2f
+                0x0000000010004b2a        0xa CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010004b2a                __wrap___aeabi_ui2f
  .text.__wrap___aeabi_i2f
-                0x000000001000502c       0x44 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x000000001000502c                __wrap___aeabi_i2f
+                0x0000000010004b34       0x44 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010004b34                __wrap___aeabi_i2f
  .text.__wrap___aeabi_f2iz
-                0x0000000010005070       0x4e CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x0000000010005070                __wrap___aeabi_f2iz
-                0x0000000010005070                float2int_z
- *fill*         0x00000000100050be        0x2 
+                0x0000000010004b78       0x4e CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010004b78                __wrap___aeabi_f2iz
+                0x0000000010004b78                float2int_z
+ *fill*         0x0000000010004bc6        0x2 
  .text.float2int
-                0x00000000100050c0       0x14 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x00000000100050c0                float2int
+                0x0000000010004bc8       0x14 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010004bc8                float2int
  .text.__wrap___aeabi_f2uiz
-                0x00000000100050d4       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x00000000100050d4                __wrap___aeabi_f2uiz
+                0x0000000010004bdc       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010004bdc                __wrap___aeabi_f2uiz
  .text.__wrap___aeabi_ul2f
-                0x00000000100050e4       0x20 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x00000000100050e8                __wrap___aeabi_ul2f
+                0x0000000010004bec       0x20 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010004bf0                __wrap___aeabi_ul2f
  .text.__wrap___aeabi_f2d
-                0x0000000010005104       0x14 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x0000000010005104                __wrap___aeabi_f2d
+                0x0000000010004c0c       0x14 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000010004c0c                __wrap___aeabi_f2d
  .text.__aeabi_float_init
-                0x0000000010005118       0xfc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x0000000010005118                __aeabi_float_init
+                0x0000000010004c20       0xfc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000010004c20                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x0000000010005214       0x34 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x0000000010005214                float_table_shim_on_use_helper
+                0x0000000010004d1c       0x34 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x0000000010004d1c                float_table_shim_on_use_helper
  .text.642float_shims
-                0x0000000010005248       0x44 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x0000000010005248                uint642float_shim
-                0x000000001000524a                ufix642float_shim
-                0x000000001000525a                int642float_shim
-                0x000000001000525c                fix642float_shim
+                0x0000000010004d50       0x44 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x0000000010004d50                uint642float_shim
+                0x0000000010004d52                ufix642float_shim
+                0x0000000010004d62                int642float_shim
+                0x0000000010004d64                fix642float_shim
  .text.float232_shims
-                0x000000001000528c       0x18 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x000000001000528c                float2int_shim
-                0x000000001000528e                float2fix_shim
+                0x0000000010004d94       0x18 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x0000000010004d94                float2int_shim
+                0x0000000010004d96                float2fix_shim
  .text.float2double_shim
-                0x00000000100052a4       0x30 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x00000000100052a4                float2double_shim
- .text          0x00000000100052d4       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x00000000100052d4                __aeabi_mem_init
- .text.memset   0x00000000100052e4        0xc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x00000000100052e4                __wrap_memset
- .text.memcpy   0x00000000100052f0        0xc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x00000000100052f0                __wrap___aeabi_memcpy
-                0x00000000100052f0                __wrap_memcpy
+                0x0000000010004dac       0x30 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x0000000010004dac                float2double_shim
+ .text          0x0000000010004ddc       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010004ddc                __aeabi_mem_init
+ .text.memset   0x0000000010004dec        0xc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010004dec                __wrap_memset
+ .text.memcpy   0x0000000010004df8        0xc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010004df8                __wrap___aeabi_memcpy
+                0x0000000010004df8                __wrap_memcpy
  .text.stdio_out_chars_no_crlf
-                0x00000000100052fc        0xe CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x000000001000530a        0x2 
+                0x0000000010004e04        0xe CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x0000000010004e12        0x2 
  .text.stdio_out_chars_crlf
-                0x000000001000530c       0x80 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004e14       0x80 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_stack_buffer_flush
-                0x000000001000538c       0x44 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004e94       0x44 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x00000000100053d0       0x20 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004ed8       0x20 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdout_serialize_begin
-                0x00000000100053f0       0x5c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100053f0                stdout_serialize_begin
+                0x0000000010004ef8       0x5c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004ef8                stdout_serialize_begin
  .text.stdout_serialize_end
-                0x000000001000544c       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x000000001000544c                stdout_serialize_end
+                0x0000000010004f54       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004f54                stdout_serialize_end
  .text.stdio_put_string
-                0x000000001000545c       0x98 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004f64       0x98 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_set_driver_enabled
-                0x00000000100054f4       0x2c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100054f4                stdio_set_driver_enabled
+                0x0000000010004ffc       0x2c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004ffc                stdio_set_driver_enabled
  .text.stdio_flush
-                0x0000000010005520       0x20 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010005520                stdio_flush
+                0x0000000010005028       0x20 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010005028                stdio_flush
  .text.__wrap_puts
-                0x0000000010005540       0x1e CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010005540                __wrap_puts
- *fill*         0x000000001000555e        0x2 
+                0x0000000010005048       0x1e CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010005048                __wrap_puts
+ *fill*         0x0000000010005066        0x2 
  .text.__wrap_vprintf
-                0x0000000010005560       0x40 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010005560                __wrap_vprintf
+                0x0000000010005068       0x40 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010005068                __wrap_vprintf
  .text.__wrap_printf
-                0x00000000100055a0       0x18 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100055a0                __wrap_printf
+                0x00000000100050a8       0x18 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100050a8                __wrap_printf
  .text.stdio_uart_out_chars
-                0x00000000100055b8       0x74 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x00000000100050c0       0x74 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_in_chars
-                0x000000001000562c       0x80 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x000000001000562c                stdio_uart_in_chars
+                0x0000000010005134       0x80 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010005134                stdio_uart_in_chars
  .text.on_uart_rx
-                0x00000000100056ac       0x28 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x00000000100051b4       0x28 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_set_chars_available_callback
-                0x00000000100056d4       0x8c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x00000000100051dc       0x8c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_init_full
-                0x0000000010005760       0x44 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x0000000010005760                stdio_uart_init_full
- .text          0x00000000100057a4       0x5c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
-                0x00000000100057a4                strlen
+                0x0000000010005268       0x44 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010005268                stdio_uart_init_full
+ .text          0x00000000100052ac       0x5c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+                0x00000000100052ac                strlen
  *(.fini)
- .fini          0x0000000010005800        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
-                0x0000000010005800                _fini
- *fill*         0x0000000010005804        0x4 
- .fini.__stub   0x0000000010005808       0x60 linker stubs
+ .fini          0x0000000010005308        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x0000000010005308                _fini
+ *fill*         0x000000001000530c        0x4 
+ .fini.__stub   0x0000000010005310       0x60 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2007,322 +2025,287 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x0000000010005868        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x0000000010005868                . = ALIGN (0x4)
+ .eh_frame      0x0000000010005370        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x0000000010005370                . = ALIGN (0x4)
 
-.glue_7         0x0000000010005868        0x0
- .glue_7        0x0000000010005868        0x0 linker stubs
+.glue_7         0x0000000010005370        0x0
+ .glue_7        0x0000000010005370        0x0 linker stubs
 
-.glue_7t        0x0000000010005868        0x0
- .glue_7t       0x0000000010005868        0x0 linker stubs
+.glue_7t        0x0000000010005370        0x0
+ .glue_7t       0x0000000010005370        0x0 linker stubs
 
-.vfp11_veneer   0x0000000010005868        0x0
- .vfp11_veneer  0x0000000010005868        0x0 linker stubs
+.vfp11_veneer   0x0000000010005370        0x0
+ .vfp11_veneer  0x0000000010005370        0x0 linker stubs
 
-.v4_bx          0x0000000010005868        0x0
- .v4_bx         0x0000000010005868        0x0 linker stubs
+.v4_bx          0x0000000010005370        0x0
+ .v4_bx         0x0000000010005370        0x0 linker stubs
 
-.iplt           0x0000000010005868        0x0
- .iplt          0x0000000010005868        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x0000000010005370        0x0
+ .iplt          0x0000000010005370        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x0000000010005868    0x186ec
+.rodata         0x0000000010005370     0x8cdc
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.get_absolute_time.str1.4
-                0x0000000010005868       0x60 CMakeFiles/EENLD.dir/main.c.obj
- .rodata.main.str1.4
-                0x00000000100058c8        0xc CMakeFiles/EENLD.dir/main.c.obj
- .rodata        0x00000000100058d4       0x10 CMakeFiles/EENLD.dir/main.c.obj
- .rodata.AC_s   0x00000000100058e4      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
-                0x00000000100058e4                AC_s
- .rodata.AC_t   0x0000000010006884      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
-                0x0000000010006884                AC_t
- .rodata.AD_s   0x0000000010007824      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
-                0x0000000010007824                AD_s
- .rodata.AD_t   0x00000000100087c4      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
-                0x00000000100087c4                AD_t
- .rodata.A_s    0x0000000010009764      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
-                0x0000000010009764                A_s
- .rodata.A_t    0x000000001000a704      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
-                0x000000001000a704                A_t
- .rodata.BC_s   0x000000001000b6a4      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
-                0x000000001000b6a4                BC_s
- .rodata.BC_t   0x000000001000c644      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
-                0x000000001000c644                BC_t
- .rodata.BD_s   0x000000001000d5e4      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
-                0x000000001000d5e4                BD_s
- .rodata.BD_t   0x000000001000e584      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
-                0x000000001000e584                BD_t
- .rodata.B_s    0x000000001000f524      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
-                0x000000001000f524                B_s
- .rodata.B_t    0x00000000100104c4      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
-                0x00000000100104c4                B_t
- .rodata.CC_s   0x0000000010011464      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
-                0x0000000010011464                CC_s
- .rodata.CC_t   0x0000000010012404      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
-                0x0000000010012404                CC_t
- .rodata.CD_s   0x00000000100133a4      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
-                0x00000000100133a4                CD_s
- .rodata.CD_t   0x0000000010014344      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
-                0x0000000010014344                CD_t
- .rodata.C_s    0x00000000100152e4      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
-                0x00000000100152e4                C_s
- .rodata.C_t    0x0000000010016284      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
-                0x0000000010016284                C_t
- .rodata.DC_s   0x0000000010017224      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
-                0x0000000010017224                DC_s
- .rodata.DC_t   0x00000000100181c4      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
-                0x00000000100181c4                DC_t
- .rodata.DD_s   0x0000000010019164      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
-                0x0000000010019164                DD_s
- .rodata.DD_t   0x000000001001a104      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
-                0x000000001001a104                DD_t
- .rodata.D_s    0x000000001001b0a4      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
-                0x000000001001b0a4                D_s
- .rodata.D_t    0x000000001001c044      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
-                0x000000001001c044                D_t
- .rodata.__func__.1
-                0x000000001001cfe4       0x15 CMakeFiles/EENLD.dir/main.c.obj
- *fill*         0x000000001001cff9        0x3 
- .rodata.control_gain
-                0x000000001001cffc       0x10 CMakeFiles/EENLD.dir/main.c.obj
-                0x000000001001cffc                control_gain
- .rodata.current_low_threshold
-                0x000000001001d00c       0x10 CMakeFiles/EENLD.dir/main.c.obj
-                0x000000001001d00c                current_low_threshold
- .rodata.derivative_gain
-                0x000000001001d01c       0x10 CMakeFiles/EENLD.dir/main.c.obj
-                0x000000001001d01c                derivative_gain
- .rodata.make_branch.str1.4
-                0x000000001001d02c       0x6c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .rodata.insert_branch_and_link.str1.4
-                0x000000001001d098       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .rodata.irq_set_exclusive_handler.str1.4
-                0x000000001001d0a8       0x36 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x000000001001d0de        0x2 
- .rodata.irq_add_shared_handler.str1.4
-                0x000000001001d0e0       0xd9 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x000000001001d1b9        0x3 
- .rodata.irq_remove_handler.str1.4
-                0x000000001001d1bc       0x3a CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x000000001001d1f6        0x2 
- .rodata.irq_add_tail_to_free_list.str1.4
-                0x000000001001d1f8       0x3a CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x000000001001d232        0x2 
+                0x0000000010005370       0x60 CMakeFiles/EENLD.dir/main.c.obj
+ .rodata        0x00000000100053d0       0x10 CMakeFiles/EENLD.dir/main.c.obj
+ .rodata.A_s    0x00000000100053e0      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
+                0x00000000100053e0                A_s
+ .rodata.A_t    0x0000000010006380      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
+                0x0000000010006380                A_t
+ .rodata.B_s    0x0000000010007320      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
+                0x0000000010007320                B_s
+ .rodata.B_t    0x00000000100082c0      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
+                0x00000000100082c0                B_t
+ .rodata.C_s    0x0000000010009260      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
+                0x0000000010009260                C_s
+ .rodata.C_t    0x000000001000a200      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
+                0x000000001000a200                C_t
+ .rodata.D_s    0x000000001000b1a0      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
+                0x000000001000b1a0                D_s
+ .rodata.D_t    0x000000001000c140      0xfa0 CMakeFiles/EENLD.dir/main.c.obj
+                0x000000001000c140                D_t
  .rodata.__func__.0
-                0x000000001001d234       0x1a CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x000000001001d24e        0x2 
+                0x000000001000d0e0       0x15 CMakeFiles/EENLD.dir/main.c.obj
+ *fill*         0x000000001000d0f5        0x3 
+ .rodata.control_gain
+                0x000000001000d0f8       0x10 CMakeFiles/EENLD.dir/main.c.obj
+                0x000000001000d0f8                control_gain
+ .rodata.current_low_threshold
+                0x000000001000d108       0x10 CMakeFiles/EENLD.dir/main.c.obj
+                0x000000001000d108                current_low_threshold
+ .rodata.derivative_gain
+                0x000000001000d118       0x10 CMakeFiles/EENLD.dir/main.c.obj
+                0x000000001000d118                derivative_gain
+ .rodata.make_branch.str1.4
+                0x000000001000d128       0x6c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .rodata.insert_branch_and_link.str1.4
+                0x000000001000d194       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .rodata.irq_set_exclusive_handler.str1.4
+                0x000000001000d1a4       0x36 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x000000001000d1da        0x2 
+ .rodata.irq_add_shared_handler.str1.4
+                0x000000001000d1dc       0xd9 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x000000001000d2b5        0x3 
+ .rodata.irq_remove_handler.str1.4
+                0x000000001000d2b8       0x3a CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x000000001000d2f2        0x2 
+ .rodata.irq_add_tail_to_free_list.str1.4
+                0x000000001000d2f4       0x3a CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x000000001000d32e        0x2 
+ .rodata.__func__.0
+                0x000000001000d330       0x1a CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x000000001000d34a        0x2 
  .rodata.__func__.1
-                0x000000001001d250       0x17 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x000000001001d267        0x1 
+                0x000000001000d34c       0x17 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x000000001000d363        0x1 
  .rodata.__func__.2
-                0x000000001001d268       0x13 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x000000001001d27b        0x1 
+                0x000000001000d364       0x13 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x000000001000d377        0x1 
  .rodata.__func__.3
-                0x000000001001d27c        0xc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x000000001000d378        0xc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.__func__.4
-                0x000000001001d288        0xf CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x000000001001d297        0x1 
+                0x000000001000d384        0xf CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x000000001000d393        0x1 
  .rodata.__func__.6
-                0x000000001001d298       0x1a CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x000000001001d2b2        0x2 
+                0x000000001000d394       0x1a CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x000000001000d3ae        0x2 
  .rodata.str1.4
-                0x000000001001d2b4       0x89 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x000000001000d3b0       0x89 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
                                          0xe9 (size before relaxing)
- *fill*         0x000000001001d33d        0x3 
+ *fill*         0x000000001000d439        0x3 
  .rodata.__func__.1
-                0x000000001001d340        0xb CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- *fill*         0x000000001001d34b        0x1 
+                0x000000001000d43c        0xb CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ *fill*         0x000000001000d447        0x1 
  .rodata.__func__.3
-                0x000000001001d34c       0x18 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x000000001000d448       0x18 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
  .rodata.repeating_timer_callback.str1.4
-                0x000000001001d364       0x4a CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001001d3ae        0x2 
+                0x000000001000d460       0x4a CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000d4aa        0x2 
  .rodata.timer_pool_entry_comparator.str1.4
-                0x000000001001d3b0       0x22 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001001d3d2        0x2 
+                0x000000001000d4ac       0x22 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000d4ce        0x2 
  .rodata.ph_add_child_node.str1.4
-                0x000000001001d3d4       0x96 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001001d46a        0x2 
+                0x000000001000d4d0       0x96 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000d566        0x2 
  .rodata.add_alarm_under_lock.str1.4
-                0x000000001001d46c       0x28 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x000000001000d568       0x28 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
                                          0x2b (size before relaxing)
  .rodata.alarm_pool_alarm_callback.str1.4
-                0x000000001001d494       0x98 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x000000001000d590       0x98 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
                                          0xf8 (size before relaxing)
  .rodata.alarm_pool_get_default.str1.4
-                0x000000001001d52c       0x21 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001001d54d        0x3 
+                0x000000001000d628       0x21 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000d649        0x3 
  .rodata.alarm_pool_cancel_alarm.str1.4
-                0x000000001001d550       0x27 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001001d577        0x1 
+                0x000000001000d64c       0x27 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000d673        0x1 
  .rodata.sleep_until.str1.4
-                0x000000001001d578       0x4d CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001001d5c5        0x3 
+                0x000000001000d674       0x4d CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000d6c1        0x3 
  .rodata.__func__.1
-                0x000000001001d5c8       0x18 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x000000001000d6c4       0x18 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.__func__.10
-                0x000000001001d5e0       0x15 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001001d5f5        0x3 
+                0x000000001000d6dc       0x15 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000d6f1        0x3 
  .rodata.__func__.11
-                0x000000001001d5f8       0x1a CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001001d612        0x2 
+                0x000000001000d6f4       0x1a CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000d70e        0x2 
  .rodata.__func__.12
-                0x000000001001d614        0xa CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001001d61e        0x2 
+                0x000000001000d710        0xa CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000d71a        0x2 
  .rodata.__func__.3
-                0x000000001001d620       0x17 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001001d637        0x1 
+                0x000000001000d71c       0x17 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000d733        0x1 
  .rodata.__func__.4
-                0x000000001001d638       0x12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001001d64a        0x2 
+                0x000000001000d734       0x12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000d746        0x2 
  .rodata.__func__.5
-                0x000000001001d64c        0xd CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001001d659        0x3 
+                0x000000001000d748        0xd CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000d755        0x3 
  .rodata.__func__.6
-                0x000000001001d65c       0x12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001001d66e        0x2 
+                0x000000001000d758       0x12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000d76a        0x2 
  .rodata.__func__.7
-                0x000000001001d670        0xf CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001001d67f        0x1 
+                0x000000001000d76c        0xf CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000d77b        0x1 
  .rodata.__func__.8
-                0x000000001001d680        0xc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x000000001000d77c        0xc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.__func__.9
-                0x000000001001d68c       0x15 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001001d6a1        0x3 
+                0x000000001000d788       0x15 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000d79d        0x3 
  .rodata.hardware_alarm_claim.str1.4
-                0x000000001001d6a4       0x22 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x000000001000d7a0       0x22 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.busy_wait_us.str1.4
-                0x000000001001d6c6       0x60 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x000000001001d6c6        0x2 
+                0x000000001000d7c2       0x60 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x000000001000d7c2        0x2 
  .rodata.hardware_alarm_set_target.str1.4
-                0x000000001001d6c8       0x64 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x000000001000d7c4       0x64 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.__func__.0
-                0x000000001001d72c       0x1a CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x000000001001d746        0x2 
+                0x000000001000d828       0x1a CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x000000001000d842        0x2 
  .rodata.__func__.1
-                0x000000001001d748       0x15 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x000000001000d844       0x15 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.ph_add_child_node.str1.4
-                0x000000001001d75d       0x96 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x000000001001d75d        0x3 
+                0x000000001000d859       0x96 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x000000001000d859        0x3 
  .rodata.ph_remove_any_head.str1.4
-                0x000000001001d760       0x8c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x000000001000d85c       0x8c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
                                          0xa0 (size before relaxing)
  .rodata.ph_remove_and_free_node.str1.4
-                0x000000001001d7ec       0x1e CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x000000001000d8e8       0x1e CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
                                          0x26 (size before relaxing)
- *fill*         0x000000001001d80a        0x2 
+ *fill*         0x000000001000d906        0x2 
  .rodata.__func__.0
-                0x000000001001d80c       0x18 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x000000001000d908       0x18 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .rodata.__func__.1
-                0x000000001001d824       0x13 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x000000001001d837        0x1 
+                0x000000001000d920       0x13 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x000000001000d933        0x1 
  .rodata.__func__.2
-                0x000000001001d838       0x12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x000000001001d84a        0x2 
+                0x000000001000d934       0x12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x000000001000d946        0x2 
  .rodata.__func__.3
-                0x000000001001d84c        0xc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x000000001000d948        0xc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .rodata.clock_configure.str1.4
-                0x000000001001d858       0x56 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- *fill*         0x000000001001d8ae        0x2 
+                0x000000001000d954       0x56 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ *fill*         0x000000001000d9aa        0x2 
  .rodata.__func__.1
-                0x000000001001d8b0       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x000000001000d9ac       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .rodata.pll_init.str1.4
-                0x000000001001d8c0      0x120 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x000000001000d9bc      0x120 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
  .rodata.__func__.0
-                0x000000001001d9e0        0x9 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- *fill*         0x000000001001d9e9        0x3 
+                0x000000001000dadc        0x9 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ *fill*         0x000000001000dae5        0x3 
  .rodata.multicore_lockout_start_block_until.str1.4
-                0x000000001001d9ec       0x5c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x000000001000dae8       0x5c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .rodata.multicore_launch_core1_with_stack.str1.4
-                0x000000001001da48       0x19 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- *fill*         0x000000001001da61        0x3 
+                0x000000001000db44       0x19 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ *fill*         0x000000001000db5d        0x3 
  .rodata.__func__.2
-                0x000000001001da64       0x22 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- *fill*         0x000000001001da86        0x2 
+                0x000000001000db60       0x22 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ *fill*         0x000000001000db82        0x2 
  .rodata.__assert_func.str1.4
-                0x000000001001da88       0x3f CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x000000001000db84       0x3f CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                                          0x43 (size before relaxing)
- *fill*         0x000000001001dac7        0x1 
+ *fill*         0x000000001000dbc3        0x1 
  .rodata.runtime_init.str1.4
-                0x000000001001dac8       0x60 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x000000001000dbc4       0x60 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.panic.str1.4
-                0x000000001001db28       0x12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x000000001001db3a        0x2 
+                0x000000001000dc24       0x12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x000000001000dc36        0x2 
  .rodata.__func__.2
-                0x000000001001db3c        0xd CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x000000001001db49        0x3 
+                0x000000001000dc38        0xd CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x000000001000dc45        0x3 
  .rodata._ftoa.str1.4
-                0x000000001001db4c       0x15 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x000000001001db61        0x3 
+                0x000000001000dc48       0x15 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x000000001000dc5d        0x3 
  .rodata._vsnprintf
-                0x000000001001db64      0x1e0 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x000000001001dd44        0x4 
+                0x000000001000dc60      0x1e0 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.pow10.0
-                0x000000001001dd48       0x50 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x000000001000de40       0x50 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.__aeabi_double_init.str1.4
-                0x000000001001dd98       0x9b CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- *fill*         0x000000001001de33        0x1 
+                0x000000001000de90       0x9b CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ *fill*         0x000000001000df2b        0x1 
  .rodata.__func__.0
-                0x000000001001de34       0x14 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x000000001000df2c       0x14 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.__aeabi_float_init.str1.4
-                0x000000001001de48       0x79 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x000000001000df40       0x79 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
                                          0x7d (size before relaxing)
- *fill*         0x000000001001dec1        0x3 
+ *fill*         0x000000001000dfb9        0x3 
  .rodata.__func__.0
-                0x000000001001dec4       0x13 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- *fill*         0x000000001001ded7        0x1 
+                0x000000001000dfbc       0x13 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ *fill*         0x000000001000dfcf        0x1 
  .rodata.str1.4
-                0x000000001001ded8       0x3c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000dfd0       0x3c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x000000001001df14        0xc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000e00c        0xc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x000000001001df20        0xc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000e018        0xc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x000000001001df2c        0xc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000e024        0xc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.stdout_serialize_begin.str1.4
-                0x000000001001df38       0x60 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x000000001000e030       0x60 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .rodata.__func__.3
-                0x000000001001df38       0x15 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x000000001001df4d        0x3 
+                0x000000001000e030       0x15 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x000000001000e045        0x3 
  .rodata.crlf_str.2
-                0x000000001001df50        0x2 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x000000001001df54                . = ALIGN (0x4)
- *fill*         0x000000001001df52        0x2 
+                0x000000001000e048        0x2 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x000000001000e04c                . = ALIGN (0x4)
+ *fill*         0x000000001000e04a        0x2 
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x000000001001df54                . = ALIGN (0x4)
+                0x000000001000e04c                . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x000000001001df54                __exidx_start = .
+                0x000000001000e04c                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x000000001001df54                __exidx_end = .
-                0x000000001001df54                . = ALIGN (0x4)
-                0x000000001001df54                __binary_info_start = .
+                0x000000001000e04c                __exidx_end = .
+                0x000000001000e04c                . = ALIGN (0x4)
+                0x000000001000e04c                __binary_info_start = .
 
-.binary_info    0x000000001001df54       0x1c
+.binary_info    0x000000001000e04c       0x1c
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x000000001001df54        0x4 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000e04c        0x4 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x000000001001df58        0x4 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000e050        0x4 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x000000001001df5c        0x4 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000e054        0x4 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x000000001001df60        0x4 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000e058        0x4 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x000000001001df64        0x4 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000e05c        0x4 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x000000001001df68        0x4 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000e060        0x4 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x000000001001df6c        0x4 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000e064        0x4 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
-                0x000000001001df70                __binary_info_end = .
+                0x000000001000e068                __binary_info_end = .
 
-.rel.dyn        0x000000001001df70        0x0
- .rel.iplt      0x000000001001df70        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x000000001001df70                . = ALIGN (0x4)
+.rel.dyn        0x000000001000e068        0x0
+ .rel.iplt      0x000000001000e068        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x000000001000e068                . = ALIGN (0x4)
 
 .ram_vector_table
                 0x0000000020000000       0xc0
@@ -2331,7 +2314,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x0000000020000000       0xc0 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x0000000020000000                ram_vector_table
 
-.data           0x00000000200000c0      0x28c load address 0x000000001001df70
+.data           0x00000000200000c0      0x28c load address 0x000000001000e068
                 0x00000000200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2421,36 +2404,36 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.jcr)
                 0x000000002000034c                . = ALIGN (0x4)
                 0x000000002000034c                __data_end__ = .
-                0x000000001001df70                __etext = LOADADDR (.data)
+                0x000000001000e068                __etext = LOADADDR (.data)
 
 .tm_clone_table
-                0x000000002000034c        0x0 load address 0x000000001001e1fc
+                0x000000002000034c        0x0 load address 0x000000001000e2f4
  .tm_clone_table
                 0x000000002000034c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x000000002000034c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x000000002000034c        0x0 load address 0x000000001001e1fc
+.igot.plt       0x000000002000034c        0x0 load address 0x000000001000e2f4
  .igot.plt      0x000000002000034c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x000000002000034c        0x0 load address 0x000000001001e1fc
+                0x000000002000034c        0x0 load address 0x000000001000e2f4
                 0x000000002000034c                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x0000000020040000        0x0 load address 0x000000001001e1fc
+.scratch_x      0x0000000020040000        0x0 load address 0x000000001000e2f4
                 0x0000000020040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x0000000020040000                . = ALIGN (0x4)
                 0x0000000020040000                __scratch_x_end__ = .
-                0x000000001001e1fc                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x000000001000e2f4                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x0000000020041000        0x0 load address 0x000000001001e1fc
+.scratch_y      0x0000000020041000        0x0 load address 0x000000001000e2f4
                 0x0000000020041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x0000000020041000                . = ALIGN (0x4)
                 0x0000000020041000                __scratch_y_end__ = .
-                0x000000001001e1fc                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x000000001000e2f4                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x0000000020000350      0x400
                 0x0000000020000350                . = ALIGN (0x4)
@@ -2530,8 +2513,8 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.stack*)
  .stack         0x0000000020041000      0x800 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x000000001001e1fc        0x0
-                0x000000001001e1fc                PROVIDE (__flash_binary_end = .)
+.flash_end      0x000000001000e2f4        0x0
+                0x000000001000e2f4                PROVIDE (__flash_binary_end = .)
                 0x0000000020040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x0000000020042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2589,7 +2572,7 @@ LOAD CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_
 LOAD CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 LOAD CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-LOAD /tmp/ccyyCJ5o.o
+LOAD /tmp/ccAnjFmZ.o
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2690,7 +2673,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000648       0x2c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .ARM.attributes
-                0x0000000000000674       0x22 /tmp/ccyyCJ5o.o
+                0x0000000000000674       0x22 /tmp/ccAnjFmZ.o
  .ARM.attributes
                 0x0000000000000696       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -2732,117 +2715,117 @@ LOAD linker stubs
  .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
  .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
 
-.debug_info     0x0000000000000000    0x1b142
- .debug_info    0x0000000000000000     0x27f8 CMakeFiles/EENLD.dir/main.c.obj
- .debug_info    0x00000000000027f8      0x2c1 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .debug_info    0x0000000000002ab9      0x1cb CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_info    0x0000000000002c84      0x6a6 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_info    0x000000000000332a      0x576 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_info    0x00000000000038a0     0x185a CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_info    0x00000000000050fa     0x1c56 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_info    0x0000000000006d50      0x198 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_info    0x0000000000006ee8     0x2099 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_info    0x0000000000008f81     0x402c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_info    0x000000000000cfad     0x13b4 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_info    0x000000000000e361     0x123b CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_info    0x000000000000f59c     0x1189 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
- .debug_info    0x0000000000010725      0xf9f CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_info    0x00000000000116c4      0x503 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_info    0x0000000000011bc7      0x4ee CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_info    0x00000000000120b5      0x1c0 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_info    0x0000000000012275     0x1cdc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- .debug_info    0x0000000000013f51      0xdba CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_info    0x0000000000014d0b     0x1053 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_info    0x0000000000015d5e     0x1a47 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_info    0x00000000000177a5       0x22 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_info    0x00000000000177c7      0x258 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_info    0x0000000000017a1f       0x22 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_info    0x0000000000017a41       0x22 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_info    0x0000000000017a63      0x2a1 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_info    0x0000000000017d04       0x22 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_info    0x0000000000017d26       0x26 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_info    0x0000000000017d4c       0x22 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_info    0x0000000000017d6e      0x2bb CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_info    0x0000000000018029       0x22 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_info    0x000000000001804b      0x48e CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_info    0x00000000000184d9       0x22 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_info    0x00000000000184fb       0x22 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_info    0x000000000001851d      0x2cb CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_info    0x00000000000187e8     0x1827 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_info    0x000000000001a00f     0x101f CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_info    0x000000000001b02e       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_info    0x000000000001b054       0xee /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+.debug_info     0x0000000000000000    0x1af3d
+ .debug_info    0x0000000000000000     0x25f3 CMakeFiles/EENLD.dir/main.c.obj
+ .debug_info    0x00000000000025f3      0x2c1 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+ .debug_info    0x00000000000028b4      0x1cb CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_info    0x0000000000002a7f      0x6a6 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_info    0x0000000000003125      0x576 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_info    0x000000000000369b     0x185a CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_info    0x0000000000004ef5     0x1c56 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_info    0x0000000000006b4b      0x198 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_info    0x0000000000006ce3     0x2099 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_info    0x0000000000008d7c     0x402c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_info    0x000000000000cda8     0x13b4 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_info    0x000000000000e15c     0x123b CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_info    0x000000000000f397     0x1189 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+ .debug_info    0x0000000000010520      0xf9f CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_info    0x00000000000114bf      0x503 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_info    0x00000000000119c2      0x4ee CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_info    0x0000000000011eb0      0x1c0 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_info    0x0000000000012070     0x1cdc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .debug_info    0x0000000000013d4c      0xdba CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_info    0x0000000000014b06     0x1053 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_info    0x0000000000015b59     0x1a47 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_info    0x00000000000175a0       0x22 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_info    0x00000000000175c2      0x258 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_info    0x000000000001781a       0x22 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_info    0x000000000001783c       0x22 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_info    0x000000000001785e      0x2a1 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_info    0x0000000000017aff       0x22 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_info    0x0000000000017b21       0x26 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_info    0x0000000000017b47       0x22 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_info    0x0000000000017b69      0x2bb CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_info    0x0000000000017e24       0x22 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_info    0x0000000000017e46      0x48e CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_info    0x00000000000182d4       0x22 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_info    0x00000000000182f6       0x22 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_info    0x0000000000018318      0x2cb CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_info    0x00000000000185e3     0x1827 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_info    0x0000000000019e0a     0x101f CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_info    0x000000000001ae29       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x000000000001ae4f       0xee /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
-.debug_abbrev   0x0000000000000000     0x4fe1
- .debug_abbrev  0x0000000000000000      0x457 CMakeFiles/EENLD.dir/main.c.obj
- .debug_abbrev  0x0000000000000457      0x108 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .debug_abbrev  0x000000000000055f       0xeb CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_abbrev  0x000000000000064a      0x2e9 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_abbrev  0x0000000000000933      0x21b CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_abbrev  0x0000000000000b4e      0x379 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_abbrev  0x0000000000000ec7      0x4e7 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_abbrev  0x00000000000013ae      0x116 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_abbrev  0x00000000000014c4      0x397 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_abbrev  0x000000000000185b      0x571 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_abbrev  0x0000000000001dcc      0x3b8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_abbrev  0x0000000000002184      0x297 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_abbrev  0x000000000000241b      0x2ca CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
- .debug_abbrev  0x00000000000026e5      0x3c7 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_abbrev  0x0000000000002aac      0x1ea CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_abbrev  0x0000000000002c96      0x1a8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_abbrev  0x0000000000002e3e      0x109 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_abbrev  0x0000000000002f47      0x49f CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- .debug_abbrev  0x00000000000033e6      0x31c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_abbrev  0x0000000000003702      0x4cb CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_abbrev  0x0000000000003bcd      0x384 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_abbrev  0x0000000000003f51       0x12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_abbrev  0x0000000000003f63      0x13b CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_abbrev  0x000000000000409e       0x12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_abbrev  0x00000000000040b0       0x12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_abbrev  0x00000000000040c2      0x179 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_abbrev  0x000000000000423b       0x12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_abbrev  0x000000000000424d       0x14 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_abbrev  0x0000000000004261       0x12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_abbrev  0x0000000000004273      0x18c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_abbrev  0x00000000000043ff       0x12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_abbrev  0x0000000000004411      0x1cf CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_abbrev  0x00000000000045e0       0x12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_abbrev  0x00000000000045f2       0x12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_abbrev  0x0000000000004604       0xad CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_abbrev  0x00000000000046b1      0x4a5 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_abbrev  0x0000000000004b56      0x3e8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_abbrev  0x0000000000004f3e       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_abbrev  0x0000000000004f52       0x8f /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+.debug_abbrev   0x0000000000000000     0x4ff5
+ .debug_abbrev  0x0000000000000000      0x46b CMakeFiles/EENLD.dir/main.c.obj
+ .debug_abbrev  0x000000000000046b      0x108 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+ .debug_abbrev  0x0000000000000573       0xeb CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_abbrev  0x000000000000065e      0x2e9 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_abbrev  0x0000000000000947      0x21b CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_abbrev  0x0000000000000b62      0x379 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_abbrev  0x0000000000000edb      0x4e7 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_abbrev  0x00000000000013c2      0x116 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_abbrev  0x00000000000014d8      0x397 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_abbrev  0x000000000000186f      0x571 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_abbrev  0x0000000000001de0      0x3b8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_abbrev  0x0000000000002198      0x297 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_abbrev  0x000000000000242f      0x2ca CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+ .debug_abbrev  0x00000000000026f9      0x3c7 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_abbrev  0x0000000000002ac0      0x1ea CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_abbrev  0x0000000000002caa      0x1a8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_abbrev  0x0000000000002e52      0x109 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_abbrev  0x0000000000002f5b      0x49f CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .debug_abbrev  0x00000000000033fa      0x31c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_abbrev  0x0000000000003716      0x4cb CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_abbrev  0x0000000000003be1      0x384 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_abbrev  0x0000000000003f65       0x12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_abbrev  0x0000000000003f77      0x13b CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_abbrev  0x00000000000040b2       0x12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_abbrev  0x00000000000040c4       0x12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_abbrev  0x00000000000040d6      0x179 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_abbrev  0x000000000000424f       0x12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_abbrev  0x0000000000004261       0x14 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_abbrev  0x0000000000004275       0x12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_abbrev  0x0000000000004287      0x18c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_abbrev  0x0000000000004413       0x12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_abbrev  0x0000000000004425      0x1cf CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_abbrev  0x00000000000045f4       0x12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_abbrev  0x0000000000004606       0x12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_abbrev  0x0000000000004618       0xad CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_abbrev  0x00000000000046c5      0x4a5 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_abbrev  0x0000000000004b6a      0x3e8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_abbrev  0x0000000000004f52       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x0000000000004f66       0x8f /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
-.debug_loc      0x0000000000000000    0x119f1
- .debug_loc     0x0000000000000000      0xf3d CMakeFiles/EENLD.dir/main.c.obj
- .debug_loc     0x0000000000000f3d       0x8c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .debug_loc     0x0000000000000fc9       0xe9 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_loc     0x00000000000010b2      0x45f CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_loc     0x0000000000001511      0x233 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_loc     0x0000000000001744     0x1237 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_loc     0x000000000000297b     0x13f5 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_loc     0x0000000000003d70       0x60 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_loc     0x0000000000003dd0     0x152e CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_loc     0x00000000000052fe     0x31e5 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_loc     0x00000000000084e3      0xacb CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_loc     0x0000000000008fae     0x1446 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_loc     0x000000000000a3f4      0xc12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
- .debug_loc     0x000000000000b006      0x832 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_loc     0x000000000000b838      0x310 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_loc     0x000000000000bb48      0x2ec CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_loc     0x000000000000be34       0x71 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_loc     0x000000000000bea5      0xf93 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- .debug_loc     0x000000000000ce38      0x83b CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_loc     0x000000000000d673      0x665 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_loc     0x000000000000dcd8     0x2095 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_loc     0x000000000000fd6d      0x1a1 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_loc     0x000000000000ff0e       0x59 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_loc     0x000000000000ff67       0x73 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_loc     0x000000000000ffda      0x2dc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_loc     0x00000000000102b6      0xe23 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_loc     0x00000000000110d9      0x888 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_loc     0x0000000000011961       0x90 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+.debug_loc      0x0000000000000000    0x11914
+ .debug_loc     0x0000000000000000      0xe60 CMakeFiles/EENLD.dir/main.c.obj
+ .debug_loc     0x0000000000000e60       0x8c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+ .debug_loc     0x0000000000000eec       0xe9 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_loc     0x0000000000000fd5      0x45f CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_loc     0x0000000000001434      0x233 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_loc     0x0000000000001667     0x1237 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_loc     0x000000000000289e     0x13f5 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_loc     0x0000000000003c93       0x60 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_loc     0x0000000000003cf3     0x152e CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_loc     0x0000000000005221     0x31e5 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_loc     0x0000000000008406      0xacb CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_loc     0x0000000000008ed1     0x1446 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_loc     0x000000000000a317      0xc12 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+ .debug_loc     0x000000000000af29      0x832 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_loc     0x000000000000b75b      0x310 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_loc     0x000000000000ba6b      0x2ec CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_loc     0x000000000000bd57       0x71 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_loc     0x000000000000bdc8      0xf93 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .debug_loc     0x000000000000cd5b      0x83b CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_loc     0x000000000000d596      0x665 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_loc     0x000000000000dbfb     0x2095 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_loc     0x000000000000fc90      0x1a1 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_loc     0x000000000000fe31       0x59 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_loc     0x000000000000fe8a       0x73 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_loc     0x000000000000fefd      0x2dc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_loc     0x00000000000101d9      0xe23 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_loc     0x0000000000010ffc      0x888 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_loc     0x0000000000011884       0x90 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
 .debug_aranges  0x0000000000000000     0x1050
  .debug_aranges
@@ -2924,87 +2907,87 @@ LOAD linker stubs
  .debug_aranges
                 0x0000000000001030       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
-.debug_ranges   0x0000000000000000     0x3ac8
- .debug_ranges  0x0000000000000000      0x130 CMakeFiles/EENLD.dir/main.c.obj
- .debug_ranges  0x0000000000000130       0x28 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .debug_ranges  0x0000000000000158       0x18 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_ranges  0x0000000000000170       0xd8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_ranges  0x0000000000000248       0xf0 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_ranges  0x0000000000000338      0x150 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_ranges  0x0000000000000488      0x400 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_ranges  0x0000000000000888       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_ranges  0x0000000000000898      0xac0 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_ranges  0x0000000000001358      0xcb8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_ranges  0x0000000000002010      0x3d0 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_ranges  0x00000000000023e0      0x248 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_ranges  0x0000000000002628      0x288 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
- .debug_ranges  0x00000000000028b0       0x60 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_ranges  0x0000000000002910       0x30 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_ranges  0x0000000000002940       0x48 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_ranges  0x0000000000002988       0x20 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_ranges  0x00000000000029a8      0x328 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- .debug_ranges  0x0000000000002cd0      0x130 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_ranges  0x0000000000002e00      0x168 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_ranges  0x0000000000002f68      0x108 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_ranges  0x0000000000003070       0x60 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_ranges  0x00000000000030d0       0x38 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_ranges  0x0000000000003108       0x38 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_ranges  0x0000000000003140      0x138 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_ranges  0x0000000000003278       0x30 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_ranges  0x00000000000032a8       0xc0 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_ranges  0x0000000000003368      0x128 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_ranges  0x0000000000003490       0x28 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_ranges  0x00000000000034b8       0x48 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_ranges  0x0000000000003500       0x70 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_ranges  0x0000000000003570       0x30 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_ranges  0x00000000000035a0       0x20 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_ranges  0x00000000000035c0      0x258 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_ranges  0x0000000000003818      0x2b0 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.debug_ranges   0x0000000000000000     0x3ae0
+ .debug_ranges  0x0000000000000000      0x148 CMakeFiles/EENLD.dir/main.c.obj
+ .debug_ranges  0x0000000000000148       0x28 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+ .debug_ranges  0x0000000000000170       0x18 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_ranges  0x0000000000000188       0xd8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_ranges  0x0000000000000260       0xf0 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_ranges  0x0000000000000350      0x150 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_ranges  0x00000000000004a0      0x400 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_ranges  0x00000000000008a0       0x10 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_ranges  0x00000000000008b0      0xac0 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_ranges  0x0000000000001370      0xcb8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_ranges  0x0000000000002028      0x3d0 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_ranges  0x00000000000023f8      0x248 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_ranges  0x0000000000002640      0x288 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+ .debug_ranges  0x00000000000028c8       0x60 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_ranges  0x0000000000002928       0x30 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_ranges  0x0000000000002958       0x48 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_ranges  0x00000000000029a0       0x20 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_ranges  0x00000000000029c0      0x328 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .debug_ranges  0x0000000000002ce8      0x130 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_ranges  0x0000000000002e18      0x168 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_ranges  0x0000000000002f80      0x108 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_ranges  0x0000000000003088       0x60 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_ranges  0x00000000000030e8       0x38 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_ranges  0x0000000000003120       0x38 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_ranges  0x0000000000003158      0x138 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_ranges  0x0000000000003290       0x30 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_ranges  0x00000000000032c0       0xc0 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_ranges  0x0000000000003380      0x128 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_ranges  0x00000000000034a8       0x28 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_ranges  0x00000000000034d0       0x48 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_ranges  0x0000000000003518       0x70 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_ranges  0x0000000000003588       0x30 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_ranges  0x00000000000035b8       0x20 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_ranges  0x00000000000035d8      0x258 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_ranges  0x0000000000003830      0x2b0 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_line     0x0000000000000000    0x108cd
- .debug_line    0x0000000000000000     0x128e CMakeFiles/EENLD.dir/main.c.obj
- .debug_line    0x000000000000128e      0x27b CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .debug_line    0x0000000000001509      0x1df CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_line    0x00000000000016e8      0x3ce CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_line    0x0000000000001ab6      0x3cb CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x0000000000001e81      0xc2d CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x0000000000002aae      0xfa5 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x0000000000003a53      0x1a5 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x0000000000003bf8     0x1002 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x0000000000004bfa     0x1b0d CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x0000000000006707      0xb5f CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x0000000000007266      0x82d CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_line    0x0000000000007a93      0xd43 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
- .debug_line    0x00000000000087d6      0x907 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x00000000000090dd      0x4a1 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x000000000000957e      0x3ae CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x000000000000992c      0x233 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x0000000000009b5f      0xeb5 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- .debug_line    0x000000000000aa14      0x840 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_line    0x000000000000b254      0xa0a CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x000000000000bc5e     0x1161 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x000000000000cdbf      0x146 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x000000000000cf05      0x1bc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x000000000000d0c1      0x2cf CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x000000000000d390      0x424 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x000000000000d7b4      0x2a8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x000000000000da5c      0x69c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x000000000000e0f8       0x96 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x000000000000e18e      0x3da CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x000000000000e568      0x29a CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x000000000000e802      0x1c6 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_line    0x000000000000e9c8      0x2d8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_line    0x000000000000eca0       0xc0 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x000000000000ed60       0xce CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x000000000000ee2e      0x145 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x000000000000ef73      0xdbc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x000000000000fd2f      0x9cc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_line    0x00000000000106fb       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
- .debug_line    0x000000000001075b      0x172 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
+.debug_line     0x0000000000000000    0x1064c
+ .debug_line    0x0000000000000000     0x100d CMakeFiles/EENLD.dir/main.c.obj
+ .debug_line    0x000000000000100d      0x27b CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+ .debug_line    0x0000000000001288      0x1df CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_line    0x0000000000001467      0x3ce CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_line    0x0000000000001835      0x3cb CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x0000000000001c00      0xc2d CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x000000000000282d      0xfa5 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x00000000000037d2      0x1a5 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x0000000000003977     0x1002 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x0000000000004979     0x1b0d CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x0000000000006486      0xb5f CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x0000000000006fe5      0x82d CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_line    0x0000000000007812      0xd43 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+ .debug_line    0x0000000000008555      0x907 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x0000000000008e5c      0x4a1 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x00000000000092fd      0x3ae CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x00000000000096ab      0x233 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x00000000000098de      0xeb5 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .debug_line    0x000000000000a793      0x840 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_line    0x000000000000afd3      0xa0a CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x000000000000b9dd     0x1161 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x000000000000cb3e      0x146 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x000000000000cc84      0x1bc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x000000000000ce40      0x2cf CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x000000000000d10f      0x424 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x000000000000d533      0x2a8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x000000000000d7db      0x69c CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x000000000000de77       0x96 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x000000000000df0d      0x3da CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x000000000000e2e7      0x29a CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x000000000000e581      0x1c6 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_line    0x000000000000e747      0x2d8 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_line    0x000000000000ea1f       0xc0 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x000000000000eadf       0xce CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x000000000000ebad      0x145 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x000000000000ecf2      0xdbc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x000000000000faae      0x9cc CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_line    0x000000000001047a       0x60 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x00000000000104da      0x172 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-strlen-stub.o)
 
 .debug_str      0x0000000000000000     0x445e
  .debug_str     0x0000000000000000      0x9ee CMakeFiles/EENLD.dir/main.c.obj
-                                        0xaf1 (size before relaxing)
+                                        0xaea (size before relaxing)
  .debug_str     0x00000000000009ee       0x78 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
                                         0x266 (size before relaxing)
  .debug_str     0x0000000000000a66       0x80 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj

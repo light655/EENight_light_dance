@@ -9,12 +9,11 @@
 // define variables shared between cores
 static mutex_t intensity_mutex;
 float intensities[4];           // intensity of the 4 channels in amp
-const float current_low_threshold[4] = {0.03f, 0.03f, 0.03f, 0.03f};
-const float control_gain[4] = {50.0f, 50.0f, 50.0f, 50.0f};
-const float derivative_gain[4] = {1000.0f, 1000.0f, 1000.0f, 1000.0f};
+#include "setting4.h"
 
 // main function to run on core 1, defined in core1.c
 // core 1 deals with setting the light intensity according the array
+// #include "core1_old.h"
 #include "core1.h"
 #include "helper.h"
 #include "pindef.h"
@@ -118,9 +117,9 @@ int main(void) {
                 // if(adj < -10.0f) adj = -10.0f;
                 RDAC_N[i] -= (int)adj;
                 // if(i == 2) printf("%d\n", (int)((I_avg[i] - I_target[i]) * control_gain[i]));
-                if(i == 2) printf("%fA\n", I_avg[2] - I_target[2]);
-                if(i == 2) printf("%d\n", RDAC_N[2]);
-				//if (I_target[i] < 0.05f) {
+                // if(i == 2) printf("%fA\n", I_avg[2] - I_target[2]);
+                // if(i == 2) printf("%d\n", RDAC_N[2]);
+				// if (I_target[i] < 0.05f) {
 				//	if (RDAC_N[i] > 30)
 				//		RDAC_N[i] = 30;
 				//}
