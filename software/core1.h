@@ -61,6 +61,23 @@ void core1_entry(void) {
     while(true) {
         t_abs = to_us_since_boot(get_absolute_time());
         t = t_abs - t0;
+
+		if ( A_t[iA+1] != (-1) ) {
+			if ( (A_t[iA+1] - A_t[iA]) < 5000 )
+				iA ++;
+		}	
+		if ( B_t[iB+1] != (-1) ) {
+			if ( (B_t[iB+1] - B_t[iB]) < 5000 )
+				iB ++;
+		}	
+		if ( C_t[iC+1] != (-1) ) {
+			if ( (C_t[iC+1] - C_t[iC]) < 5000 )
+				iC ++;
+		}	
+		if ( D_t[iD+1] != (-1) ) {
+			if ( (D_t[iD+1] - D_t[iD]) < 5000 )
+				iD ++;
+		}	
 		
 		// deal with nomal lighting
 		if ( A_t[iA] != (-1) ) {
