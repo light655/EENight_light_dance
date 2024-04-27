@@ -69,19 +69,19 @@ include CMakeFiles/EENLD.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/EENLD.dir/flags.make
 
-CMakeFiles/EENLD.dir/main.c.obj: CMakeFiles/EENLD.dir/flags.make
-CMakeFiles/EENLD.dir/main.c.obj: /home/light/EENight_light_dance/software/main.c
-CMakeFiles/EENLD.dir/main.c.obj: CMakeFiles/EENLD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/EENLD.dir/main.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EENLD.dir/main.c.obj -MF CMakeFiles/EENLD.dir/main.c.obj.d -o CMakeFiles/EENLD.dir/main.c.obj -c /home/light/EENight_light_dance/software/main.c
+CMakeFiles/EENLD.dir/main_all_current.c.obj: CMakeFiles/EENLD.dir/flags.make
+CMakeFiles/EENLD.dir/main_all_current.c.obj: /home/light/EENight_light_dance/software/main_all_current.c
+CMakeFiles/EENLD.dir/main_all_current.c.obj: CMakeFiles/EENLD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/light/EENight_light_dance/software/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/EENLD.dir/main_all_current.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EENLD.dir/main_all_current.c.obj -MF CMakeFiles/EENLD.dir/main_all_current.c.obj.d -o CMakeFiles/EENLD.dir/main_all_current.c.obj -c /home/light/EENight_light_dance/software/main_all_current.c
 
-CMakeFiles/EENLD.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EENLD.dir/main.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/light/EENight_light_dance/software/main.c > CMakeFiles/EENLD.dir/main.c.i
+CMakeFiles/EENLD.dir/main_all_current.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/EENLD.dir/main_all_current.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/light/EENight_light_dance/software/main_all_current.c > CMakeFiles/EENLD.dir/main_all_current.c.i
 
-CMakeFiles/EENLD.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EENLD.dir/main.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/light/EENight_light_dance/software/main.c -o CMakeFiles/EENLD.dir/main.c.s
+CMakeFiles/EENLD.dir/main_all_current.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/EENLD.dir/main_all_current.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/light/EENight_light_dance/software/main_all_current.c -o CMakeFiles/EENLD.dir/main_all_current.c.s
 
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/EENLD.dir/flags.make
 CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/light/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
@@ -746,7 +746,7 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/std
 
 # Object files for target EENLD
 EENLD_OBJECTS = \
-"CMakeFiles/EENLD.dir/main.c.obj" \
+"CMakeFiles/EENLD.dir/main_all_current.c.obj" \
 "CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj" \
 "CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
 "CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
@@ -799,7 +799,7 @@ EENLD_OBJECTS = \
 # External object files for target EENLD
 EENLD_EXTERNAL_OBJECTS =
 
-EENLD.elf: CMakeFiles/EENLD.dir/main.c.obj
+EENLD.elf: CMakeFiles/EENLD.dir/main_all_current.c.obj
 EENLD.elf: CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 EENLD.elf: CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 EENLD.elf: CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj

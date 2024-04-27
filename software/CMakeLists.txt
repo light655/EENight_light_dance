@@ -7,7 +7,8 @@ project(EENLD VERSION 0.1)
 pico_sdk_init()
 
 add_executable(EENLD
-    main.c
+    main_all_current.c
+    # main.c
 )
 
 target_link_libraries(EENLD

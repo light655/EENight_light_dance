@@ -1,4 +1,4 @@
-The system is: Linux - 6.5.0-1019-oem - x86_64
+The system is: Linux - 6.5.0-1020-oem - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -26,13 +26,13 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 The CXX compiler identification is GNU, found in "/home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/3.25.1/CompilerIdCXX/a.out"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-Zxf1CL
+Change Dir: /home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-N9dHR2
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6a557/fast && gmake[3]: Entering directory '/home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-Zxf1CL'
-/usr/bin/gmake  -f CMakeFiles/cmTC_6a557.dir/build.make CMakeFiles/cmTC_6a557.dir/build
-gmake[4]: Entering directory '/home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-Zxf1CL'
-Building C object CMakeFiles/cmTC_6a557.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -v -o CMakeFiles/cmTC_6a557.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_de1eb/fast && gmake[3]: Entering directory '/home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-N9dHR2'
+/usr/bin/gmake  -f CMakeFiles/cmTC_de1eb.dir/build.make CMakeFiles/cmTC_de1eb.dir/build
+gmake[4]: Entering directory '/home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-N9dHR2'
+Building C object CMakeFiles/cmTC_de1eb.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_de1eb.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -42,8 +42,8 @@ Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~2
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6a557.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6a557.dir/'
- /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_6a557.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc9Jx4Vp.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_de1eb.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_de1eb.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_de1eb.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccgBdJNy.s
 GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
 	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -65,15 +65,15 @@ GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6a557.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6a557.dir/'
- as -v --64 -o CMakeFiles/cmTC_6a557.dir/CMakeCCompilerABI.c.o /tmp/cc9Jx4Vp.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_de1eb.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_de1eb.dir/'
+ as -v --64 -o CMakeFiles/cmTC_de1eb.dir/CMakeCCompilerABI.c.o /tmp/ccgBdJNy.s
 GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/opt/AMD/aocc-compiler-4.1.0/lib/../lib/:/opt/AMD/aocc-compiler-4.1.0/lib32/../lib/:/usr/lib64/../lib/:/usr/lib32/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/opt/AMD/aocc-compiler-4.1.0/lib/:/opt/AMD/aocc-compiler-4.1.0/lib32/:/usr/lib/x86_64-linux-gnu/:/usr/lib64/:/usr/lib32/:/usr/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6a557.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6a557.dir/CMakeCCompilerABI.c.'
-Linking C executable cmTC_6a557
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a557.dir/link.txt --verbose=1
-/usr/bin/cc  -v CMakeFiles/cmTC_6a557.dir/CMakeCCompilerABI.c.o -o cmTC_6a557 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_de1eb.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_de1eb.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_de1eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de1eb.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_de1eb.dir/CMakeCCompilerABI.c.o -o cmTC_de1eb 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -86,11 +86,11 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/opt/AMD/aocc-compiler-4.1.0/lib/../lib/:/opt/AMD/aocc-compiler-4.1.0/lib32/../lib/:/usr/lib64/../lib/:/usr/lib32/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/opt/AMD/aocc-compiler-4.1.0/lib/:/opt/AMD/aocc-compiler-4.1.0/lib32/:/usr/lib/x86_64-linux-gnu/:/usr/lib64/:/usr/lib32/:/usr/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6a557' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6a557.'
- /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccea1nAr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6a557 /usr/lib/x86_64-linux-gnu/Scrt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/opt/AMD/aocc-compiler-4.1.0/lib/../lib -L/opt/AMD/aocc-compiler-4.1.0/lib32/../lib -L/usr/lib64/../lib -L/usr/lib32/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/opt/AMD/aocc-compiler-4.1.0/lib -L/opt/AMD/aocc-compiler-4.1.0/lib32 -L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -L/usr/lib32 -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_6a557.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6a557' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6a557.'
-gmake[4]: Leaving directory '/home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-Zxf1CL'
-gmake[3]: Leaving directory '/home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-Zxf1CL'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_de1eb' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_de1eb.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrjxKrx.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_de1eb /usr/lib/x86_64-linux-gnu/Scrt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/opt/AMD/aocc-compiler-4.1.0/lib/../lib -L/opt/AMD/aocc-compiler-4.1.0/lib32/../lib -L/usr/lib64/../lib -L/usr/lib32/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/opt/AMD/aocc-compiler-4.1.0/lib -L/opt/AMD/aocc-compiler-4.1.0/lib32 -L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -L/usr/lib32 -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_de1eb.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_de1eb' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_de1eb.'
+gmake[4]: Leaving directory '/home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-N9dHR2'
+gmake[3]: Leaving directory '/home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-N9dHR2'
 
 
 
@@ -115,13 +115,13 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-Zxf1CL]
+  ignore line: [Change Dir: /home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-N9dHR2]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6a557/fast && gmake[3]: Entering directory '/home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-Zxf1CL']
-  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_6a557.dir/build.make CMakeFiles/cmTC_6a557.dir/build]
-  ignore line: [gmake[4]: Entering directory '/home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-Zxf1CL']
-  ignore line: [Building C object CMakeFiles/cmTC_6a557.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_6a557.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_de1eb/fast && gmake[3]: Entering directory '/home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-N9dHR2']
+  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_de1eb.dir/build.make CMakeFiles/cmTC_de1eb.dir/build]
+  ignore line: [gmake[4]: Entering directory '/home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-N9dHR2']
+  ignore line: [Building C object CMakeFiles/cmTC_de1eb.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_de1eb.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -131,8 +131,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6a557.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6a557.dir/']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_6a557.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc9Jx4Vp.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_de1eb.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_de1eb.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_de1eb.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccgBdJNy.s]
   ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -154,15 +154,15 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6a557.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6a557.dir/']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_6a557.dir/CMakeCCompilerABI.c.o /tmp/cc9Jx4Vp.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_de1eb.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_de1eb.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_de1eb.dir/CMakeCCompilerABI.c.o /tmp/ccgBdJNy.s]
   ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/opt/AMD/aocc-compiler-4.1.0/lib/../lib/:/opt/AMD/aocc-compiler-4.1.0/lib32/../lib/:/usr/lib64/../lib/:/usr/lib32/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/opt/AMD/aocc-compiler-4.1.0/lib/:/opt/AMD/aocc-compiler-4.1.0/lib32/:/usr/lib/x86_64-linux-gnu/:/usr/lib64/:/usr/lib32/:/usr/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6a557.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6a557.dir/CMakeCCompilerABI.c.']
-  ignore line: [Linking C executable cmTC_6a557]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a557.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_6a557.dir/CMakeCCompilerABI.c.o -o cmTC_6a557 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_de1eb.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_de1eb.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_de1eb]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de1eb.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_de1eb.dir/CMakeCCompilerABI.c.o -o cmTC_de1eb ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -175,13 +175,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/opt/AMD/aocc-compiler-4.1.0/lib/../lib/:/opt/AMD/aocc-compiler-4.1.0/lib32/../lib/:/usr/lib64/../lib/:/usr/lib32/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/opt/AMD/aocc-compiler-4.1.0/lib/:/opt/AMD/aocc-compiler-4.1.0/lib32/:/usr/lib/x86_64-linux-gnu/:/usr/lib64/:/usr/lib32/:/usr/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6a557' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6a557.']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccea1nAr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6a557 /usr/lib/x86_64-linux-gnu/Scrt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/opt/AMD/aocc-compiler-4.1.0/lib/../lib -L/opt/AMD/aocc-compiler-4.1.0/lib32/../lib -L/usr/lib64/../lib -L/usr/lib32/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/opt/AMD/aocc-compiler-4.1.0/lib -L/opt/AMD/aocc-compiler-4.1.0/lib32 -L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -L/usr/lib32 -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_6a557.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_de1eb' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_de1eb.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrjxKrx.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_de1eb /usr/lib/x86_64-linux-gnu/Scrt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/opt/AMD/aocc-compiler-4.1.0/lib/../lib -L/opt/AMD/aocc-compiler-4.1.0/lib32/../lib -L/usr/lib64/../lib -L/usr/lib32/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/opt/AMD/aocc-compiler-4.1.0/lib -L/opt/AMD/aocc-compiler-4.1.0/lib32 -L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -L/usr/lib32 -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_de1eb.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccea1nAr.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccrjxKrx.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -199,7 +199,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_6a557] ==> ignore
+    arg [cmTC_de1eb] ==> ignore
     arg [/usr/lib/x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/x86_64-linux-gnu/Scrt1.o]
     arg [/usr/lib/x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/x86_64-linux-gnu/crti.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -223,7 +223,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib32] ==> dir [/usr/lib32]
     arg [-L.] ==> ignore
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
-    arg [CMakeFiles/cmTC_6a557.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_de1eb.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -263,13 +263,13 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-4w9hfG
+Change Dir: /home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-Wgd65p
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_495e0/fast && gmake[3]: Entering directory '/home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-4w9hfG'
-/usr/bin/gmake  -f CMakeFiles/cmTC_495e0.dir/build.make CMakeFiles/cmTC_495e0.dir/build
-gmake[4]: Entering directory '/home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-4w9hfG'
-Building CXX object CMakeFiles/cmTC_495e0.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++   -v -o CMakeFiles/cmTC_495e0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_31b31/fast && gmake[3]: Entering directory '/home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-Wgd65p'
+/usr/bin/gmake  -f CMakeFiles/cmTC_31b31.dir/build.make CMakeFiles/cmTC_31b31.dir/build
+gmake[4]: Entering directory '/home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-Wgd65p'
+Building CXX object CMakeFiles/cmTC_31b31.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_31b31.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -279,8 +279,8 @@ Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~2
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_495e0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_495e0.dir/'
- /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_495e0.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccmZgQYE.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_31b31.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_31b31.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_31b31.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cczw1WJr.s
 GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
 	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -306,15 +306,15 @@ GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_495e0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_495e0.dir/'
- as -v --64 -o CMakeFiles/cmTC_495e0.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccmZgQYE.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_31b31.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_31b31.dir/'
+ as -v --64 -o CMakeFiles/cmTC_31b31.dir/CMakeCXXCompilerABI.cpp.o /tmp/cczw1WJr.s
 GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/opt/AMD/aocc-compiler-4.1.0/lib/../lib/:/opt/AMD/aocc-compiler-4.1.0/lib32/../lib/:/usr/lib64/../lib/:/usr/lib32/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/opt/AMD/aocc-compiler-4.1.0/lib/:/opt/AMD/aocc-compiler-4.1.0/lib32/:/usr/lib/x86_64-linux-gnu/:/usr/lib64/:/usr/lib32/:/usr/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_495e0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_495e0.dir/CMakeCXXCompilerABI.cpp.'
-Linking CXX executable cmTC_495e0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_495e0.dir/link.txt --verbose=1
-/usr/bin/c++  -v CMakeFiles/cmTC_495e0.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_495e0 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_31b31.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_31b31.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_31b31
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31b31.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_31b31.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_31b31 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -327,11 +327,11 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/opt/AMD/aocc-compiler-4.1.0/lib/../lib/:/opt/AMD/aocc-compiler-4.1.0/lib32/../lib/:/usr/lib64/../lib/:/usr/lib32/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/opt/AMD/aocc-compiler-4.1.0/lib/:/opt/AMD/aocc-compiler-4.1.0/lib32/:/usr/lib/x86_64-linux-gnu/:/usr/lib64/:/usr/lib32/:/usr/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_495e0' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_495e0.'
- /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTdoNwD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_495e0 /usr/lib/x86_64-linux-gnu/Scrt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/opt/AMD/aocc-compiler-4.1.0/lib/../lib -L/opt/AMD/aocc-compiler-4.1.0/lib32/../lib -L/usr/lib64/../lib -L/usr/lib32/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/opt/AMD/aocc-compiler-4.1.0/lib -L/opt/AMD/aocc-compiler-4.1.0/lib32 -L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -L/usr/lib32 -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_495e0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_495e0' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_495e0.'
-gmake[4]: Leaving directory '/home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-4w9hfG'
-gmake[3]: Leaving directory '/home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-4w9hfG'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_31b31' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_31b31.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKUDlDk.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_31b31 /usr/lib/x86_64-linux-gnu/Scrt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/opt/AMD/aocc-compiler-4.1.0/lib/../lib -L/opt/AMD/aocc-compiler-4.1.0/lib32/../lib -L/usr/lib64/../lib -L/usr/lib32/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/opt/AMD/aocc-compiler-4.1.0/lib -L/opt/AMD/aocc-compiler-4.1.0/lib32 -L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -L/usr/lib32 -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_31b31.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_31b31' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_31b31.'
+gmake[4]: Leaving directory '/home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-Wgd65p'
+gmake[3]: Leaving directory '/home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-Wgd65p'
 
 
 
@@ -362,13 +362,13 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-4w9hfG]
+  ignore line: [Change Dir: /home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-Wgd65p]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_495e0/fast && gmake[3]: Entering directory '/home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-4w9hfG']
-  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_495e0.dir/build.make CMakeFiles/cmTC_495e0.dir/build]
-  ignore line: [gmake[4]: Entering directory '/home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-4w9hfG']
-  ignore line: [Building CXX object CMakeFiles/cmTC_495e0.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_495e0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_31b31/fast && gmake[3]: Entering directory '/home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-Wgd65p']
+  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_31b31.dir/build.make CMakeFiles/cmTC_31b31.dir/build]
+  ignore line: [gmake[4]: Entering directory '/home/light/EENight_light_dance/software/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-Wgd65p']
+  ignore line: [Building CXX object CMakeFiles/cmTC_31b31.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_31b31.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -378,8 +378,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_495e0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_495e0.dir/']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_495e0.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccmZgQYE.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_31b31.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_31b31.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_31b31.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cczw1WJr.s]
   ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -405,15 +405,15 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_495e0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_495e0.dir/']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_495e0.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccmZgQYE.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_31b31.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_31b31.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_31b31.dir/CMakeCXXCompilerABI.cpp.o /tmp/cczw1WJr.s]
   ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/opt/AMD/aocc-compiler-4.1.0/lib/../lib/:/opt/AMD/aocc-compiler-4.1.0/lib32/../lib/:/usr/lib64/../lib/:/usr/lib32/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/opt/AMD/aocc-compiler-4.1.0/lib/:/opt/AMD/aocc-compiler-4.1.0/lib32/:/usr/lib/x86_64-linux-gnu/:/usr/lib64/:/usr/lib32/:/usr/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_495e0.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_495e0.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [Linking CXX executable cmTC_495e0]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_495e0.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_495e0.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_495e0 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_31b31.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_31b31.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_31b31]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31b31.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_31b31.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_31b31 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -426,13 +426,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/opt/AMD/aocc-compiler-4.1.0/lib/../lib/:/opt/AMD/aocc-compiler-4.1.0/lib32/../lib/:/usr/lib64/../lib/:/usr/lib32/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/opt/AMD/aocc-compiler-4.1.0/lib/:/opt/AMD/aocc-compiler-4.1.0/lib32/:/usr/lib/x86_64-linux-gnu/:/usr/lib64/:/usr/lib32/:/usr/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_495e0' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_495e0.']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTdoNwD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_495e0 /usr/lib/x86_64-linux-gnu/Scrt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/opt/AMD/aocc-compiler-4.1.0/lib/../lib -L/opt/AMD/aocc-compiler-4.1.0/lib32/../lib -L/usr/lib64/../lib -L/usr/lib32/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/opt/AMD/aocc-compiler-4.1.0/lib -L/opt/AMD/aocc-compiler-4.1.0/lib32 -L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -L/usr/lib32 -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_495e0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_31b31' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_31b31.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKUDlDk.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_31b31 /usr/lib/x86_64-linux-gnu/Scrt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/opt/AMD/aocc-compiler-4.1.0/lib/../lib -L/opt/AMD/aocc-compiler-4.1.0/lib32/../lib -L/usr/lib64/../lib -L/usr/lib32/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/opt/AMD/aocc-compiler-4.1.0/lib -L/opt/AMD/aocc-compiler-4.1.0/lib32 -L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -L/usr/lib32 -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_31b31.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccTdoNwD.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccKUDlDk.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -450,7 +450,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_495e0] ==> ignore
+    arg [cmTC_31b31] ==> ignore
     arg [/usr/lib/x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/x86_64-linux-gnu/Scrt1.o]
     arg [/usr/lib/x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/x86_64-linux-gnu/crti.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -474,7 +474,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib32] ==> dir [/usr/lib32]
     arg [-L.] ==> ignore
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
-    arg [CMakeFiles/cmTC_495e0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_31b31.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]

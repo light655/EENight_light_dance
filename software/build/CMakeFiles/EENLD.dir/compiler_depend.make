@@ -1596,7 +1596,7 @@ CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.
   /home/light/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
   /home/light/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
 
-CMakeFiles/EENLD.dir/main.c.obj: /home/light/EENight_light_dance/software/main.c \
+CMakeFiles/EENLD.dir/main_all_current.c.obj: /home/light/EENight_light_dance/software/main_all_current.c \
   /usr/include/newlib/stdio.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/newlib.h \
@@ -1678,8 +1678,8 @@ CMakeFiles/EENLD.dir/main.c.obj: /home/light/EENight_light_dance/software/main.c
   /home/light/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
   /home/light/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
   /home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
-  /home/light/EENight_light_dance/software/setting4.h \
-  /home/light/EENight_light_dance/software/core1.h \
+  /home/light/EENight_light_dance/software/setting1.h \
+  /home/light/EENight_light_dance/software/core1_old.h \
   /home/light/pico/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h \
   /home/light/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h \
   /home/light/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h \
@@ -1694,11 +1694,7 @@ CMakeFiles/EENLD.dir/main.c.obj: /home/light/EENight_light_dance/software/main.c
 
 /home/light/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h:
 
-/home/light/EENight_light_dance/software/core1.h:
-
-/home/light/EENight_light_dance/software/setting4.h:
-
-/home/light/EENight_light_dance/software/main.c:
+/home/light/EENight_light_dance/software/core1_old.h:
 
 /home/light/EENight_light_dance/software/pindef.h:
 
@@ -1723,6 +1719,8 @@ CMakeFiles/EENLD.dir/main.c.obj: /home/light/EENight_light_dance/software/main.c
 /home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp:
 
 /home/light/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
+
+/home/light/EENight_light_dance/software/setting1.h:
 
 /home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c:
 
@@ -1755,6 +1753,8 @@ CMakeFiles/EENLD.dir/main.c.obj: /home/light/EENight_light_dance/software/main.c
 /home/light/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c:
 
 /home/light/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c:
+
+/home/light/EENight_light_dance/software/main_all_current.c:
 
 /home/light/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c:
 

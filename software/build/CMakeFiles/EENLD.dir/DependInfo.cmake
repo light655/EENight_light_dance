@@ -147,7 +147,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c" "CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" "gcc" "CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d"
   "/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c" "CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" "gcc" "CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d"
   "/home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
-  "/home/light/EENight_light_dance/software/main.c" "CMakeFiles/EENLD.dir/main.c.obj" "gcc" "CMakeFiles/EENLD.dir/main.c.obj.d"
+  "/home/light/EENight_light_dance/software/main_all_current.c" "CMakeFiles/EENLD.dir/main_all_current.c.obj" "gcc" "CMakeFiles/EENLD.dir/main_all_current.c.obj.d"
   "/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )
 

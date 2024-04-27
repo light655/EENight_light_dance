@@ -1183,29 +1183,29 @@ home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EENLD.dir/build.make CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
-main.obj: main.c.obj
-.PHONY : main.obj
+main_all_current.obj: main_all_current.c.obj
+.PHONY : main_all_current.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EENLD.dir/build.make CMakeFiles/EENLD.dir/main.c.obj
-.PHONY : main.c.obj
+main_all_current.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EENLD.dir/build.make CMakeFiles/EENLD.dir/main_all_current.c.obj
+.PHONY : main_all_current.c.obj
 
-main.i: main.c.i
-.PHONY : main.i
+main_all_current.i: main_all_current.c.i
+.PHONY : main_all_current.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EENLD.dir/build.make CMakeFiles/EENLD.dir/main.c.i
-.PHONY : main.c.i
+main_all_current.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EENLD.dir/build.make CMakeFiles/EENLD.dir/main_all_current.c.i
+.PHONY : main_all_current.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+main_all_current.s: main_all_current.c.s
+.PHONY : main_all_current.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EENLD.dir/build.make CMakeFiles/EENLD.dir/main.c.s
-.PHONY : main.c.s
+main_all_current.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EENLD.dir/build.make CMakeFiles/EENLD.dir/main_all_current.c.s
+.PHONY : main_all_current.c.s
 
 # Help Target
 help:
@@ -1344,9 +1344,9 @@ help:
 	@echo "... home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
 	@echo "... home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
 	@echo "... home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
-	@echo "... main.obj"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... main_all_current.obj"
+	@echo "... main_all_current.i"
+	@echo "... main_all_current.s"
 .PHONY : help
 
 

@@ -60,12 +60,13 @@ int main(void) {
     // main code --------------------------------------------------------------
     uint16_t VC[4], VL[4];      // arrays to store VC and VL of each channel
     int RDAC_N[4] = {0};        // array to store RDAC value of each channel
-    float I_avg[4] = {0.0f};    // array to store average current of each channel
-    float I_avg_prev[4] = {0.0f};         
+    float I_avg[4];             // array to store average current of each channel
+    float I_avg_prev[4];         
+    for(int i = 0; i < 4; i++) {
+        I_avg[i] = current_min[i];
+        I_avg_prev[i] = I_avg[i];
+    }
     float I_target[4] = {0.0f}; // array to store target current of each channel
-    float V_avg[4] = {0.0f};
-    float V_avg_prev[4] = {0.0f};
-    float V_target[4] = {0.0f};
     float adj;
     uint16_t vbat_16;
 
@@ -94,24 +95,20 @@ int main(void) {
         // read current sense voltage
         VC_read(&VC[0], 0);
         VC_read(&VC[1], 1);
+        VC_read(&VC[2], 2);
+        VC_read(&VC[3], 3);
 
-        // moving average filter, bin=500
+        // // moving average filter, bin=100
         // I_avg[0] = I_avg[0] * 0.998 + (float)VC[0] / 4096.0 * 3.3 / 4.0 * 0.002;
         // I_avg[1] = I_avg[1] * 0.998 + (float)VC[1] / 4096.0 * 3.3 / 4.0 * 0.002;
+        // I_avg[2] = I_avg[2] * 0.998 + (float)VC[2] / 4096.0 * 3.3 / 4.0 * 0.002;
+        // I_avg[3] = I_avg[3] * 0.998 + (float)VC[3] / 4096.0 * 3.3 / 4.0 * 0.002;
 
-        // read voltage
-        VL_read(&VL[2], 2);
-        VL_read(&VL[3], 3);
-
-        // moving average filter, bin=500
-        V_avg[2] = V_avg[2] * 0.998 + (float)VL[2] / 4096.0 * 3.3;
-        V_avg[3] = V_avg[3] * 0.998 + (float)VL[3] / 4096.0 * 3.3;
-
-        // feedback control(current)
-        for(int i = 0; i < 2; i++) {
+        // feedback control
+        for(int i = 0; i < 4; i++) {
             // only control when I_target is higher than the minimum
             if(I_target[i] > current_min[i]) {
-                I_avg[i] = I_avg[i] * 0.998 + (float)VC[1] / 4096.0 * 3.3 / 4.0 * 0.002;
+                I_avg[i] = I_avg[i] * 0.998 + (float)VC[i] / 4096.0 * 3.3 / 4.0 * 0.002;
                 adj = ((I_avg[i] - I_target[i]) * control_gain[i]) + ((I_avg[i] - I_avg_prev[i]) * derivative_gain[i]);
                 I_avg_prev[i] = I_avg[i];
 
@@ -119,28 +116,9 @@ int main(void) {
                 if(RDAC_N[i] > 255) RDAC_N[i] = 255;
                 if(RDAC_N[i] < 0) RDAC_N[i] = 0;
 
-                gpio_put(LDO_EN0 + 2 * i, 1);       // enable LDO
-                gpio_put(PWM_PIN0 + 2 * i, 1);
-                RDAC_set(SPI_CS0 + i, RDAC_N[i]);   // set RDAC register
-            } else {
-                gpio_put(LDO_EN0 + 2 * i, 0);       // disable LDO
-                gpio_put(PWM_PIN0 + 2 * i, 0);
-                RDAC_N[i] = 0;
-            }
-        }
-
-        // feedback contrl(voltage)
-        for(int i = 2; i < 4; i++) {
-            if(I_target[i] > current_min[i]) {
-                V_target[i] = I_target[i] * voltage_current_factor[i];
-                adj = ((V_avg[i] - V_target[i]) * control_gain[i]) + ((V_avg[i] - V_avg_prev[i]) * derivative_gain[i]);
-                V_avg_prev[i] = V_avg[i];
-                // adj /= voltage_current_factor[i];
-
-                if(VL[i] < 3000)            // prevent going over VDD
-                    RDAC_N[i] -= (int)adj;
-                if(RDAC_N[i] > 255) RDAC_N[i] = 255;
-                if(RDAC_N[i] < 0) RDAC_N[i] = 0;
+                if(i == 2) {
+                    printf("I_avg[2] = %f, I_tar[2] = %f\n", I_avg[2], I_target[2]);
+                }
 
                 gpio_put(LDO_EN0 + 2 * i, 1);       // enable LDO
                 gpio_put(PWM_PIN0 + 2 * i, 1);

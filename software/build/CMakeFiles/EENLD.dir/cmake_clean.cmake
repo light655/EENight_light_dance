@@ -84,8 +84,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d"
   "CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
   "CMakeFiles/EENLD.dir/home/light/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
-  "CMakeFiles/EENLD.dir/main.c.obj"
-  "CMakeFiles/EENLD.dir/main.c.obj.d"
+  "CMakeFiles/EENLD.dir/main_all_current.c.obj"
+  "CMakeFiles/EENLD.dir/main_all_current.c.obj.d"
   "EENLD.elf"
   "EENLD.pdb"
 )
