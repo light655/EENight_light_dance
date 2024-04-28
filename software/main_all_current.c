@@ -13,14 +13,16 @@ float intensities[4];           // intensity of the 4 channels in amp
 
 // main function to run on core 1, defined in core1.c
 // core 1 deals with setting the light intensity according the array
-#include "core1_old.h"
-// #include "core1.h"
+// #include "core1_old.h"
+#include "core1.h"
 #include "helper.h"
 #include "pindef.h"
 
 #define CURRENT_MARGIN 0.01f    // current control margin of 0.01A
 #define VBAT_LOW 3.0f           // VBAT low threshold of 3.0V
-#define CONTROL_PERIOD 250      // period of control commands in us
+#define CONTROL_PERIOD 150      // period of control commands in us
+
+// float MA_array[4][499] = {0.0f};
 
 // main function to run on core 0
 // core 0 deals analogue sensing, feedback control, and emergency cutoff
@@ -60,13 +62,11 @@ int main(void) {
     // main code --------------------------------------------------------------
     uint16_t VC[4], VL[4];      // arrays to store VC and VL of each channel
     int RDAC_N[4] = {0};        // array to store RDAC value of each channel
-    float I_avg[4];             // array to store average current of each channel
-    float I_avg_prev[4];         
-    for(int i = 0; i < 4; i++) {
-        I_avg[i] = current_min[i];
-        I_avg_prev[i] = I_avg[i];
-    }
+    float I_avg[4] = {0.0f};    // array to store average current of each channel
+    float I_avg_prev[4] = {0.0f};         
     float I_target[4] = {0.0f}; // array to store target current of each channel
+    // int MA_index[4] = {0};
+    
     float adj;
     uint16_t vbat_16;
 
@@ -109,6 +109,12 @@ int main(void) {
             // only control when I_target is higher than the minimum
             if(I_target[i] > current_min[i]) {
                 I_avg[i] = I_avg[i] * 0.998 + (float)VC[i] / 4096.0 * 3.3 / 4.0 * 0.002;
+                // tmp = (float)VC[i] / 4096.0 * 3.3 / 4.0 / 499.0;
+                // I_avg[i] = I_avg[i] - MA_array[i][MA_index[i]] + tmp;
+                // MA_array[i][MA_index[i]] = tmp;
+                // if(MA_index[i] >= 499) MA_index[i] = 0;
+                // else MA_index[i]++;
+
                 adj = ((I_avg[i] - I_target[i]) * control_gain[i]) + ((I_avg[i] - I_avg_prev[i]) * derivative_gain[i]);
                 I_avg_prev[i] = I_avg[i];
 
@@ -116,9 +122,9 @@ int main(void) {
                 if(RDAC_N[i] > 255) RDAC_N[i] = 255;
                 if(RDAC_N[i] < 0) RDAC_N[i] = 0;
 
-                if(i == 2) {
-                    printf("I_avg[2] = %f, I_tar[2] = %f\n", I_avg[2], I_target[2]);
-                }
+                // if(i == 2) {
+                //     printf("I_avg[2] = %f, I_tar[2] = %f\n", I_avg[2], I_target[2]);
+                // }
 
                 gpio_put(LDO_EN0 + 2 * i, 1);       // enable LDO
                 gpio_put(PWM_PIN0 + 2 * i, 1);

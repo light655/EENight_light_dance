@@ -1679,7 +1679,7 @@ CMakeFiles/EENLD.dir/main_all_current.c.obj: /home/light/EENight_light_dance/sof
   /home/light/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
   /home/light/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
   /home/light/EENight_light_dance/software/setting1.h \
-  /home/light/EENight_light_dance/software/core1_old.h \
+  /home/light/EENight_light_dance/software/core1.h \
   /home/light/pico/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h \
   /home/light/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h \
   /home/light/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h \
@@ -1694,7 +1694,7 @@ CMakeFiles/EENLD.dir/main_all_current.c.obj: /home/light/EENight_light_dance/sof
 
 /home/light/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h:
 
-/home/light/EENight_light_dance/software/core1_old.h:
+/home/light/EENight_light_dance/software/core1.h:
 
 /home/light/EENight_light_dance/software/pindef.h:
 

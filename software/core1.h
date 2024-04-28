@@ -29,6 +29,7 @@ void core1_entry(void) {
     uint LED_mask = (1 << LED_G) | (1 << LED_R) | (1 << LED_PICO);
     gpio_init_mask(LED_mask);
     gpio_set_dir_out_masked(LED_mask);
+    gpio_put(LED_G, 1);
     gpio_put(LED_PICO, 1);
 
     // time synce pin initialisation ------------------------------------------
@@ -56,7 +57,7 @@ void core1_entry(void) {
     }
 	
     t0 = to_us_since_boot(get_absolute_time());     // time reference t = 0
-	gpio_put(LED_PICO, 0);
+	gpio_put(LED_G, 0);
 
     while(true) {
         t_abs = to_us_since_boot(get_absolute_time());
