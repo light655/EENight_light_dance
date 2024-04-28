@@ -211,6 +211,11 @@ int main(int argc, char **argv) {
             } 
             break;
         case 0xb0:      // 0xb0, unknown command
+        case 0xb1:
+        case 0xb2:
+        case 0xb3:
+        case 0xb4:
+        case 0xb5:
             printf("0xb0\n");
             readNext(buffer, input);	// discard the unknown byte after 0xb0
             note_flag = 1;              // set flag
