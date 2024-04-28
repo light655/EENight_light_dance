@@ -35,7 +35,7 @@ void core1_entry(void) {
     // time synce pin initialisation ------------------------------------------
     gpio_init(T_SYNC);
     gpio_set_dir(T_SYNC, GPIO_IN);
-    gpio_pull_up(T_SYNC);
+    // gpio_pull_up(T_SYNC);
 
     // Multicore initialisation -----------------------------------------------
     mutex_init(&intensity_mutex);
@@ -45,6 +45,7 @@ void core1_entry(void) {
     gpio_put(PWM_PIN1, 1);
     gpio_put(PWM_PIN2, 1);
     gpio_put(PWM_PIN3, 1);
+	sleep_ms(1000);
 
     uint64_t t_abs, t0, t;      // timing variables
     float I_target[4] = { 0.0f , 0.0f , 0.0f , 0.0f };          // target current for the 4 drivers
@@ -58,6 +59,7 @@ void core1_entry(void) {
 	
     t0 = to_us_since_boot(get_absolute_time());     // time reference t = 0
 	gpio_put(LED_G, 0);
+	gpio_put(LED_R, 1);
 
     while(true) {
         t_abs = to_us_since_boot(get_absolute_time());

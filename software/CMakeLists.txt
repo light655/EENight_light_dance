@@ -11,6 +11,8 @@ add_executable(EENLD
     # main.c
 )
 
+add_compile_options()
+
 target_link_libraries(EENLD
     hardware_adc
     hardware_gpio

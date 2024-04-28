@@ -71,6 +71,7 @@ int main(void) {
     uint16_t vbat_16;
 
     sleep_ms(1000);     // wait for 1 second for the voltages to settle from startup
+    gpio_set_mask(LDO_EN_mask);
 
     uint64_t t1, t2;
     t2 = to_us_since_boot(get_absolute_time());
@@ -126,11 +127,11 @@ int main(void) {
                 //     printf("I_avg[2] = %f, I_tar[2] = %f\n", I_avg[2], I_target[2]);
                 // }
 
-                gpio_put(LDO_EN0 + 2 * i, 1);       // enable LDO
+                // gpio_put(LDO_EN0 + 2 * i, 1);       // enable LDO
                 gpio_put(PWM_PIN0 + 2 * i, 1);
                 RDAC_set(SPI_CS0 + i, RDAC_N[i]);   // set RDAC register
             } else {
-                gpio_put(LDO_EN0 + 2 * i, 0);       // disable LDO
+                // gpio_put(LDO_EN0 + 2 * i, 0);       // disable LDO
                 gpio_put(PWM_PIN0 + 2 * i, 0);
                 RDAC_N[i] = 0;
             }
