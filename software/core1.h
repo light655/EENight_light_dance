@@ -91,13 +91,13 @@ void core1_entry(void) {
 		}
 		if ( B_t[iB] != (-1) ) {
 			if ( t > B_t[iB] ) {
-				I_target[1] = ((B_s[iB]/(float)127.0)*current_max[1]);
+				I_target[3] = ((B_s[iB]/(float)127.0)*current_max[3]);
 				iB ++;
 			}
 		}
 		if ( C_t[iC] != (-1) ) {
 			if ( t > C_t[iC] ) {
-				I_target[3] = ((C_s[iC]/(float)127.0)*current_max[3]);
+				I_target[1] = ((C_s[iC]/(float)127.0)*current_max[1]);
 				iC ++;
 			}
 		}
@@ -121,16 +121,16 @@ void core1_entry(void) {
 			if ( t > BD_t[iBD+1] )
 					iBD += 2;
 			if ( t > BD_t[iBD] ) {
-				I_target[1] = ( ( BD_t[iBD+1] - t )/(float)( BD_t[iBD+1] - BD_t[iBD] )* 
-								(BD_s[iBD] / 127.0f ) * current_max[1]  );
+				I_target[3] = ( ( BD_t[iBD+1] - t )/(float)( BD_t[iBD+1] - BD_t[iBD] )* 
+								(BD_s[iBD] / 127.0f ) * current_max[3]  );
 				}
 			}
 		if ( CD_t[iCD] != (-1) ) {
 			if ( t > CD_t[iCD+1] )
 					iCD += 2;
 			if ( t > CD_t[iCD] ) {
-				I_target[3] = ( ( CD_t[iCD+1] - t )/(float)( CD_t[iCD+1] - CD_t[iCD] )*
-					   			( CD_s[iCD] / 127.0f ) * current_max[3]  );
+				I_target[1] = ( ( CD_t[iCD+1] - t )/(float)( CD_t[iCD+1] - CD_t[iCD] )*
+					   			( CD_s[iCD] / 127.0f ) * current_max[1]  );
 				}
 			}
 		if ( DD_t[iDD] != (-1) ) {
@@ -155,16 +155,16 @@ void core1_entry(void) {
 			if ( t > BC_t[iBC+1] )
 					iBC += 2;
 			if ( t > BC_t[iBC] ) {
-				I_target[1] = ( ( t - BC_t[iBC] )/(float)( BC_t[iBC+1] - BC_t[iBC] )* 
-								(BC_s[iBC] / 127.0f ) * current_max[1]  );
+				I_target[3] = ( ( t - BC_t[iBC] )/(float)( BC_t[iBC+1] - BC_t[iBC] )* 
+								(BC_s[iBC] / 127.0f ) * current_max[3]  );
 				}
 			}
 		if ( CC_t[iCC] != (-1) ) {
 			if ( t > CC_t[iCC+1] )
 					iCC += 2;
 			if ( t > CC_t[iCC] ) {
-				I_target[3] = ( ( t - CC_t[iCC] )/(float)( CC_t[iCC+1] - CC_t[iCC] )* 
-								( CC_s[iCC] / 127.0f ) * current_max[3]  );
+				I_target[1] = ( ( t - CC_t[iCC] )/(float)( CC_t[iCC+1] - CC_t[iCC] )* 
+								( CC_s[iCC] / 127.0f ) * current_max[1]  );
 				}
 			}
 		if ( DC_t[iDC] != (-1) ) {
